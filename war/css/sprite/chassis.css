@@ -1,0 +1,203 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+```html
+<!-- `display: block` sprite -->
+<div class="icon-home"></div>
+
+<!-- `display: inline-block` sprite -->
+<img class="icon-home" />
+```
+*/
+.icon-adam {
+  background-image: url(../../img/sprite/chassis.png);
+  background-position: -40px 0px;
+  width: 40px;
+  height: 40px;
+}
+.icon-aurel {
+  background-image: url(../../img/sprite/chassis.png);
+  background-position: -160px 0px;
+  width: 40px;
+  height: 40px;
+}
+.icon-baal {
+  background-image: url(../../img/sprite/chassis.png);
+  background-position: 0px -40px;
+  width: 40px;
+  height: 40px;
+}
+.icon-battle_cruiser {
+  background-image: url(../../img/sprite/chassis.png);
+  background-position: -80px 0px;
+  width: 40px;
+  height: 40px;
+}
+.icon-battleship {
+  background-image: url(../../img/sprite/chassis.png);
+  background-position: -40px -40px;
+  width: 40px;
+  height: 40px;
+}
+.icon-behemoth {
+  background-image: url(../../img/sprite/chassis.png);
+  background-position: -80px -40px;
+  width: 40px;
+  height: 40px;
+}
+.icon-birel {
+  background-image: url(../../img/sprite/chassis.png);
+  background-position: 0px -80px;
+  width: 40px;
+  height: 40px;
+}
+.icon-chassis_sb_4 {
+  background-image: url(../../img/sprite/chassis.png);
+  background-position: -40px -80px;
+  width: 40px;
+  height: 40px;
+}
+.icon-corvette {
+  background-image: url(../../img/sprite/chassis.png);
+  background-position: -80px -80px;
+  width: 40px;
+  height: 40px;
+}
+.icon-cruiser {
+  background-image: url(../../img/sprite/chassis.png);
+  background-position: -120px 0px;
+  width: 40px;
+  height: 40px;
+}
+.icon-cutter {
+  background-image: url(../../img/sprite/chassis.png);
+  background-position: -120px -40px;
+  width: 40px;
+  height: 40px;
+}
+.icon-destroyer {
+  background-image: url(../../img/sprite/chassis.png);
+  background-position: -120px -80px;
+  width: 40px;
+  height: 40px;
+}
+.icon-doombringer {
+  background-image: url(../../img/sprite/chassis.png);
+  background-position: 0px -120px;
+  width: 40px;
+  height: 40px;
+}
+.icon-dreadnought {
+  background-image: url(../../img/sprite/chassis.png);
+  background-position: -40px -120px;
+  width: 40px;
+  height: 40px;
+}
+.icon-dreadnought_sl {
+  background-image: url(../../img/sprite/chassis.png);
+  background-position: -80px -120px;
+  width: 40px;
+  height: 40px;
+}
+.icon-firefly {
+  background-image: url(../../img/sprite/chassis.png);
+  background-position: -120px -120px;
+  width: 40px;
+  height: 40px;
+}
+.icon-hydra {
+  background-image: url(../../img/sprite/chassis.png);
+  background-position: 0px 0px;
+  width: 40px;
+  height: 40px;
+}
+.icon-lancer {
+  background-image: url(../../img/sprite/chassis.png);
+  background-position: -160px -40px;
+  width: 40px;
+  height: 40px;
+}
+.icon-leviathan {
+  background-image: url(../../img/sprite/chassis.png);
+  background-position: -160px -80px;
+  width: 40px;
+  height: 40px;
+}
+.icon-leviathan_station {
+  background-image: url(../../img/sprite/chassis.png);
+  background-position: -160px -120px;
+  width: 40px;
+  height: 40px;
+}
+.icon-mach {
+  background-image: url(../../img/sprite/chassis.png);
+  background-position: 0px -160px;
+  width: 40px;
+  height: 40px;
+}
+.icon-medium_cruiser {
+  background-image: url(../../img/sprite/chassis.png);
+  background-position: -40px -160px;
+  width: 40px;
+  height: 40px;
+}
+.icon-mesotron {
+  background-image: url(../../img/sprite/chassis.png);
+  background-position: -80px -160px;
+  width: 40px;
+  height: 40px;
+}
+.icon-minotaur {
+  background-image: url(../../img/sprite/chassis.png);
+  background-position: -120px -160px;
+  width: 40px;
+  height: 40px;
+}
+.icon-nighthawk {
+  background-image: url(../../img/sprite/chassis.png);
+  background-position: -160px -160px;
+  width: 40px;
+  height: 40px;
+}
+.icon-no_chassis {
+  background-image: url(../../img/sprite/chassis.png);
+  background-position: -200px 0px;
+  width: 40px;
+  height: 40px;
+}
+.icon-probe {
+  background-image: url(../../img/sprite/chassis.png);
+  background-position: -200px -40px;
+  width: 40px;
+  height: 40px;
+}
+.icon-short-nose {
+  background-image: url(../../img/sprite/chassis.png);
+  background-position: -200px -80px;
+  width: 40px;
+  height: 40px;
+}
+.icon-teletron {
+  background-image: url(../../img/sprite/chassis.png);
+  background-position: -200px -120px;
+  width: 40px;
+  height: 40px;
+}
+.icon-titan {
+  background-image: url(../../img/sprite/chassis.png);
+  background-position: -200px -160px;
+  width: 40px;
+  height: 40px;
+}
+.icon-trayan {
+  background-image: url(../../img/sprite/chassis.png);
+  background-position: 0px -200px;
+  width: 40px;
+  height: 40px;
+}
+.icon-zyklop {
+  background-image: url(../../img/sprite/chassis.png);
+  background-position: -40px -200px;
+  width: 40px;
+  height: 40px;
+}

@@ -1,0 +1,18 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+```html
+<!-- `display: block` sprite -->
+<div class="icon-home"></div>
+
+<!-- `display: inline-block` sprite -->
+<img class="icon-home" />
+```
+*/
+.icon-binocular, .icon-visier, .icon-ballistic_visier, .icon-genfood, .icon-medkit, .icon-mosomedic, .icon-large_medkit, .icon-stimpack, .icon-vitagel, .icon-traumapatch, .icon-regenimplant, .icon-exoskeleton, .icon-medevac, .icon-mutagen, .icon-cy_prosthesis, .icon-imperial_mosomedic, .icon-transporter, .icon-vehicle_fleet, .icon-magumanic_transporter_platform, .icon-large_vehicle_fleet, .icon-crawler, .icon-annihilator, .icon-desintegrator, .icon-eradicator, .icon-l_ion, .icon-microsphere, .icon-phaser, .icon-gopper, .icon-sun_eye, .icon-dim_12, .icon-laser_15_08, .icon-dim_12_2, .icon-laser_pistol, .icon-rapid_flash, .icon-kontinium_transfunkionator, .icon-silvermoon, .icon-white_dwarf, .icon-darkness, .icon-starlight_x, .icon-sunspot, .icon-superblaster, .icon-eagle_i, .icon-air_rifle, .icon-crusher, .icon-eagle_ii, .icon-eagle_ii_h, .icon-eagle_iii_h, .icon-assault_rifle_g_iii, .icon-light_machine_gun, .icon-mp_92, .icon-heavy_machine_gun, .icon-sword, .icon-tzoonamy, .icon-scimitar, .icon-hammer, .icon-explosive_sling, .icon-protective_mask, .icon-ballistic_helmet, .icon-ballistic_armor, .icon-ballistic_vest, .icon-kevlar_helmet, .icon-kevlar_armor, .icon-power_helmet, .icon-kevlar_vest, .icon-power_vest, .icon-power_armor, .icon-nano_helmet, .icon-armosore, .icon-nano_armor, .icon-nano_vest, .icon-ganzkorper_reflektor, .icon-light_aerotransit, .icon-medium_aerotransit, .icon-armored_troop_carrier, .icon-hovercraft_cw1_1, .icon-hovercraft_cw1_2, .icon-air_transporter, .icon-medium_air_transporter, .icon-gamma_air_transporter, .icon-ozo_agro_tractor {
+  background-image: url(../../img/sprite/troop_comp.png);
+  background-position: 0px 0px;
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;  
+}

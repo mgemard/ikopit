@@ -1,0 +1,3118 @@
+//dot -Tcmapx -ox.map -Tgif -ox.gif graph.gv
+//dot -Tsvg techtree_de.gv -o techtree_de.svg
+
+
+digraph G  {rankdir=LR;bgcolor="black"
+//graph [ dpi = 100 ];
+{
+node [shape=plaintext,fontname="Droid Sans Mono",fontsize=15,fontcolor="white", tooltip=" "];
+edge [style=bold,fontname="Droid Sans Mono",fontcolor="white", tooltip=" "];
+
+
+
+
+/*
+the researchline graph graph
+*/
+{
+node [fontcolor="white",fontsize=20,shape=plaintext,image="img/building/res_facility_banner.png"];
+research_facility_expansion_1 [HREF="../../de/bauwerke#research_center" target="_blank",label="       Forschungszentrum\n       Ausbau stufe 1",];
+research_facility_expansion_2 [HREF="../../de/bauwerke#research_center" target="_blank",label="       Forschungszentrum\n       Ausbau stufe 2"];
+research_facility_expansion_3 [HREF="../../de/bauwerke#research_center" target="_blank",label="       Forschungszentrum\n       Ausbau stufe 3"];
+research_facility_expansion_4 [HREF="../../de/bauwerke#research_center" target="_blank",label="       Forschungszentrum\n       Ausbau stufe 4"];
+research_facility_expansion_5 [HREF="../../de/bauwerke#research_center" target="_blank",label="       Forschungszentrum\n       Ausbau stufe 5"];
+research_facility_expansion_6 [HREF="../../de/bauwerke#research_center" target="_blank",label="       Forschungszentrum\n       Ausbau stufe 6"];
+research_facility_expansion_7 [HREF="../../de/bauwerke#research_center" target="_blank",label="       Forschungszentrum\n       Ausbau stufe 7"];
+research_facility_expansion_8 [HREF="../../de/bauwerke#research_center" target="_blank",label="       Forschungszentrum\n       Ausbau stufe 8"];
+research_facility_expansion_9 [HREF="../../de/bauwerke#research_center" target="_blank",label="       Forschungszentrum\n       Ausbau stufe 9"];
+research_facility_expansion_10 [HREF="../../de/bauwerke#research_center" target="_blank",label="       Forschungszentrum\n       Ausbau stufe 10"];
+}
+
+
+//Chassis
+//Small
+
+
+
+exploration_of_space [margin=0, style=bold, label=<
+<TABLE color="lightsalmon4" border="4" cellborder="0">
+<TR ><TD ROWSPAN="2"><IMG SRC="img/chassis/probe.gif" /></TD>
+    <TD COLSPAN="2"><b>Erforschung des Weltraums</b></TD>
+</TR>
+<TR ><TD align="right">Sonde</TD>
+    <TD align="left"><IMG SRC="img/research_field/chassis.png" /></TD>
+</TR>
+</TABLE>>]
+
+
+space_hunter [margin=0, style=bold, label=<
+<TABLE color="lightsalmon4" border="4" cellborder="0"  HREF="../../de/schiffe#lancer" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/chassis/lancer.gif" /></TD>
+    <TD COLSPAN="2"><b>Weltraumj&#228;ger</b></TD>
+</TR>
+<TR ><TD align="right">Lancer</TD>
+    <TD align="left"><IMG SRC="img/research_field/chassis.png" /></TD>
+</TR>
+</TABLE>>]
+
+advanced_hunter [margin=0, style=bold, label=<
+<TABLE color="lightsalmon4" border="4" cellborder="0"  HREF="../../de/schiffe#cutter" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/chassis/cutter.gif" /></TD>
+    <TD COLSPAN="2"><b>&#252;berlegenheitsj&#228;ger</b></TD>
+</TR>
+<TR ><TD align="right">Cutter</TD>
+    <TD align="left"><IMG SRC="img/research_field/chassis.png" /></TD>
+</TR>
+</TABLE>>]
+
+mesotron [margin=0, style=bold, label=<
+<TABLE color="lightsalmon4" border="4" cellborder="0"  HREF="../../de/schiffe#mesotron" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/chassis/mesotron.gif" /></TD>
+    <TD COLSPAN="2"><b>Mesotron</b></TD>
+</TR>
+<TR ><TD align="right">Mesotron</TD>
+    <TD align="left"><IMG SRC="img/research_field/chassis.png" /></TD>
+</TR>
+</TABLE>>]
+
+structural_integrity [margin=0, style=bold, label=<
+<TABLE color="lightsalmon4" border="4" cellborder="0"  HREF="../../de/schiffe#corvette" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/chassis/corvette.gif" /></TD>
+    <TD COLSPAN="2"><b>Strukturelle Integrit&#228;t</b></TD>
+</TR>
+<TR ><TD align="right">Korvette</TD>
+    <TD align="left"><IMG SRC="img/research_field/chassis.png" /></TD>
+</TR>
+</TABLE>>]
+
+shortnose [margin=0, style=bold, label=<
+<TABLE color="lightsalmon4" border="4" cellborder="0"  HREF="../../de/schiffe#short-nose" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/chassis/short-nose.gif" /></TD>
+    <TD COLSPAN="2"><b>Shortnose</b></TD>
+</TR>
+<TR ><TD align="right">Shortnose</TD>
+    <TD align="left"><IMG SRC="img/research_field/chassis.png" /></TD>
+</TR>
+</TABLE>>]
+
+
+
+
+//Destroyer
+
+modular_construction [margin=0, style=bold, label=<
+<TABLE color="lightsalmon4" border="4" cellborder="0"  HREF="../../de/schiffe#firefly" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/chassis/firefly.gif" /></TD>
+    <TD COLSPAN="2"><b>Modulare Bauweise</b></TD>
+</TR>
+<TR ><TD align="right">Fregatte</TD>
+    <TD align="left"><IMG SRC="img/research_field/chassis.png" /></TD>
+</TR>
+</TABLE>>]
+
+
+system_defence [margin=0, style=bold, label=<
+<TABLE color="lightsalmon4" border="4" cellborder="0"  HREF="../../de/schiffe#nighthawk" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/chassis/nighthawk.gif" /></TD>
+    <TD COLSPAN="2"><b>Systemverteidigung</b></TD>
+</TR>
+<TR ><TD align="right">Nighthawk</TD>
+    <TD align="left"><IMG SRC="img/research_field/chassis.png" /></TD>
+</TR>
+</TABLE>>]
+
+teletron [margin=0, style=bold, label=<
+<TABLE color="lightsalmon4" border="4" cellborder="0"  HREF="../../de/schiffe#teletron" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/chassis/teletron.gif" /></TD>
+    <TD COLSPAN="2"><b>Teletron</b></TD>
+</TR>
+<TR ><TD align="right">Teletron</TD>
+    <TD align="left"><IMG SRC="img/research_field/chassis.png" /></TD>
+</TR>
+</TABLE>>]
+
+
+great_warpship [margin=0, style=bold, label=<
+<TABLE color="lightsalmon4" border="4" cellborder="0"  HREF="../../de/schiffe#destroyer" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/chassis/destroyer.gif" /></TD>
+    <TD COLSPAN="2"><b>Großes Kriegsschiff</b></TD>
+</TR>
+<TR ><TD align="right">Kleiner Transporter</TD>
+    <TD align="left"><IMG SRC="img/research_field/chassis.png" /></TD>
+</TR>
+</TABLE>>]
+
+
+
+
+improved_reconnaissance_ship [margin=0, style=bold, label=<
+<TABLE color="lightsalmon4" border="4" cellborder="0"  HREF="../../de/schiffe#medium_cruiser" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/chassis/medium_cruiser.gif" /></TD>
+    <TD COLSPAN="2"><b>Verbessertes Aufkl&#228;rungsschiff</b></TD>
+</TR>
+<TR ><TD align="right">Mittlerer Kreuzer</TD>
+    <TD align="left"><IMG SRC="img/research_field/chassis.png" /></TD>
+</TR>
+</TABLE>>]
+
+//firefly
+
+stronger_reconnaissance_ship [margin=0, style=bold, label=<
+<TABLE color="lightsalmon4" border="4" cellborder="0"  HREF="../../de/schiffe#battle_cruiser" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/chassis/battle_cruiser.gif" /></TD>
+    <TD COLSPAN="2"><b>St&#228;rkeres Aufkl&#228;rungsschiff</b></TD>
+</TR>
+<TR ><TD align="right">Schlachtkreuzer</TD>
+    <TD align="left"><IMG SRC="img/research_field/chassis.png" /></TD>
+</TR>
+</TABLE>>]
+
+battleship [margin=0, style=bold, label=<
+<TABLE color="lightsalmon4" border="4" cellborder="0"  HREF="../../de/schiffe#battleship" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/chassis/battleship.gif" /></TD>
+    <TD COLSPAN="2"><b>Schlachtschiff</b></TD>
+</TR>
+<TR ><TD align="right">Battleship</TD>
+    <TD align="left"><IMG SRC="img/research_field/chassis.png" /></TD>
+</TR>
+</TABLE>>]
+
+new_battleship_dreadnought [margin=0, style=bold, label=<
+<TABLE color="lightsalmon4" border="4" cellborder="0"  HREF="../../de/schiffe#dreadnought" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/chassis/dreadnought.gif" /></TD>
+    <TD COLSPAN="2"><b>Neues Schlachtschiff</b></TD>
+</TR>
+<TR ><TD align="right">Dreadnought</TD>
+    <TD align="left"><IMG SRC="img/research_field/chassis.png" /></TD>
+</TR>
+</TABLE>>]
+
+enhanced_dreadnought [margin=0, style=bold, label=<
+<TABLE color="lightsalmon4" border="4" cellborder="0"  HREF="../../de/schiffe#dreadnought_sl" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/chassis/dreadnought_sl.gif" /></TD>
+    <TD COLSPAN="2"><b>Erweiterte Dreadnought</b></TD>
+</TR>
+<TR ><TD align="right">Dreadnought SL</TD>
+    <TD align="left"><IMG SRC="img/research_field/chassis.png" /></TD>
+</TR>
+</TABLE>>]
+
+
+
+//Cruiser
+reconnaissance_ship [margin=0, style=bold, label=<
+<TABLE color="lightsalmon4" border="4" cellborder="0"  HREF="../../de/schiffe#cruiser" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/chassis/cruiser.gif" /></TD>
+    <TD COLSPAN="2"><b>Aufkl&#228;rungsschiff</b></TD>
+</TR>
+<TR ><TD align="right">Mittlerer Transporter</TD>
+    <TD align="left"><IMG SRC="img/research_field/chassis.png" /></TD>
+</TR>
+</TABLE>>]
+
+new_battleship_behemoth [margin=0, style=bold, label=<
+<TABLE color="lightsalmon4" border="4" cellborder="0"  HREF="../../de/schiffe#behemoth" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/chassis/behemoth.gif" /></TD>
+    <TD COLSPAN="2"><b>Neues Schlachtschiff</b></TD>
+</TR>
+<TR ><TD align="right">Behemoth</TD>
+    <TD align="left"><IMG SRC="img/research_field/chassis.png" /></TD>
+</TR>
+</TABLE>>]
+
+zyklop [margin=0, style=bold, label=<
+<TABLE color="lightsalmon4" border="4" cellborder="0"  HREF="../../de/schiffe#zyklop" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/chassis/zyklop.gif" /></TD>
+    <TD COLSPAN="2"><b>Zyklop</b></TD>
+</TR>
+<TR ><TD align="right">Zyklop</TD>
+    <TD align="left"><IMG SRC="img/research_field/chassis.png" /></TD>
+</TR>
+</TABLE>>]
+
+bemoth [margin=0, style=bold, label=<
+<TABLE color="lightsalmon4" border="4" cellborder="0"  HREF="../../de/schiffe#aurel" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/chassis/aurel.gif" /></TD>
+    <TD COLSPAN="2"><b>Bemoth</b></TD>
+</TR>
+<TR ><TD align="right">Aurel</TD>
+    <TD align="left"><IMG SRC="img/research_field/chassis.png" /></TD>
+</TR>
+</TABLE>>]
+
+mach [margin=0, style=bold, label=<
+<TABLE color="lightsalmon4" border="4" cellborder="0"  HREF="../../de/schiffe#mach" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/chassis/mach.gif" /></TD>
+    <TD COLSPAN="2"><b>Mach</b></TD>
+</TR>
+<TR ><TD align="right">Mach</TD>
+    <TD align="left"><IMG SRC="img/research_field/chassis.png" /></TD>
+</TR>
+</TABLE>>]
+
+
+//Battleships
+minotaurus [margin=0, style=bold, label=<
+<TABLE color="lightsalmon4" border="4" cellborder="0"  HREF="../../de/schiffe#minotaur" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/chassis/minotaur.gif" /></TD>
+    <TD COLSPAN="2"><b>Minotaurus</b></TD>
+</TR>
+<TR ><TD align="right">Minotaurus</TD>
+    <TD align="left"><IMG SRC="img/research_field/chassis.png" /></TD>
+</TR>
+</TABLE>>]
+
+buran [margin=0, style=bold, label=<
+<TABLE color="lightsalmon4" border="4" cellborder="0"  HREF="../../de/schiffe#birel" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/chassis/birel.gif" /></TD>
+    <TD COLSPAN="2"><b>Buran</b></TD>
+</TR>
+<TR ><TD align="right">Buran</TD>
+    <TD align="left"><IMG SRC="img/research_field/chassis.png" /></TD>
+</TR>
+</TABLE>>]
+
+mega_titan [margin=0, style=bold, label=<
+<TABLE color="lightsalmon4" border="4" cellborder="0"  HREF="../../de/schiffe#doombringer" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/chassis/doombringer.gif" /></TD>
+    <TD COLSPAN="2"><b>Mega Titan</b></TD>
+</TR>
+<TR ><TD align="right">Doombringer</TD>
+    <TD align="left"><IMG SRC="img/research_field/chassis.png" /></TD>
+</TR>
+</TABLE>>]
+
+new_battleship_leviathan [margin=0, style=bold, label=<
+<TABLE color="lightsalmon4" border="4" cellborder="0"  HREF="../../de/schiffe#leviathan" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/chassis/leviathan.gif" /></TD>
+    <TD COLSPAN="2"><b>Neues Schlachtschiff</b></TD>
+</TR>
+<TR ><TD align="right">Leviathan</TD>
+    <TD align="left"><IMG SRC="img/research_field/chassis.png" /></TD>
+</TR>
+</TABLE>>]
+
+new_battleship_titan [margin=0, style=bold, label=<
+<TABLE color="lightsalmon4" border="4" cellborder="0"  HREF="../../de/schiffe#titan" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/chassis/titan.gif" /></TD>
+    <TD COLSPAN="2"><b>Neues Schlachtschiff</b></TD>
+</TR>
+<TR ><TD align="right">Großer Transporter</TD>
+    <TD align="left"><IMG SRC="img/research_field/chassis.png" /></TD>
+</TR>
+</TABLE>>]
+
+
+//Space-station
+hydra [margin=0, style=bold, label=<
+<TABLE color="lightsalmon4" border="4" cellborder="0"  HREF="../../de/schiffe#hydra" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/chassis/hydra.gif" /></TD>
+    <TD COLSPAN="2"><b>Hydra</b></TD>
+</TR>
+<TR ><TD align="right">Hydra</TD>
+    <TD align="left"><IMG SRC="img/research_field/chassis.png" /></TD>
+</TR>
+</TABLE>>]
+
+baal [margin=0, style=bold, label=<
+<TABLE color="lightsalmon4" border="4" cellborder="0"  HREF="../../de/schiffe#baal" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/chassis/baal.gif" /></TD>
+    <TD COLSPAN="2"><b>Baal</b></TD>
+</TR>
+<TR ><TD align="right">Baal</TD>
+    <TD align="left"><IMG SRC="img/research_field/chassis.png" /></TD>
+</TR>
+</TABLE>>]
+
+leviathan [margin=0, style=bold, label=<
+<TABLE color="lightsalmon4" border="4" cellborder="0"  HREF="../../de/schiffe#leviathan_station" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/chassis/leviathan_station.gif" /></TD>
+    <TD COLSPAN="2"><b>Leviathan</b></TD>
+</TR>
+<TR ><TD align="right">Leviathan Station</TD>
+    <TD align="left"><IMG SRC="img/research_field/chassis.png" /></TD>
+</TR>
+</TABLE>>]
+
+orbital_station_lvl_4 [margin=0, style=bold, label=<
+<TABLE color="lightsalmon4" border="4" cellborder="0"  HREF="../../de/schiffe#chassis_sb_4" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/chassis/chassis_sb_4.gif" /></TD>
+    <TD COLSPAN="2"><b>SkyLab</b></TD>
+</TR>
+<TR ><TD align="right">Skylab</TD>
+    <TD align="left"><IMG SRC="img/research_field/chassis.png" /></TD>
+</TR>
+</TABLE>>]
+
+bemoth_2 [margin=0, style=bold, label=<
+<TABLE color="lightsalmon4" border="4" cellborder="0"  HREF="../../de/schiffe#trayan" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/chassis/trayan.gif" /></TD>
+    <TD COLSPAN="2"><b>Bemoth 2</b></TD>
+</TR>
+<TR ><TD align="right">Trayan</TD>
+    <TD align="left"><IMG SRC="img/research_field/chassis.png" /></TD>
+</TR>
+</TABLE>>]
+
+//Engines
+//impulse
+
+engine_techniques [margin=0, style=bold, label=<
+<TABLE color="green4" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#standard_engine" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/engine/standard_engine.gif" /></TD>
+    <TD COLSPAN="2"><b>Antriebstechniken</b></TD>
+</TR>
+<TR ><TD align="right">Standardantrieb</TD>
+    <TD align="left"><IMG SRC="img/research_field/engine.png" /></TD>
+</TR>
+</TABLE>>]
+
+simple_impulse_drive [margin=0, style=bold, label=<
+<TABLE color="green4" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#gmt-1" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/engine/gmt-1.gif" /></TD>
+    <TD COLSPAN="2"><b>Einfacher Impulsantrieb</b></TD>
+</TR>
+<TR ><TD align="right">GMT-1</TD>
+    <TD align="left"><IMG SRC="img/research_field/engine.png" /></TD>
+</TR>
+</TABLE>>]
+
+bundling_of_impulse [margin=0, style=bold, label=<
+<TABLE color="green4" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#gmt-2" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/engine/gmt-2.gif" /></TD>
+    <TD COLSPAN="2"><b>B&#252;ndelungen von Impulsen</b></TD>
+</TR>
+<TR ><TD align="right">GMT-2</TD>
+    <TD align="left"><IMG SRC="img/research_field/engine.png" /></TD>
+</TR>
+</TABLE>>]
+
+impulsebooster [margin=0, style=bold, label=<
+<TABLE color="green4" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#gmt-3" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/engine/gmt-3.gif" /></TD>
+    <TD COLSPAN="2"><b>Impulsbooster</b></TD>
+</TR>
+<TR ><TD align="right">GMT-3</TD>
+    <TD align="left"><IMG SRC="img/research_field/engine.png" /></TD>
+</TR>
+</TABLE>>]
+
+dynamics_field_voltage [margin=0, style=bold, label=<
+<TABLE color="green4" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#gmt-advanced" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/engine/gmt-advanced.gif" /></TD>
+    <TD COLSPAN="2"><b>Dynamische Feldspannung</b></TD>
+</TR>
+<TR ><TD align="right">GMT-Advanced</TD>
+    <TD align="left"><IMG SRC="img/research_field/engine.png" /></TD>
+</TR>
+</TABLE>>]
+
+gmt_advanced_extented [margin=0, style=bold, label=<
+<TABLE color="green4" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#gmt-advanced_extented" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/engine/gmt-advanced_extented.gif" /></TD>
+    <TD COLSPAN="2"><b>Dynamische Feldspannung Elite</b></TD>
+</TR>
+<TR ><TD align="right">GMT-Extended</TD>
+    <TD align="left"><IMG SRC="img/research_field/engine.png" /></TD>
+</TR>
+</TABLE>>]
+
+impulse1 [margin=0, style=bold, label=<
+<TABLE color="green4" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#impulse1" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/engine/impulse1.gif" /></TD>
+    <TD COLSPAN="2"><b>Impulse-1</b></TD>
+</TR>
+<TR ><TD align="right">Impulse-1</TD>
+    <TD align="left"><IMG SRC="img/research_field/engine.png" /></TD>
+</TR>
+</TABLE>>]
+
+impulse2 [margin=0, style=bold, label=<
+<TABLE color="green4" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#impulse2" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/engine/impulse2.gif" /></TD>
+    <TD COLSPAN="2"><b>Impulse-2</b></TD>
+</TR>
+<TR ><TD align="right">Impulse-2</TD>
+    <TD align="left"><IMG SRC="img/research_field/engine.png" /></TD>
+</TR>
+</TABLE>>]
+
+impulse3 [margin=0, style=bold, label=<
+<TABLE color="green4" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#impulse3" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/engine/impulse3.gif" /></TD>
+    <TD COLSPAN="2"><b>Impulse-3</b></TD>
+</TR>
+<TR ><TD align="right">Impulse-3</TD>
+    <TD align="left"><IMG SRC="img/research_field/engine.png" /></TD>
+</TR>
+</TABLE>>]
+
+impulse_cyborg [margin=0, style=bold, label=<
+<TABLE color="green4" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#cys_impulse" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/engine/cys_impulse.gif" /></TD>
+    <TD COLSPAN="2"><b>Impulse (Cyborg)</b></TD>
+</TR>
+<TR ><TD align="right">CyS Impuls (Cyborg)</TD>
+    <TD align="left"><IMG SRC="img/research_field/engine.png" /></TD>
+</TR>
+</TABLE>>]
+
+jamov_imp [margin=0, style=bold, label=<
+<TABLE color="green4" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#jamov_imp" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/engine/jamov_imp.gif" /></TD>
+    <TD COLSPAN="2"><b>Impulse (Jamazoid)</b></TD>
+</TR>
+<TR ><TD align="right">JamoV Impuls (Jamazoid)</TD>
+    <TD align="left"><IMG SRC="img/research_field/engine.png" /></TD>
+</TR>
+</TABLE>>]
+
+
+impulse_mosoran [margin=0, style=bold, label=<
+<TABLE color="green4" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#impulse_mosoran" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/engine/impulse_mosoran.gif" /></TD>
+    <TD COLSPAN="2"><b>Impulse (Mosaran)</b></TD>
+</TR>
+<TR ><TD align="right">Moso F Impuls (Mosaran)</TD>
+    <TD align="left"><IMG SRC="img/research_field/engine.png" /></TD>
+</TR>
+</TABLE>>]
+
+ozoid_mini_impulse_ozoid [margin=0, style=bold, label=<
+<TABLE color="green4" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#mini_impulse_ozoid" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/engine/mini_impulse_ozoid.gif" /></TD>
+    <TD COLSPAN="2"><b>Ozoidischer Mini-Impuls (Ozoid)</b></TD>
+</TR>
+<TR ><TD align="right">Ozoidischer Mini-Impuls (Ozoid)</TD>
+    <TD align="left"><IMG SRC="img/research_field/engine.png" /></TD>
+</TR>
+</TABLE>>]
+
+ozoid_jumbo_impulse_ozoid [margin=0, style=bold, label=<
+<TABLE color="green4" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#jumbo_impulse_ozoid" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/engine/jumbo_impulse_ozoid.gif" /></TD>
+    <TD COLSPAN="2"><b>Ozoidischer Jumboimpuls (Ozoid)</b></TD>
+</TR>
+<TR ><TD align="right">Ozoidischer Jumboimpuls (Ozoid)</TD>
+    <TD align="left"><IMG SRC="img/research_field/engine.png" /></TD>
+</TR>
+</TABLE>>]
+
+
+//warp
+light_speed [margin=0, style=bold, label=<
+<TABLE color="green4" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#dx-1" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/engine/dx-1.gif" /></TD>
+    <TD COLSPAN="2"><b>Lichtgeschwindigkeit</b></TD>
+</TR>
+<TR ><TD align="right">DX-1</TD>
+    <TD align="left"><IMG SRC="img/research_field/engine.png" /></TD>
+</TR>
+</TABLE>>]
+
+advanced_energy_field [margin=0, style=bold, label=<
+<TABLE color="green4" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#dx-2" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/engine/dx-2.gif" /></TD>
+    <TD COLSPAN="2"><b>Erweitertes Energiefeld</b></TD>
+</TR>
+<TR ><TD align="right">DX-2</TD>
+    <TD align="left"><IMG SRC="img/research_field/engine.png" /></TD>
+</TR>
+</TABLE>>]
+
+advanced_energy_field_extended [margin=0, style=bold, label=<
+<TABLE color="green4" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#dx-21" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/engine/dx-21.gif" /></TD>
+    <TD COLSPAN="2"><b>DX-2.1</b></TD>
+</TR>
+<TR ><TD align="right">DX-2.1</TD>
+    <TD align="left"><IMG SRC="img/research_field/engine.png" /></TD>
+</TR>
+</TABLE>>]
+
+maximized_energy_field [margin=0, style=bold, label=<
+<TABLE color="green4" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#warp_experimental_engine_v1" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/engine/warp_experimental_engine_v1.gif" /></TD>
+    <TD COLSPAN="2"><b>Maximiertes Energiefeld</b></TD>
+</TR>
+<TR ><TD align="right">Warp Experimental Engine V1</TD>
+    <TD align="left"><IMG SRC="img/research_field/engine.png" /></TD>
+</TR>
+</TABLE>>]
+
+wee1_upgrade [margin=0, style=bold, label=<
+<TABLE color="green4" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#warp_experimental_engine_v2" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/engine/warp_experimental_engine_v2.gif" /></TD>
+    <TD COLSPAN="2"><b>WEE-1 Upgrade</b></TD>
+</TR>
+<TR ><TD align="right">Warp Experimental Engine V2</TD>
+    <TD align="left"><IMG SRC="img/research_field/engine.png" /></TD>
+</TR>
+</TABLE>>]
+
+improved_warp_control [margin=0, style=bold, label=<
+<TABLE color="green4" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#warp_experimental_engine_v3" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/engine/warp_experimental_engine_v3.gif" /></TD>
+    <TD COLSPAN="2"><b>Verbesserte Warp-Kontrolle</b></TD>
+</TR>
+<TR ><TD align="right">Warp Experimental Engine V3</TD>
+    <TD align="left"><IMG SRC="img/research_field/engine.png" /></TD>
+</TR>
+</TABLE>>]
+
+pahid [margin=0, style=bold, label=<
+<TABLE color="green4" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#pahid" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/engine/pahid.gif" /></TD>
+    <TD COLSPAN="2"><b>Pahid</b></TD>
+</TR>
+<TR ><TD align="right">Pahid</TD>
+    <TD align="left"><IMG SRC="img/research_field/engine.png" /></TD>
+</TR>
+</TABLE>>]
+
+pahid_2 [margin=0, style=bold, label=<
+<TABLE color="green4" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#pahid_2" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/engine/pahid_2.gif" /></TD>
+    <TD COLSPAN="2"><b>Pahid 2</b></TD>
+</TR>
+<TR ><TD align="right">Pahid 2</TD>
+    <TD align="left"><IMG SRC="img/research_field/engine.png" /></TD>
+</TR>
+</TABLE>>]
+
+pahid_3_upgrade [margin=0, style=bold, label=<
+<TABLE color="green4" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#pahid_3" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/engine/pahid_3.gif" /></TD>
+    <TD COLSPAN="2"><b>Pahid 3 Upgrade</b></TD>
+</TR>
+<TR ><TD align="right">Pahid 3</TD>
+    <TD align="left"><IMG SRC="img/research_field/engine.png" /></TD>
+</TR>
+</TABLE>>]
+
+pahid_4 [margin=0, style=bold, label=<
+<TABLE color="green4" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#pahid_4" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/engine/pahid_4.gif" /></TD>
+    <TD COLSPAN="2"><b>Pahid 4</b></TD>
+</TR>
+<TR ><TD align="right">Pahid 4</TD>
+    <TD align="left"><IMG SRC="img/research_field/engine.png" /></TD>
+</TR>
+</TABLE>>]
+
+pahid_5 [margin=0, style=bold, label=<
+<TABLE color="green4" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#pahid_5" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/engine/pahid_5.gif" /></TD>
+    <TD COLSPAN="2"><b>Pahid 5</b></TD>
+</TR>
+<TR ><TD align="right">Pahid 5</TD>
+    <TD align="left"><IMG SRC="img/research_field/engine.png" /></TD>
+</TR>
+</TABLE>>]
+
+pahid_6 [margin=0, style=bold, label=<
+<TABLE color="green4" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#pahid_6" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/engine/pahid_6.gif" /></TD>
+    <TD COLSPAN="2"><b>Pahid 6</b></TD>
+</TR>
+<TR ><TD align="right">Pahid 6</TD>
+    <TD align="left"><IMG SRC="img/research_field/engine.png" /></TD>
+</TR>
+</TABLE>>]
+
+pahid_jamazoid [margin=0, style=bold, label=<
+<TABLE color="green4" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#pahid_jamazoid" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/engine/pahid_jamazoid.gif" /></TD>
+    <TD COLSPAN="2"><b>Pahid (Jamazoid)</b></TD>
+</TR>
+<TR ><TD align="right">Jam Warp 5 (Jamazoid)</TD>
+    <TD align="left"><IMG SRC="img/research_field/engine.png" /></TD>
+</TR>
+</TABLE>>]
+
+pahid_magumar [margin=0, style=bold, label=<
+<TABLE color="green4" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#pahid_magumar" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/engine/pahid_magumar.gif" /></TD>
+    <TD COLSPAN="2"><b>Pahid (Magumar)</b></TD>
+</TR>
+<TR ><TD align="right">Mag Warp 5 (Magumar)</TD>
+    <TD align="left"><IMG SRC="img/research_field/engine.png" /></TD>
+</TR>
+</TABLE>>]
+
+pahid_mosoran [margin=0, style=bold, label=<
+<TABLE color="green4" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#pahid_mosoran" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/engine/pahid_mosoran.gif" /></TD>
+    <TD COLSPAN="2"><b>Pahid (Mosoran)</b></TD>
+</TR>
+<TR ><TD align="right">Mos Warp 5 (Mosoran)</TD>
+    <TD align="left"><IMG SRC="img/research_field/engine.png" /></TD>
+</TR>
+</TABLE>>]
+
+
+mini_warp_terra [margin=0, style=bold, label=<
+<TABLE color="green4" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#mini_warp_terra_human" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/engine/mini_warp_terra_human.gif" /></TD>
+    <TD COLSPAN="2"><b>Mini Warp Terra (human)</b></TD>
+</TR>
+<TR ><TD align="right">Mini Warp Terra (Human)</TD>
+    <TD align="left"><IMG SRC="img/research_field/engine.png" /></TD>
+</TR>
+</TABLE>>]
+
+jumbo_warp_terra [margin=0, style=bold, label=<
+<TABLE color="green4" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#jumbo_warp_terra_human" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/engine/jumbo_warp_terra_human.gif" /></TD>
+    <TD COLSPAN="2"><b>Jumbo Warp Terra</b></TD>
+</TR>
+<TR ><TD align="right">Jumbo Warp Terra (Human)</TD>
+    <TD align="left"><IMG SRC="img/research_field/engine.png" /></TD>
+</TR>
+</TABLE>>]
+
+
+
+//weapons
+//projectiles
+projectiles [margin=0, style=bold, label=<
+<TABLE color="red3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#scorp" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/weapon/scorp.gif" /></TD>
+    <TD COLSPAN="2"><b>Projektile</b></TD>
+</TR>
+<TR ><TD align="right">Scorp</TD>
+    <TD align="left"><IMG SRC="img/research_field/weapons.png" /></TD>
+</TR>
+</TABLE>>]
+
+stronger_detonation [margin=0, style=bold, label=<
+<TABLE color="red3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#scorp_ii" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/weapon/scorp_ii.gif" /></TD>
+    <TD COLSPAN="2"><b>St&#228;rkere Detonation</b></TD>
+</TR>
+<TR ><TD align="right">Scorp II</TD>
+    <TD align="left"><IMG SRC="img/research_field/weapons.png" /></TD>
+</TR>
+</TABLE>>]
+
+improved_penetration [margin=0, style=bold, label=<
+<TABLE color="red3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#scorp_iii" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/weapon/scorp_iii.gif" /></TD>
+    <TD COLSPAN="2"><b>H&#246;here Durchschlagskraft</b></TD>
+</TR>
+<TR ><TD align="right">Scorp III</TD>
+    <TD align="left"><IMG SRC="img/research_field/weapons.png" /></TD>
+</TR>
+</TABLE>>]
+
+improved_torpedo_head [margin=0, style=bold, label=<
+<TABLE color="red3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#lux-torpedo" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/weapon/lux-torpedo.gif" /></TD>
+    <TD COLSPAN="2"><b>Verbesserter Torpedokopf</b></TD>
+</TR>
+<TR ><TD align="right">Lux-Torpedo</TD>
+    <TD align="left"><IMG SRC="img/research_field/weapons.png" /></TD>
+</TR>
+</TABLE>>]
+
+stungo_extreme [margin=0, style=bold, label=<
+<TABLE color="red3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#stungo_extreme" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/weapon/stungo_extreme.gif" /></TD>
+    <TD COLSPAN="2"><b>Stungo Extrem</b></TD>
+</TR>
+<TR ><TD align="right">Stungo Extrem</TD>
+    <TD align="left"><IMG SRC="img/research_field/weapons.png" /></TD>
+</TR>
+</TABLE>>]
+
+scorpion [margin=0, style=bold, label=<
+<TABLE color="red3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#scorpion" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/weapon/scorpion.gif" /></TD>
+    <TD COLSPAN="2"><b>Scorpion</b></TD>
+</TR>
+<TR ><TD align="right">Scorpion</TD>
+    <TD align="left"><IMG SRC="img/research_field/weapons.png" /></TD>
+</TR>
+</TABLE>>]
+
+drailer [margin=0, style=bold, label=<
+<TABLE color="red3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#drailer" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/weapon/drailer.gif" /></TD>
+    <TD COLSPAN="2"><b>Drailer</b></TD>
+</TR>
+<TR ><TD align="right">Drailer</TD>
+    <TD align="left"><IMG SRC="img/research_field/weapons.png" /></TD>
+</TR>
+</TABLE>>]
+
+masterk [margin=0, style=bold, label=<
+<TABLE color="red3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#master_k" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/weapon/master_k.gif" /></TD>
+    <TD COLSPAN="2"><b>MasterK</b></TD>
+</TR>
+<TR ><TD align="right">Master K</TD>
+    <TD align="left"><IMG SRC="img/research_field/weapons.png" /></TD>
+</TR>
+</TABLE>>]
+
+nutter [margin=0, style=bold, label=<
+<TABLE color="red3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#nutter" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/weapon/nutter.gif" /></TD>
+    <TD COLSPAN="2"><b>Nutter</b></TD>
+</TR>
+<TR ><TD align="right">Nutter</TD>
+    <TD align="left"><IMG SRC="img/research_field/weapons.png" /></TD>
+</TR>
+</TABLE>>]
+
+usiel [margin=0, style=bold, label=<
+<TABLE color="red3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#usiel" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/weapon/usiel.gif" /></TD>
+    <TD COLSPAN="2"><b>Usiel</b></TD>
+</TR>
+<TR ><TD align="right">Usiel</TD>
+    <TD align="left"><IMG SRC="img/research_field/weapons.png" /></TD>
+</TR>
+</TABLE>>]
+
+master_w [margin=0, style=bold, label=<
+<TABLE color="red3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#master_w" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/weapon/master_w.gif" /></TD>
+    <TD COLSPAN="2"><b>Master W (Weganer)</b></TD>
+</TR>
+<TR ><TD align="right">Master W (Weganer)</TD>
+    <TD align="left"><IMG SRC="img/research_field/weapons.png" /></TD>
+</TR>
+</TABLE>>]
+
+master_z [margin=0, style=bold, label=<
+<TABLE color="red3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#master_z" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/weapon/master_z.gif" /></TD>
+    <TD COLSPAN="2"><b>Master Z (Zuup)</b></TD>
+</TR>
+<TR ><TD align="right">Master Z (Zuup)</TD>
+    <TD align="left"><IMG SRC="img/research_field/weapons.png" /></TD>
+</TR>
+</TABLE>>]
+
+master_m [margin=0, style=bold, label=<
+<TABLE color="red3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#master_m" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/weapon/master_m.gif" /></TD>
+    <TD COLSPAN="2"><b>MasterK Improvement (Human)</b></TD>
+</TR>
+<TR ><TD align="right">Master M (Human)</TD>
+    <TD align="left"><IMG SRC="img/research_field/weapons.png" /></TD>
+</TR>
+</TABLE>>]
+
+
+
+jamo_project_mini [margin=0, style=bold, label=<
+<TABLE color="red3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#jamo_project_mini" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/weapon/jamo_project_mini.gif" /></TD>
+    <TD COLSPAN="2"><b>Projet Mini Jamo (jamazoid)</b></TD>
+</TR>
+<TR ><TD align="right">Jamozoid Mini Projectiles (jamazoid)</TD>
+    <TD align="left"><IMG SRC="img/research_field/weapons.png" /></TD>
+</TR>
+</TABLE>>]
+
+jamo_project_jumbo [margin=0, style=bold, label=<
+<TABLE color="red3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#jamo_project_jumbo" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/weapon/jamo_project_jumbo.gif" /></TD>
+    <TD COLSPAN="2"><b>Jamo Projet Jumbo (jamazoid)</b></TD>
+</TR>
+<TR ><TD align="right">Jamozoid Jumbo Projectiles (Jamazoid)</TD>
+    <TD align="left"><IMG SRC="img/research_field/weapons.png" /></TD>
+</TR>
+</TABLE>>]
+
+jamo_project_jumbo_elite [margin=0, style=bold, label=<
+<TABLE color="red3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#jamo_project_jumbo_elite" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/weapon/jamo_project_jumbo_elite.gif" /></TD>
+    <TD COLSPAN="2"><b>Jamo Projet Jumbo Elite</b></TD>
+</TR>
+<TR ><TD align="right">Jamo Projet Jumbo Elite (Jamazoid)</TD>
+    <TD align="left"><IMG SRC="img/research_field/weapons.png" /></TD>
+</TR>
+</TABLE>>]
+
+
+
+//ions
+ions [margin=0, style=bold, label=<
+<TABLE color="red3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#small_ion_cannon" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/weapon/small_ion_cannon.gif" /></TD>
+    <TD COLSPAN="2"><b>Ionen</b></TD>
+</TR>
+<TR ><TD align="right">Kleine Ionenkanone</TD>
+    <TD align="left"><IMG SRC="img/research_field/weapons.png" /></TD>
+</TR>
+</TABLE>>]
+
+increased_ionfirepower [margin=0, style=bold, label=<
+<TABLE color="red3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#medium_ion_cannon" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/weapon/medium_ion_cannon.gif" /></TD>
+    <TD COLSPAN="2"><b>H&#246;here Ionen-Feuerkraft</b></TD>
+</TR>
+<TR ><TD align="right">Mittlere Ionenkanone</TD>
+    <TD align="left"><IMG SRC="img/research_field/weapons.png" /></TD>
+</TR>
+</TABLE>>]
+
+ion_fusion [margin=0, style=bold, label=<
+<TABLE color="red3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#large_ion_cannon" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/weapon/large_ion_cannon.gif" /></TD>
+    <TD COLSPAN="2"><b>Ionen Zusammenschluss</b></TD>
+</TR>
+<TR ><TD align="right">Große Ionenkanone</TD>
+    <TD align="left"><IMG SRC="img/research_field/weapons.png" /></TD>
+</TR>
+</TABLE>>]
+
+
+
+ion_bundeling [margin=0, style=bold, label=<
+<TABLE color="red3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#l-ion" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/weapon/l-ion.gif" /></TD>
+    <TD COLSPAN="2"><b>Ionen-B&#252;ndelung</b></TD>
+</TR>
+<TR ><TD align="right">L-Ion</TD>
+    <TD align="left"><IMG SRC="img/research_field/weapons.png" /></TD>
+</TR>
+</TABLE>>]
+
+enhanced_ion_bundeling [margin=0, style=bold, label=<
+<TABLE color="red3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#l-ion_ext" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/weapon/l-ion_ext.gif" /></TD>
+    <TD COLSPAN="2"><b>Erweiterte Ionen-B&#252;ndelung</b></TD>
+</TR>
+<TR ><TD align="right">L-ion EXT</TD>
+    <TD align="left"><IMG SRC="img/research_field/weapons.png" /></TD>
+</TR>
+</TABLE>>]
+
+miniion_cannon [margin=0, style=bold, label=<
+<TABLE color="red3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#kt_l-ion" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/weapon/kt_l-ion.gif" /></TD>
+    <TD COLSPAN="2"><b>Mini-Ionenkanone</b></TD>
+</TR>
+<TR ><TD align="right">KT L-ion</TD>
+    <TD align="left"><IMG SRC="img/research_field/weapons.png" /></TD>
+</TR>
+</TABLE>>]
+
+ion_acceleration [margin=0, style=bold, label=<
+<TABLE color="red3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#igop" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/weapon/igop.gif" /></TD>
+    <TD COLSPAN="2"><b>Ionenbeschleunigung</b></TD>
+</TR>
+<TR ><TD align="right">IGop</TD>
+    <TD align="left"><IMG SRC="img/research_field/weapons.png" /></TD>
+</TR>
+</TABLE>>]
+
+igop_jamazoid [margin=0, style=bold, label=<
+<TABLE color="red3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#igop_jamazoid" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/weapon/igop_jamazoid.gif" /></TD>
+    <TD COLSPAN="2"><b>IGop (Jamazoid)</b></TD>
+</TR>
+<TR ><TD align="right">IJam 1000</TD>
+    <TD align="left"><IMG SRC="img/research_field/weapons.png" /></TD>
+</TR>
+</TABLE>>]
+
+igop_magumar [margin=0, style=bold, label=<
+<TABLE color="red3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#igop_magumar" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/weapon/igop_magumar.gif" /></TD>
+    <TD COLSPAN="2"><b>IMag III (Magumar)</b></TD>
+</TR>
+<TR ><TD align="right">IGop (Magumar)</TD>
+    <TD align="left"><IMG SRC="img/research_field/weapons.png" /></TD>
+</TR>
+</TABLE>>]
+
+igop_ozoidian [margin=0, style=bold, label=<
+<TABLE color="red3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#igop_ozoidian" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/weapon/igop_ozoidian.gif" /></TD>
+    <TD COLSPAN="2"><b>IGop (Ozoidian)</b></TD>
+</TR>
+<TR ><TD align="right">IZoid IV (Ozoidian)</TD>
+    <TD align="left"><IMG SRC="img/research_field/weapons.png" /></TD>
+</TR>
+</TABLE>>]
+
+
+
+//laser
+
+coherent_resonators [margin=0, style=bold, label=<
+<TABLE color="red3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#wincom_laser" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/weapon/wincom_laser.gif" /></TD>
+    <TD COLSPAN="2"><b>Kohärentere Resonatoren</b></TD>
+</TR>
+<TR ><TD align="right">Wincom Laser</TD>
+    <TD align="left"><IMG SRC="img/research_field/weapons.png" /></TD>
+</TR>
+</TABLE>>]
+
+efficient_cooling [margin=0, style=bold, label=<
+<TABLE color="red3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#small_laser" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/weapon/small_laser.gif" /></TD>
+    <TD COLSPAN="2"><b>Effiziente K&#252;hlung</b></TD>
+</TR>
+<TR ><TD align="right">Kleiner Laser</TD>
+    <TD align="left"><IMG SRC="img/research_field/weapons.png" /></TD>
+</TR>
+</TABLE>>]
+
+
+laser_impulses [margin=0, style=bold, label=<
+<TABLE color="red3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#medium_laser" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/weapon/medium_laser.gif" /></TD>
+    <TD COLSPAN="2"><b>Laserimpulsierung</b></TD>
+</TR>
+<TR ><TD align="right">Mittlerer Laser</TD>
+    <TD align="left"><IMG SRC="img/research_field/weapons.png" /></TD>
+</TR>
+</TABLE>>]
+
+
+large_laser [margin=0, style=bold, label=<
+<TABLE color="red3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#large_laser" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/weapon/large_laser.gif" /></TD>
+    <TD COLSPAN="2"><b>Großer Laser</b></TD>
+</TR>
+<TR ><TD align="right">Großer Laser</TD>
+    <TD align="left"><IMG SRC="img/research_field/weapons.png" /></TD>
+</TR>
+</TABLE>>]
+
+
+bundled_laser_beams [margin=0, style=bold, label=<
+<TABLE color="red3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#blaster" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/weapon/blaster.gif" /></TD>
+    <TD COLSPAN="2"><b>Geb&#252;ndelte Laserstrahlen</b></TD>
+</TR>
+<TR ><TD align="right">Blaster</TD>
+    <TD align="left"><IMG SRC="img/research_field/weapons.png" /></TD>
+</TR>
+</TABLE>>]
+
+blaster_advancement_blaster_ext [margin=0, style=bold, label=<
+<TABLE color="red3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#blaster_ext" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/weapon/blaster_ext.gif" /></TD>
+    <TD COLSPAN="2"><b>Blaster Weiterentwicklung</b></TD>
+</TR>
+<TR ><TD align="right">Blaster EXT</TD>
+    <TD align="left"><IMG SRC="img/research_field/weapons.png" /></TD>
+</TR>
+</TABLE>>]
+
+blaster_advancement_blaster_rapid [margin=0, style=bold, label=<
+<TABLE color="red3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#blaster_rapid" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/weapon/blaster_rapid.gif" /></TD>
+    <TD COLSPAN="2"><b>Blaster Weiterentwicklung</b></TD>
+</TR>
+<TR ><TD align="right">Blaster Rapid</TD>
+    <TD align="left"><IMG SRC="img/research_field/weapons.png" /></TD>
+</TR>
+</TABLE>>]
+
+blaster_doubling [margin=0, style=bold, label=<
+<TABLE color="red3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#blaster_double" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/weapon/blaster_double.gif" /></TD>
+    <TD COLSPAN="2"><b>Blaster Doppelung</b></TD>
+</TR>
+<TR ><TD align="right">Blaster Double</TD>
+    <TD align="left"><IMG SRC="img/research_field/weapons.png" /></TD>
+</TR>
+</TABLE>>]
+
+new_blaster_treatment_blaster [margin=0, style=bold, label=<
+<TABLE color="red3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#treatment_blaster" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/weapon/treatment_blaster.gif" /></TD>
+    <TD COLSPAN="2"><b>Neuer Blaster</b></TD>
+</TR>
+<TR ><TD align="right">Treatment Blaster</TD>
+    <TD align="left"><IMG SRC="img/research_field/weapons.png" /></TD>
+</TR>
+</TABLE>>]
+
+new_blaster_hydra_blaster [margin=0, style=bold, label=<
+<TABLE color="red3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#hydra_blaster" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/weapon/hydra_blaster.gif" /></TD>
+    <TD COLSPAN="2"><b>Neuer Blaster</b></TD>
+</TR>
+<TR ><TD align="right">Hydra Blaster</TD>
+    <TD align="left"><IMG SRC="img/research_field/weapons.png" /></TD>
+</TR>
+</TABLE>>]
+
+hydra_weganian [margin=0, style=bold, label=<
+<TABLE color="red3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#hydra_blaster_w" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/weapon/hydra_blaster_w.gif" /></TD>
+    <TD COLSPAN="2"><b>Hydra Blaster (Weganian)</b></TD>
+</TR>
+<TR ><TD align="right">Hydra Blaster W (Weganian)</TD>
+    <TD align="left"><IMG SRC="img/research_field/weapons.png" /></TD>
+</TR>
+</TABLE>>]
+
+hydra_magumian [margin=0, style=bold, label=<
+<TABLE color="red3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#hydra_blaster_m" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/weapon/hydra_blaster_m.gif" /></TD>
+    <TD COLSPAN="2"><b>Hydra Blaster (Magumian)</b></TD>
+</TR>
+<TR ><TD align="right">Hydra Blaster Magnum (Magumian)</TD>
+    <TD align="left"><IMG SRC="img/research_field/weapons.png" /></TD>
+</TR>
+</TABLE>>]
+
+hydra_ozoid [margin=0, style=bold, label=<
+<TABLE color="red3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#hydra_blaster_o" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/weapon/hydra_blaster_o.gif" /></TD>
+    <TD COLSPAN="2"><b>Hydra Blaster (Ozoid)</b></TD>
+</TR>
+<TR ><TD align="right">Hydra Blaster O (Ozoid)</TD>
+    <TD align="left"><IMG SRC="img/research_field/weapons.png" /></TD>
+</TR>
+</TABLE>>]
+
+hydra_blaster_o2 [margin=0, style=bold, label=<
+<TABLE color="red3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#hydra_blaster_o2" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/weapon/hydra_blaster_o2.gif" /></TD>
+    <TD COLSPAN="2"><b>Hydra Blaster O2 (Ozoid)</b></TD>
+</TR>
+<TR ><TD align="right">Hydra Blaster O2 (Ozoid)</TD>
+    <TD align="left"><IMG SRC="img/research_field/weapons.png" /></TD>
+</TR>
+</TABLE>>]
+
+zuup_minilaser_zuup [margin=0, style=bold, label=<
+<TABLE color="red3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#zuup_minilaser_zuup" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/weapon/zuup_minilaser_zuup.gif" /></TD>
+    <TD COLSPAN="2"><b>Zuup Minilaser (Zuup)</b></TD>
+</TR>
+<TR ><TD align="right">Zuup Minilaser (Zuup)</TD>
+    <TD align="left"><IMG SRC="img/research_field/weapons.png" /></TD>
+</TR>
+</TABLE>>]
+
+zuuper_jumbo_laser_zuup [margin=0, style=bold, label=<
+<TABLE color="red3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#zuuper_jumbo_laser_zuup" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/weapon/zuuper_jumbo_laser_zuup.gif" /></TD>
+    <TD COLSPAN="2"><b>Zuuper Jumbo Laser (Zuup)</b></TD>
+</TR>
+<TR ><TD align="right">Zuuper Jumbo Laser (Zuup)</TD>
+    <TD align="left"><IMG SRC="img/research_field/weapons.png" /></TD>
+</TR>
+</TABLE>>]
+
+zuuper_elite_jumbo_laser_zuup [margin=0, style=bold, label=<
+<TABLE color="red3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#zuuper_elite_jumbo_laser_zuup" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/weapon/zuuper_elite_jumbo_laser_zuup.gif" /></TD>
+    <TD COLSPAN="2"><b>Zuuper Jumbo Laser Elite (Zuup)</b></TD>
+</TR>
+<TR ><TD align="right">Zuuper Jumbo Laser Elite (Zuup)</TD>
+    <TD align="left"><IMG SRC="img/research_field/weapons.png" /></TD>
+</TR>
+</TABLE>>]
+
+
+
+//defence
+//resilience
+
+armor [margin=0, style=bold, label=<
+<TABLE color="darkslategray3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#standard_armor" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/defence/standard_armor.gif" /></TD>
+    <TD COLSPAN="2"><b>Panzerung</b></TD>
+</TR>
+<TR ><TD align="right">Standardpanzerung</TD>
+    <TD align="left"><IMG SRC="img/research_field/defence.png" /></TD>
+</TR>
+</TABLE>>]
+
+better_heat_protection [margin=0, style=bold, label=<
+<TABLE color="darkslategray3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#ats" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/defence/ats.gif" /></TD>
+    <TD COLSPAN="2"><b>Besserer Hitzeschutz</b></TD>
+</TR>
+<TR ><TD align="right">ATS</TD>
+    <TD align="left"><IMG SRC="img/research_field/defence.png" /></TD>
+</TR>
+</TABLE>>]
+
+metal_concentration [margin=0, style=bold, label=<
+<TABLE color="darkslategray3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#atsm" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/defence/atsm.gif" /></TD>
+    <TD COLSPAN="2"><b>Metall-Anreicherung</b></TD>
+</TR>
+<TR ><TD align="right">ATSM</TD>
+    <TD align="left"><IMG SRC="img/research_field/defence.png" /></TD>
+</TR>
+</TABLE>>]
+
+cluster_alloy [margin=0, style=bold, label=<
+<TABLE color="darkslategray3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#dats" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/defence/dats.gif" /></TD>
+    <TD COLSPAN="2"><b>Verbundlegierungen</b></TD>
+</TR>
+<TR ><TD align="right">DATS</TD>
+    <TD align="left"><IMG SRC="img/research_field/defence.png" /></TD>
+</TR>
+</TABLE>>]
+
+hardened_armour [margin=0, style=bold, label=<
+<TABLE color="darkslategray3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#slit" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/defence/slit.gif" /></TD>
+    <TD COLSPAN="2"><b>Geh&#228;rtete Panzerung</b></TD>
+</TR>
+<TR ><TD align="right">SLIT</TD>
+    <TD align="left"><IMG SRC="img/research_field/defence.png" /></TD>
+</TR>
+</TABLE>>]
+
+
+hardened_armour_ii [margin=0, style=bold, label=<
+<TABLE color="darkslategray3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#naa" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/defence/naa.gif" /></TD>
+    <TD COLSPAN="2"><b>Geh&#228;rtete Panzerung II</b></TD>
+</TR>
+<TR ><TD align="right">NAA</TD>
+    <TD align="left"><IMG SRC="img/research_field/defence.png" /></TD>
+</TR>
+</TABLE>>]
+
+slit_enhancement [margin=0, style=bold, label=<
+<TABLE color="darkslategray3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#slt" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/defence/slt.gif" /></TD>
+    <TD COLSPAN="2"><b>SLIT Enhancement</b></TD>
+</TR>
+<TR ><TD align="right">SLT</TD>
+    <TD align="left"><IMG SRC="img/research_field/defence.png" /></TD>
+</TR>
+</TABLE>>]
+
+licim [margin=0, style=bold, label=<
+<TABLE color="darkslategray3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#licim" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/defence/licim.gif" /></TD>
+    <TD COLSPAN="2"><b>Licim</b></TD>
+</TR>
+<TR ><TD align="right">Licim</TD>
+    <TD align="left"><IMG SRC="img/research_field/defence.png" /></TD>
+</TR>
+</TABLE>>]
+
+inamibo [margin=0, style=bold, label=<
+<TABLE color="darkslategray3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#inamibo" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/defence/inamibo.gif" /></TD>
+    <TD COLSPAN="2"><b>Inamibo</b></TD>
+</TR>
+<TR ><TD align="right">Inamibo</TD>
+    <TD align="left"><IMG SRC="img/research_field/defence.png" /></TD>
+</TR>
+</TABLE>>]
+
+dub_nuf [margin=0, style=bold, label=<
+<TABLE color="darkslategray3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#dub_nuf" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/defence/dub_nuf.gif" /></TD>
+    <TD COLSPAN="2"><b>Dub Nuf</b></TD>
+</TR>
+<TR ><TD align="right">Dub Nuf</TD>
+    <TD align="left"><IMG SRC="img/research_field/defence.png" /></TD>
+</TR>
+</TABLE>>]
+
+dub_nuf_elite [margin=0, style=bold, label=<
+<TABLE color="darkslategray3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#dub_nuf_elite" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/defence/dub_nuf_elite.gif" /></TD>
+    <TD COLSPAN="2"><b>Dub Nuf Elite</b></TD>
+</TR>
+<TR ><TD align="right">Dub Nuf Elite</TD>
+    <TD align="left"><IMG SRC="img/research_field/defence.png" /></TD>
+</TR>
+</TABLE>>]
+
+dub_nuf_cy3000_cyborg [margin=0, style=bold, label=<
+<TABLE color="darkslategray3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#dub_nuf_cy3000" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/defence/dub_nuf_cy3000.gif" /></TD>
+    <TD COLSPAN="2"><b>Dub Nuf Cy3000 (Cyborg)</b></TD>
+</TR>
+<TR ><TD align="right">Dub Nuf Cy3000 (Cyborg)</TD>
+    <TD align="left"><IMG SRC="img/research_field/defence.png" /></TD>
+</TR>
+</TABLE>>]
+
+
+dub_nuf_plentropian [margin=0, style=bold, label=<
+<TABLE color="darkslategray3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#dub_nuf_plentropian" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/defence/dub_nuf_plentropian.gif" /></TD>
+    <TD COLSPAN="2"><b>Dub Nuf Plentrop (Plentropian)</b></TD>
+</TR>
+<TR ><TD align="right">Dub Nuf Plentrop (Plentropian)</TD>
+    <TD align="left"><IMG SRC="img/research_field/defence.png" /></TD>
+</TR>
+</TABLE>>]
+
+
+mini_armor_mosoran [margin=0, style=bold, label=<
+<TABLE color="darkslategray3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#mini_armor_mosoraner" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/defence/mini_armor_mosoraner.gif" /></TD>
+    <TD COLSPAN="2"><b>Mini Panzerung (Mosoran)</b></TD>
+</TR>
+<TR ><TD align="right">Mini Panzerung (Mosoraner)</TD>
+    <TD align="left"><IMG SRC="img/research_field/defence.png" /></TD>
+</TR>
+</TABLE>>]
+
+
+jumbo_armor_mosoran [margin=0, style=bold, label=<
+<TABLE color="darkslategray3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#jumbo_armor_mosoraner" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/defence/jumbo_armor_mosoraner.gif" /></TD>
+    <TD COLSPAN="2"><b>Jumbo Panzerung (Mosoran)</b></TD>
+</TR>
+<TR ><TD align="right">Jumbo Panzerung (Mosoran)</TD>
+    <TD align="left"><IMG SRC="img/research_field/defence.png" /></TD>
+</TR>
+</TABLE>>]
+
+
+
+//shield
+protective_shield [margin=0, style=bold, label=<
+<TABLE color="darkslategray3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#25_mw_shield" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/defence/25_mw_shield.gif" /></TD>
+    <TD COLSPAN="2"><b>Schutzschild</b></TD>
+</TR>
+<TR ><TD align="right">25 MW Shield</TD>
+    <TD align="left"><IMG SRC="img/research_field/defence.png" /></TD>
+</TR>
+</TABLE>>]
+
+_50_mw_shield [margin=0, style=bold, label=<
+<TABLE color="darkslategray3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#50_mw_shield" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/defence/50_mw_shield.gif" /></TD>
+    <TD COLSPAN="2"><b>50 MW Shield</b></TD>
+</TR>
+<TR ><TD align="right">50 MW Shield</TD>
+    <TD align="left"><IMG SRC="img/research_field/defence.png" /></TD>
+</TR>
+</TABLE>>]
+
+_50_mw_shield_elite [margin=0, style=bold, label=<
+<TABLE color="darkslategray3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#50_mw_shield_elite" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/defence/50_mw_shield_elite.gif" /></TD>
+    <TD COLSPAN="2"><b>50 MW Shield Elite</b></TD>
+</TR>
+<TR ><TD align="right">50 MW Shield Elite</TD>
+    <TD align="left"><IMG SRC="img/research_field/defence.png" /></TD>
+</TR>
+</TABLE>>]
+
+stronger_shield [margin=0, style=bold, label=<
+<TABLE color="darkslategray3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#100_mw_shield" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/defence/100_mw_shield.gif" /></TD>
+    <TD COLSPAN="2"><b>St&#228;rkerer Schutzschild</b></TD>
+</TR>
+<TR ><TD align="right">100 MW Shield</TD>
+    <TD align="left"><IMG SRC="img/research_field/defence.png" /></TD>
+</TR>
+</TABLE>>]
+
+_115_mw_defense_shield [margin=0, style=bold, label=<
+<TABLE color="darkslategray3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#115_mw_shield" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/defence/115_mw_shield.gif" /></TD>
+    <TD COLSPAN="2"><b>115 MW Shield</b></TD>
+</TR>
+<TR ><TD align="right">115 MW Shield</TD>
+    <TD align="left"><IMG SRC="img/research_field/defence.png" /></TD>
+</TR>
+</TABLE>>]
+
+
+_125_mw_defense_shield [margin=0, style=bold, label=<
+<TABLE color="darkslategray3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#125_mw_shield" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/defence/125_mw_shield.gif" /></TD>
+    <TD COLSPAN="2"><b>125 MW Shield</b></TD>
+</TR>
+<TR ><TD align="right">125 MW Shield</TD>
+    <TD align="left"><IMG SRC="img/research_field/defence.png" /></TD>
+</TR>
+</TABLE>>]
+
+_130_mw_defense_shield [margin=0, style=bold, label=<
+<TABLE color="darkslategray3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#130_mw_shield" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/defence/130_mw_shield.gif" /></TD>
+    <TD COLSPAN="2"><b>130 MW Shield</b></TD>
+</TR>
+<TR ><TD align="right">130 MW Shield</TD>
+    <TD align="left"><IMG SRC="img/research_field/defence.png" /></TD>
+</TR>
+</TABLE>>]
+
+_145_mw_defense_shield [margin=0, style=bold, label=<
+<TABLE color="darkslategray3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#145_mw_shield" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/defence/145_mw_shield.gif" /></TD>
+    <TD COLSPAN="2"><b>145 MW Shield</b></TD>
+</TR>
+<TR ><TD align="right">145 MW Shield</TD>
+    <TD align="left"><IMG SRC="img/research_field/defence.png" /></TD>
+</TR>
+</TABLE>>]
+
+_160_mw_defense_shield [margin=0, style=bold, label=<
+<TABLE color="darkslategray3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#160_mw_shield" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/defence/160_mw_shield.gif" /></TD>
+    <TD COLSPAN="2"><b>160 MW Shield</b></TD>
+</TR>
+<TR ><TD align="right">160 MW Shield</TD>
+    <TD align="left"><IMG SRC="img/research_field/defence.png" /></TD>
+</TR>
+</TABLE>>]
+
+_195_mw_defense_shield [margin=0, style=bold, label=<
+<TABLE color="darkslategray3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#195_mw_shield" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/defence/195_mw_shield.gif" /></TD>
+    <TD COLSPAN="2"><b>195 MW Shield</b></TD>
+</TR>
+<TR ><TD align="right">195 MW Shield</TD>
+    <TD align="left"><IMG SRC="img/research_field/defence.png" /></TD>
+</TR>
+</TABLE>>]
+
+_200_mw_defense_shield [margin=0, style=bold, label=<
+<TABLE color="darkslategray3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#200_mw_shield" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/defence/200_mw_shield.gif" /></TD>
+    <TD COLSPAN="2"><b>200 MW Shield</b></TD>
+</TR>
+<TR ><TD align="right">200 MW Shield</TD>
+    <TD align="left"><IMG SRC="img/research_field/defence.png" /></TD>
+</TR>
+</TABLE>>]
+
+_200_mw_plentropian [margin=0, style=bold, label=<
+<TABLE color="darkslategray3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#plentrop_200mw" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/defence/plentrop_200mw.gif" /></TD>
+    <TD COLSPAN="2"><b>200 MW (Plentropian)</b></TD>
+</TR>
+<TR ><TD align="right">P200MW Multi (Plentropian)</TD>
+    <TD align="left"><IMG SRC="img/research_field/defence.png" /></TD>
+</TR>
+</TABLE>>]
+
+plentrop_217_5mw [margin=0, style=bold, label=<
+<TABLE color="darkslategray3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#plentrop_217_5mw" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/defence/plentrop_217_5mw.gif" /></TD>
+    <TD COLSPAN="2"><b>217.5 MW (Plentropian)</b></TD>
+</TR>
+<TR ><TD align="right">P217.5MW Multi (Plentropian)</TD>
+    <TD align="left"><IMG SRC="img/research_field/defence.png" /></TD>
+</TR>
+</TABLE>>]
+
+_200_mw_mosoran [margin=0, style=bold, label=<
+<TABLE color="darkslategray3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#moso_s200mw" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/defence/moso_s200mw.gif" /></TD>
+    <TD COLSPAN="2"><b>200 MW (Mosoran)</b></TD>
+</TR>
+<TR ><TD align="right">Moso S200MW</TD>
+    <TD align="left"><IMG SRC="img/research_field/defence.png" /></TD>
+</TR>
+</TABLE>>]
+
+moso_s200mw_elite [margin=0, style=bold, label=<
+<TABLE color="darkslategray3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#moso_s200mw_elite" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/defence/moso_s200mw_elite.gif" /></TD>
+    <TD COLSPAN="2"><b>200 MW Elite (Mosoran)</b></TD>
+</TR>
+<TR ><TD align="right">Moso S200MW Elite</TD>
+    <TD align="left"><IMG SRC="img/research_field/defence.png" /></TD>
+</TR>
+</TABLE>>]
+
+cymini_shield_cybog [margin=0, style=bold, label=<
+<TABLE color="darkslategray3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#cymini_shield_cyborg" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/defence/cymini_shield_cyborg.gif" /></TD>
+    <TD COLSPAN="2"><b>Cymini Shield (Cyborg)</b></TD>
+</TR>
+<TR ><TD align="right">Cymini Shield (Cyborg)</TD>
+    <TD align="left"><IMG SRC="img/research_field/defence.png" /></TD>
+</TR>
+</TABLE>>]
+
+jumbo_shield_cyborg [margin=0, style=bold, label=<
+<TABLE color="darkslategray3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#jumbo_shield_cyborg" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/defence/jumbo_shield_cyborg.gif" /></TD>
+    <TD COLSPAN="2"><b>Jumbo Shield (Cyborg)</b></TD>
+</TR>
+<TR ><TD align="right">Cy Jumbo Shield (Cyborg)</TD>
+    <TD align="left"><IMG SRC="img/research_field/defence.png" /></TD>
+</TR>
+</TABLE>>]
+
+
+
+//Equipment
+//Mining laser
+
+asteroid_fields [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#mining_laser_prototype" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/equipment/mining_laser_prototype.gif" /></TD>
+    <TD COLSPAN="2"><b>Asteroidenfelder</b></TD>
+</TR>
+<TR ><TD align="right">Bergbaulaser Prototyp</TD>
+    <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+asteroid_fields_level_2 [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#mining_laser_mk2" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/equipment/mining_laser_mk2.gif" /></TD>
+    <TD COLSPAN="2"><b>Asteroidenfelder (Stufe 2)</b></TD>
+</TR>
+<TR ><TD align="right">Bergbaulaser MK2</TD>
+    <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+
+asteroid_fields_level_3 [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#mining_laser_mk3" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/equipment/mining_laser_mk3.gif" /></TD>
+    <TD COLSPAN="2"><b>Asteroidenfelder (Stufe 3)</b></TD>
+</TR>
+<TR ><TD align="right">Bergbaulaser MK3</TD>
+    <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+
+mining_laser_mk4 [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#mining_laser_mk4" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/equipment/mining_laser_mk4.gif" /></TD>
+    <TD COLSPAN="2"><b>Asteroid Fields (Level 4)</b></TD>
+</TR>
+<TR ><TD align="right">Mining Laser MK4</TD>
+    <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+mk3_weganian [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#mining_laser_mkwega" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/equipment/mining_laser_mkwega.gif" /></TD>
+    <TD COLSPAN="2"><b>MK3 (Weganian)</b></TD>
+</TR>
+<TR ><TD align="right">Bergbaulaser MKWega</TD>
+    <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+
+mk3_plentropian [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#mk3_astero_plentropian" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/equipment/mk3_astero_plentropian.gif" /></TD>
+    <TD COLSPAN="2"><b>MK3 (Plentropian)</b></TD>
+</TR>
+<TR ><TD align="right">Prospektorenbergbaulaser MK (Plentropian)</TD>
+    <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+
+
+//salvage tool
+
+fields_of_wreckage [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#salvage_tool_prototype" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/equipment/salvage_tool_prototype.gif" /></TD>
+    <TD COLSPAN="2"><b>Tr&#252;mmerfelder</b></TD>
+</TR>
+<TR ><TD align="right">Bergungsger&#228;t Prototyp</TD>
+    <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+fields_of_wreckage_level_2 [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#salvage_tool_mk2" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/equipment/salvage_tool_mk2.gif" /></TD>
+    <TD COLSPAN="2"><b>Tr&#252;mmerfelder (Stufe 2)</b></TD>
+</TR>
+<TR ><TD align="right">Bergungsger&#228;t MK2</TD>
+    <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+salvage_tool_prototype_level_3 [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#salvage_tool_mk3" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/equipment/salvage_tool_mk3.gif" /></TD>
+    <TD COLSPAN="2"><b>Tr&#252;mmerfelder (Stufe 3)</b></TD>
+</TR>
+<TR ><TD align="right">Bergungsger&#228;t MK3</TD>
+    <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+salvage_tool_mk4 [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#salvage_tool_mk4" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/equipment/salvage_tool_mk4.gif" /></TD>
+    <TD COLSPAN="2"><b>Fields of Wreckage (Level 4)</b></TD>
+</TR>
+<TR ><TD align="right">Salvage Tool MK4</TD>
+    <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+
+mk3_plentropian [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#mk3_plentropian" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/equipment/mk3_plentropian.gif" /></TD>
+    <TD COLSPAN="2"><b>MK3 (Plentropian)</b></TD>
+</TR>
+<TR ><TD align="right">Bergungsger&#228;t MKTropia (Plentropian)</TD>
+    <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+recovery_device_mkomega [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#recovery_device_mkomega" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/equipment/recovery_device_mkomega.gif" /></TD>
+    <TD COLSPAN="2"><b>Recovery Device MKOmega (Zuup)</b></TD>
+</TR>
+<TR ><TD align="right">Bergungsger&#228;t MKOmega (Zuup)</TD>
+    <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+
+
+
+//cargo
+transport_facilities_in_space [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#cargo_s" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/equipment/cargo_s.gif" /></TD>
+    <TD COLSPAN="2"><b>Transportm&#246;glichkeiten im Weltraum</b></TD>
+</TR>
+<TR ><TD align="right">Cargo S</TD>
+    <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+increased_load_volume [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#cargo_m" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/equipment/cargo_m.gif" /></TD>
+    <TD COLSPAN="2"><b>Größerer Laderaum</b></TD>
+</TR>
+<TR ><TD align="right">Cargo M</TD>
+    <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+cargo_m_plus [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#cargo_m_plus" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/equipment/cargo_m_plus.gif" /></TD>
+    <TD COLSPAN="2"><b>Increased Load Volume Elite</b></TD>
+</TR>
+<TR ><TD align="right">Cargo M+</TD>
+    <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+masstransport [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#cargo_l" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/equipment/cargo_l.gif" /></TD>
+    <TD COLSPAN="2"><b>Massentransport</b></TD>
+</TR>
+<TR ><TD align="right">Cargo L</TD>
+    <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+effective_spacial_use [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#extended_cargo" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/equipment/extended_cargo.gif" /></TD>
+    <TD COLSPAN="2"><b>Effektive Raumnutzung</b></TD>
+</TR>
+<TR ><TD align="right">Erweiterter Laderaum</TD>
+    <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+maximize_load_volume_cargo_270 [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#cargo_270" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/equipment/cargo_270.gif" /></TD>
+    <TD COLSPAN="2"><b>Laderaum Planung</b></TD>
+</TR>
+<TR ><TD align="right">Cargo 270</TD>
+    <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+maximize_load_volume_cargo_290 [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#cargo_290" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/equipment/cargo_290.gif" /></TD>
+    <TD COLSPAN="2"><b>Laderaum optimieren</b></TD>
+</TR>
+<TR ><TD align="right">Cargo 290</TD>
+    <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+maximize_load_volume_cargo_300 [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#cargo_300" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/equipment/cargo_300.gif" /></TD>
+    <TD COLSPAN="2"><b>Laderaum Vergr&#246;ßerung</b></TD>
+</TR>
+<TR ><TD align="right">Cargo 300</TD>
+    <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+optimal_loading_space [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#cargo_310" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/equipment/cargo_310.gif" /></TD>
+    <TD COLSPAN="2"><b>Optimale Laderaumnutzung</b></TD>
+</TR>
+<TR ><TD align="right">Cargo 310</TD>
+    <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+maximize_load_volume_cargo_320 [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#cargo_320" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/equipment/cargo_320.gif" /></TD>
+    <TD COLSPAN="2"><b>Laderaum maximieren</b></TD>
+</TR>
+<TR ><TD align="right">Cargo 320</TD>
+    <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+additional_loading_space [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#cargo_350" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/equipment/cargo_350.gif" /></TD>
+    <TD COLSPAN="2"><b>Zus&#228;tzlicher Laderaum </b></TD>
+</TR>
+<TR ><TD align="right">Cargo 350</TD>
+    <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+cargo_plentropian [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#cargo_plentropian" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/equipment/cargo_plentropian.gif" /></TD>
+    <TD COLSPAN="2"><b>Cargo XL (Plentropian)</b></TD>
+</TR>
+<TR ><TD align="right">Cargo XL (Plentropian)</TD>
+    <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+cargo_plentropian_elite [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#cargo_plentropian_elite" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/equipment/cargo_plentropian_elite.gif" /></TD>
+    <TD COLSPAN="2"><b>Cargo XL Elite (Plentropian)</b></TD>
+</TR>
+<TR ><TD align="right">Cargo XL Elite (Plentropian)</TD>
+    <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+cargo_storage_optimize_human [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#cargo_terra" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/equipment/cargo_terra.gif" /></TD>
+    <TD COLSPAN="2"><b>Cargo Terra (Human)</b></TD>
+</TR>
+<TR ><TD align="right">Cargo Terra (Human)</TD>
+    <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+mag_cargo_mini_magumer [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#mag_cargo_mini_magumer" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/equipment/mag_cargo_mini_magumer.gif" /></TD>
+    <TD COLSPAN="2"><b>Mag Cargo Mini (Magumer)</b></TD>
+</TR>
+<TR ><TD align="right">Mag Cargo Mini (Magumer)</TD>
+    <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+mag_jumbo_cargo_magumer [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#mag_cargo_jumbo_magumer" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/equipment/mag_cargo_jumbo_magumer.gif" /></TD>
+    <TD COLSPAN="2"><b>Mag Jumbo Cargo (Magumer)</b></TD>
+</TR>
+<TR ><TD align="right">Mag Jumbocargo (Magumer)</TD>
+    <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+
+
+
+
+//cloak
+
+cloaking [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#impulse_cloaking_shield" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/equipment/impulse_cloaking_shield.gif" /></TD>
+    <TD COLSPAN="2"><b>Tarnung</b></TD>
+</TR>
+<TR ><TD align="right">Krypton Tarnschild</TD>
+    <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+extended_stealth [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#large_impulse_cloaking_shield" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/equipment/large_impulse_cloaking_shield.gif" /></TD>
+    <TD COLSPAN="2"><b>Erweiterte Tarnung</b></TD>
+</TR>
+<TR ><TD align="right">Impulsverst&#228;rkter Tarnschild</TD>
+    <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+cloaking_for_big_fleets [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#large_fleet_cloaking_shield" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/equipment/large_fleet_cloaking_shield.gif" /></TD>
+    <TD COLSPAN="2"><b>Großflotten-Tarnung</b></TD>
+</TR>
+<TR ><TD align="right">Großflotten-Tarnschild</TD>
+    <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+
+
+
+//colo mod
+colonize_planets [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#colonizations_module" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/equipment/colonizations_module.gif" /></TD>
+    <TD COLSPAN="2"><b>Besiedlung von Planeten</b></TD>
+</TR>
+<TR ><TD align="right">Kolonialisierungsmodul</TD>
+    <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+
+//scan
+scan [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#espionage_antenna" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/equipment/espionage_antenna.gif" /></TD>
+    <TD COLSPAN="2"><b>Scannen</b></TD>
+</TR>
+<TR ><TD align="right">Spionageantenne</TD>
+    <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+new_scan_technology [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#splinter" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/equipment/splinter.gif" /></TD>
+    <TD COLSPAN="2"><b>Neue Scan-Technologie</b></TD>
+</TR>
+<TR ><TD align="right">Splinter</TD>
+    <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+shockwaves [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#horch_iii" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/equipment/horch_iii.gif" /></TD>
+    <TD COLSPAN="2"><b>Druckwellen</b></TD>
+</TR>
+<TR ><TD align="right">H.Orch III</TD>
+    <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+enhance_shockwaves [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#horch_iv" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/equipment/horch_iv.gif" /></TD>
+    <TD COLSPAN="2"><b>Druckwellen verst&#228;rken</b></TD>
+</TR>
+<TR ><TD align="right">H.Orch IV</TD>
+    <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+energy_waves_scan [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#at4" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/equipment/at4.gif" /></TD>
+    <TD COLSPAN="2"><b>Energiewellen Scan</b></TD>
+</TR>
+<TR ><TD align="right">AT4</TD>
+    <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+maximize_shockwaves [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#horch_v" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/equipment/horch_v.gif" /></TD>
+    <TD COLSPAN="2"><b>Druckwellenverst&#228;rkung maximieren</b></TD>
+</TR>
+<TR ><TD align="right">H.Orch V</TD>
+    <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+enhanced_splinter [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#splinter_2" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/equipment/splinter_2.gif" /></TD>
+    <TD COLSPAN="2"><b>Erweiterter Splinter</b></TD>
+</TR>
+<TR ><TD align="right">Splinter 2</TD>
+    <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+new_scantechnologie_anemu [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#anemu" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/equipment/anemu.gif" /></TD>
+    <TD COLSPAN="2"><b>Neue Scan-Technologie</b></TD>
+</TR>
+<TR ><TD align="right">Anemu</TD>
+    <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+
+new_scantechnologie_for_dix_prime [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#for_dix_prime" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/equipment/for_dix_prime.gif" /></TD>
+    <TD COLSPAN="2"><b>New Scan-Technology</b></TD>
+</TR>
+<TR ><TD align="right">For dix Prime</TD>
+    <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+new_scantechnologie_jyief [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#jyief" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/equipment/jyief.gif" /></TD>
+    <TD COLSPAN="2"><b>Neue Scan-Technologie</b></TD>
+</TR>
+<TR ><TD align="right">Jyief</TD>
+    <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+
+
+jyeif_xt_magumer [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#jyief_xt" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/equipment/jyief_xt.gif" /></TD>
+    <TD COLSPAN="2"><b>Jyeif XT (Magumer)</b></TD>
+</TR>
+<TR ><TD align="right">Jyief XT (Magumer)</TD>
+    <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+jyeif_20_human [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#jyief_2_0" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/equipment/jyief_2_0.gif" /></TD>
+    <TD COLSPAN="2"><b>Jyeif 2.0 (Human)</b></TD>
+</TR>
+<TR ><TD align="right">Jyeif 2.0 (Human)</TD>
+    <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+
+
+//troop transporter
+transport_of_ground_troops [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#troop_transporter_module" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/equipment/troop_transporter_module.gif" /></TD>
+    <TD COLSPAN="2"><b>Transport von Bodentruppen</b></TD>
+</TR>
+<TR ><TD align="right">Truppentransportmodul</TD>
+    <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+compact_troop_transporter [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#troop_transporter_20k" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/equipment/troop_transporter_20k.gif" /></TD>
+    <TD COLSPAN="2"><b>Kompakter Truppentransport</b></TD>
+</TR>
+<TR ><TD align="right">Truppentransport 20k</TD>
+    <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+spacesaving_transporter[margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#troop_transporter_30k" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/equipment/troop_transporter_30k.gif" /></TD>
+    <TD COLSPAN="2"><b>Platzsparende Einheitenbef&#246;rderung</b></TD>
+</TR>
+<TR ><TD align="right">Platzsparende Einheitenbef&#246;rderung</TD>
+    <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+
+higher_troopcapacity [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#troop_transporter_40k" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/equipment/troop_transporter_40k.gif" /></TD>
+    <TD COLSPAN="2"><b>H&#246;heres Truppen-Fassungsverm&#246;gen</b></TD>
+</TR>
+<TR ><TD align="right">Truppentransporter 40k</TD>
+    <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+troops_transporter_50k [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#troop_transporter_50k" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/equipment/troop_transporter_50k.gif" /></TD>
+    <TD COLSPAN="2"><b>Massentransport</b></TD>
+</TR>
+<TR ><TD align="right">Truppentransporter 50k</TD>
+    <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+
+zuup_transporter_module_zuup [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#zuup_transport_module" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/equipment/zuup_transport_module.gif" /></TD>
+    <TD COLSPAN="2"><b>Zuup'sches Transportmodul (Zuup)</b></TD>
+</TR>
+<TR ><TD align="right">Zuup'sches Transportmodul (Zuup)</TD>
+    <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+invasion_module_ozoid [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#invasion_module_ozid" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/equipment/invasion_module_ozid.gif" /></TD>
+    <TD COLSPAN="2"><b>Ozoidisches Invasionsmodul (Ozoid)</b></TD>
+</TR>
+<TR ><TD align="right">Ozoidisches Invasionsmodul (Ozoid)</TD>
+    <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+invasion_module_ozid_elite [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#invasion_module_ozid_elite" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/equipment/invasion_module_ozid_elite.gif" /></TD>
+    <TD COLSPAN="2"><b>Invasion Module Ozoid Elite (Ozoid)</b></TD>
+</TR>
+<TR ><TD align="right">Invasion Module Ozoid Elite (Ozoid)</TD>
+    <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+mini_troop_transport_module_weganer [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#mini_troop_transport_module_weganer" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/equipment/mini_troop_transport_module_weganer.gif" /></TD>
+    <TD COLSPAN="2"><b>Mini Truppentransportmodul (Weganer)</b></TD>
+</TR>
+<TR ><TD align="right">Mini Truppentransportmodul (Weganer)</TD>
+    <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+jumbo_troop_transport_module_weganer [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#jumbo_troop_transport_module_weganer" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/equipment/jumbo_troop_transport_module_weganer.gif" /></TD>
+    <TD COLSPAN="2"><b>Jumbo Truppentransportmodul (Weganer)</b></TD>
+</TR>
+<TR ><TD align="right">Jumbo Truppentransportmodul (Weganer)</TD>
+    <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+
+//tank
+tank_capacity [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#tank" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/equipment/tank.gif" /></TD>
+    <TD COLSPAN="2"><b>Tank</b></TD>
+</TR>
+<TR ><TD align="right">Tank</TD>
+    <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+extended_tank_medium_tank [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#medium_tank" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/equipment/medium_tank.gif" /></TD>
+    <TD COLSPAN="2"><b>Gr&#246;ßerer Tank</b></TD>
+</TR>
+<TR ><TD align="right">Mittlerer Tank</TD>
+    <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+extended_tank_large_tank [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#large_tank" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/equipment/large_tank.gif" /></TD>
+    <TD COLSPAN="2"><b>Gr&#246;ßerer Tank</b></TD>
+</TR>
+<TR ><TD align="right">Großer Tank</TD>
+    <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+large_tank_elite [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#large_tank_elite" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/equipment/large_tank_elite.gif" /></TD>
+    <TD COLSPAN="2"><b>Extended Tank Elite</b></TD>
+</TR>
+<TR ><TD align="right">Large Tank Elite</TD>
+    <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+mini_tank_plentropian [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#large_tank_plentrop" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/equipment/large_tank_plentrop.gif" /></TD>
+    <TD COLSPAN="2"><b>Plentropischer Minitank (Plentropian)</b></TD>
+</TR>
+<TR ><TD align="right">Plentropischer Minitank (Plentropian)</TD>
+    <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+jumbo_tank_plentropian [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#large_tank_plentrop_max" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/equipment/large_tank_plentrop_max.gif" /></TD>
+    <TD COLSPAN="2"><b>Plentropischer Jumbotank (Plentropian)</b></TD>
+</TR>
+<TR ><TD align="right">Plentropischer Jumbotank (Plentropian)</TD>
+    <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+
+
+
+//building
+
+interstellar_trade [margin=0, style=bold, label=<
+<TABLE color="azure4" border="4" cellborder="0"  HREF="../../de/bauwerke#trade" TARGET="_blank">
+<TR><TD  ROWSPAN="2" HEIGHT="40"><IMG SRC="img/building/trade.png" /></TD>
+    <TD COLSPAN="2"><b>Interstellarer Handel</b></TD>
+</TR>
+<TR ><TD align="right">Handelposten</TD>
+     <TD align="left"><IMG SRC="img/research_field/miscellaneous.png" /></TD>
+</TR>
+</TABLE>>]
+
+
+
+improved_system_of_government [margin=0, style=bold, label=<
+<TABLE color="azure4" border="4" cellborder="0"  HREF="../../de/bauwerke#gov" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/building/gov.png" /></TD>
+    <TD COLSPAN="2"><b>Verbessertes Regierungssystem</b></TD>
+</TR>
+<TR ><TD align="right">Regierungsgeb&#228;ude</TD>
+     <TD align="left"><IMG SRC="img/research_field/miscellaneous.png" /></TD>
+</TR>
+</TABLE>>]
+
+
+university [margin=0, style=bold, label=<
+<TABLE color="azure4" border="4" cellborder="0"  HREF="../../de/bauwerke#univ" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/building/univ.png" /></TD>
+    <TD COLSPAN="2"><b>Universit&#228;t</b></TD>
+</TR>
+<TR ><TD align="right">Universit&#228;t</TD>
+     <TD align="left"><IMG SRC="img/research_field/miscellaneous.png" /></TD>
+</TR>
+</TABLE>>]
+
+long_range_communication [margin=0, style=bold, label=<
+<TABLE color="azure4" border="4" cellborder="0"  HREF="../../de/bauwerke#com_center" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/building/com_center.png" /></TD>
+    <TD COLSPAN="2"><b>Kommunikation &#252;ber weite Strecken</b></TD>
+</TR>
+<TR ><TD align="right">Kommunikationszentrale</TD>
+     <TD align="left"><IMG SRC="img/research_field/miscellaneous.png" /></TD>
+</TR>
+</TABLE>>]
+
+
+shipyard [margin=0, style=bold, label=<
+<TABLE color="azure4" border="4" cellborder="0"  HREF="../../de/bauwerke#shipyard" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/building/shipyard.png" /></TD>
+    <TD COLSPAN="2"><b>Schiffswerft</b></TD>
+</TR>
+<TR ><TD align="right">Schiffswerft</TD>
+     <TD align="left"><IMG SRC="img/research_field/miscellaneous.png" /></TD>
+</TR>
+</TABLE>>]
+
+ground_battle [margin=0, style=bold, label=<
+<TABLE color="azure4" border="4" cellborder="0"  HREF="../../de/bauwerke#barracks" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/building/barracks.png" /></TD>
+    <TD COLSPAN="2"><b>Bodenkampf</b></TD>
+</TR>
+<TR ><TD align="right">Kaserne</TD>
+     <TD align="left"><IMG SRC="img/research_field/miscellaneous.png" /></TD>
+</TR>
+</TABLE>>]
+
+securing_of_ressources [margin=0, style=bold, label=<
+<TABLE color="azure4" border="4" cellborder="0"  HREF="../../de/bauwerke#bunker" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/building/bunker.png" /></TD>
+    <TD COLSPAN="2"><b>Sicherung von Rohstoffen</b></TD>
+</TR>
+<TR ><TD align="right">Bunker</TD>
+     <TD align="left"><IMG SRC="img/research_field/miscellaneous.png" /></TD>
+</TR>
+</TABLE>>]
+
+dock [margin=0, style=bold, label=<
+<TABLE color="azure4" border="4" cellborder="0"  HREF="../../de/bauwerke#dock" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/building/dock.png" /></TD>
+    <TD COLSPAN="2"><b>Schiffsdock</b></TD>
+</TR>
+<TR ><TD align="right">Dock</TD>
+     <TD align="left"><IMG SRC="img/research_field/miscellaneous.png" /></TD>
+</TR>
+</TABLE>>]
+
+
+
+//ressources
+
+more_effective_titanium_mining [margin=0, style=bold, label=<
+<TABLE color="azure4" border="4" cellborder="0">
+<TR><TD ROWSPAN="2"><IMG SRC="img/ressource/titanium.png" /></TD>
+    <TD COLSPAN="2"><b>Effektivere Titan-Gewinnung</b></TD>
+</TR>
+<TR ><TD align="right">+25% Effizienz-Steigerung</TD>
+     <TD align="left"><IMG SRC="img/research_field/miscellaneous.png" /></TD>
+</TR>
+</TABLE>>]
+
+more_effective_copper_mining [margin=0, style=bold, label=<
+<TABLE color="azure4" border="4" cellborder="0">
+<TR><TD ROWSPAN="2"><IMG SRC="img/ressource/copper.png" /></TD>
+    <TD COLSPAN="2"><b>Effektivere Kupfer-Gewinnung</b></TD>
+</TR>
+<TR ><TD align="right">+25% Effizienz-Steigerung</TD>
+     <TD align="left"><IMG SRC="img/research_field/miscellaneous.png" /></TD>
+</TR>
+</TABLE>>]
+
+
+
+more_effective_iron_mining [margin=0, style=bold, label=<
+<TABLE color="azure4" border="4" cellborder="0">
+<TR><TD ROWSPAN="2"><IMG SRC="img/ressource/iron.png" /></TD>
+    <TD COLSPAN="2"><b>Effektivere Eisen-Gewinnung</b></TD>
+</TR>
+<TR ><TD align="right">+25% Effizienz-Steigerung</TD>
+     <TD align="left"><IMG SRC="img/research_field/miscellaneous.png" /></TD>
+</TR>
+</TABLE>>]
+
+more_effective_aluminium_mining [margin=0, style=bold, label=<
+<TABLE color="azure4" border="4" cellborder="0">
+<TR><TD ROWSPAN="2"><IMG SRC="img/ressource/aluminium.png" /></TD>
+    <TD COLSPAN="2"><b>Effektivere Aluminium-Gewinnung</b></TD>
+</TR>
+<TR ><TD align="right">+25% Effizienz-Steigerung</TD>
+     <TD align="left"><IMG SRC="img/research_field/miscellaneous.png" /></TD>
+</TR>
+</TABLE>>]
+
+more_effective_silicon_mining [margin=0, style=bold, label=<
+<TABLE color="azure4" border="4" cellborder="0">
+<TR><TD ROWSPAN="2"><IMG SRC="img/ressource/silicon.png" /></TD>
+    <TD COLSPAN="2"><b>Effektivere Silizium-Gewinnung</b></TD>
+</TR>
+<TR ><TD align="right">+25% Effizienz-Steigerung</TD>
+     <TD align="left"><IMG SRC="img/research_field/miscellaneous.png" /></TD>
+</TR>
+</TABLE>>]
+
+more_effective_uranium_mining [margin=0, style=bold, label=<
+<TABLE color="azure4" border="4" cellborder="0">
+<TR><TD ROWSPAN="2"><IMG SRC="img/ressource/uranium.png" /></TD>
+    <TD COLSPAN="2"><b>Effektivere Uran-Gewinnung</b></TD>
+</TR>
+<TR ><TD align="right">+25% Effizienz-Steigerung</TD>
+     <TD align="left"><IMG SRC="img/research_field/miscellaneous.png" /></TD>
+</TR>
+</TABLE>>]
+
+more_effective_nitrogen_extraction [margin=0, style=bold, label=<
+<TABLE color="azure4" border="4" cellborder="0">
+<TR><TD ROWSPAN="2"><IMG SRC="img/ressource/nitrogen.png" /></TD>
+    <TD COLSPAN="2"><b>Effektivere Stickstoff-Gewinnung</b></TD>
+</TR>
+<TR ><TD align="right">+25% Effizienz-Steigerung</TD>
+     <TD align="left"><IMG SRC="img/research_field/miscellaneous.png" /></TD>
+</TR>
+</TABLE>>]
+
+
+more_effective_hydrogene_mining [margin=0, style=bold, label=<
+<TABLE color="azure4" border="4" cellborder="0">
+<TR><TD ROWSPAN="2"><IMG SRC="img/ressource/hydrogen.png" /></TD>
+    <TD COLSPAN="2"><b>Effektivere Wasserstoff-Gewinnung</b></TD>
+</TR>
+<TR ><TD align="right">+25% Effizienz-Steigerung</TD>
+     <TD align="left"><IMG SRC="img/research_field/miscellaneous.png" /></TD>
+</TR>
+</TABLE>>]
+
+
+
+ressource_facilities_efficiency_enhancement [margin=0, style=bold, label=<
+<TABLE color="azure4" border="4" cellborder="0">
+<TR><TD ROWSPAN="2"><IMG SRC="img/building/res_facility.png" /></TD>
+    <TD COLSPAN="2"><b>Effizienz-Steigerung - Rohstoffwerke</b></TD>
+</TR>
+<TR ><TD align="right">+2 rohstoffwerke gleichzeitig bauen</TD>
+     <TD align="left"><IMG SRC="img/research_field/miscellaneous.png" /></TD>
+</TR>
+</TABLE>>]
+
+
+additional_ressource_mining [margin=0, style=bold, label=<
+<TABLE color="azure4" border="4" cellborder="0">
+<TR><TD ROWSPAN="2"><IMG SRC="img/building/res_facility.png" /></TD>
+    <TD COLSPAN="2"><b>Mehr Rohstoffabbau</b></TD>
+</TR>
+<TR ><TD align="right">+2 rohstoffwerke gleichzeitig bauen</TD>
+     <TD align="left"><IMG SRC="img/research_field/miscellaneous.png" /></TD>
+</TR>
+</TABLE>>]
+
+increased_production_rate [margin=0, style=bold, label=<
+<TABLE color="azure4" border="4" cellborder="0">
+<TR><TD ROWSPAN="2"><IMG SRC="img/building/res_facility.png" /></TD>
+    <TD COLSPAN="2"><b>Erh&#246;hte Produktionsrate</b></TD>
+</TR>
+<TR ><TD align="right">+5 rohstoffwerke gleichzeitig bauen</TD>
+     <TD align="left"><IMG SRC="img/research_field/miscellaneous.png" /></TD>
+</TR>
+</TABLE>>]
+
+better_use_of_the_environment [margin=0, style=bold, label=<
+<TABLE color="azure4" border="4" cellborder="0">
+<TR><TD ROWSPAN="2"><IMG SRC="img/building/res_facility.png" /></TD>
+    <TD COLSPAN="2"><b>Bessere Umweltnutzung</b></TD>
+</TR>
+<TR ><TD align="right">+10 rohstoffwerke gleichzeitig bauen</TD>
+     <TD align="left"><IMG SRC="img/research_field/miscellaneous.png" /></TD>
+</TR>
+</TABLE>>]
+
+res_100 [margin=0, style=bold, label=<
+<TABLE color="azure4" border="4" cellborder="0">
+<TR><TD ROWSPAN="2"><IMG SRC="img/building/res_facility.png" /></TD>
+    <TD COLSPAN="2"><b>Optimale Abbaueffizienz</b></TD>
+</TR>
+<TR ><TD align="right">100% Effizienz-Steigerung f&#252;r alle ressourcen</TD>
+     <TD align="left"><IMG SRC="img/research_field/miscellaneous.png" /></TD>
+</TR>
+</TABLE>>]
+
+
+//colonization
+first_colony [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0">
+<TR><TD ROWSPAN="2"><IMG SRC="img/colo/planet2.png" /></TD>
+    <TD COLSPAN="2"><b>Erste Kolonie</b></TD>
+</TR>
+<TR ><TD align="right">Kolonisierung der ersten kolonie</TD>
+     <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+planet_research_first [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0">
+<TR><TD ROWSPAN="2"><IMG SRC="img/building/control_center.png" /></TD>
+    <TD COLSPAN="2"><b>Planet erforschen</b></TD>
+</TR>
+<TR ><TD align="right">Freischaltung Geb&#228;udebau auf ersten kolonie</TD>
+     <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+
+second_colony [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0">
+<TR><TD ROWSPAN="2"><IMG SRC="img/colo/planet3.png" /></TD>
+    <TD COLSPAN="2"><b>Zweite Kolonie</b></TD>
+</TR>
+<TR ><TD align="right">Kolonisierung der zweiten kolonie</TD>
+     <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+planet_research_second [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0">
+<TR><TD ROWSPAN="2"><IMG SRC="img/building/control_center.png" /></TD>
+    <TD COLSPAN="2"><b>Planet erforschen</b></TD>
+</TR>
+<TR ><TD align="right">Freischaltung Geb&#228;udebau auf zweiten kolonie</TD>
+     <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+
+third_colony [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0">
+<TR><TD ROWSPAN="2"><IMG SRC="img/colo/planet4.png" /></TD>
+    <TD COLSPAN="2"><b>Dritte Kolonie</b></TD>
+</TR>
+<TR ><TD align="right">Kolonisierung der dritten kolonie</TD>
+     <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+planet_research_third [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0">
+<TR><TD ROWSPAN="2"><IMG SRC="img/building/control_center.png" /></TD>
+    <TD COLSPAN="2"><b>Planet erforschen</b></TD>
+</TR>
+<TR ><TD align="right">Freischaltung Geb&#228;udebau auf dritter kolonie</TD>
+     <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+fourth_colony [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0">
+<TR><TD ROWSPAN="2"><IMG SRC="img/colo/planet5.png" /></TD>
+    <TD COLSPAN="2"><b>Vierte Kolonie</b></TD>
+</TR>
+<TR ><TD align="right">Kolonisierung der vierten kolonie</TD>
+     <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+planet_research_fourth [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0">
+<TR><TD ROWSPAN="2"><IMG SRC="img/building/control_center.png" /></TD>
+    <TD COLSPAN="2"><b>Planet erforschen</b></TD>
+</TR>
+<TR ><TD align="right">Freischaltung Geb&#228;udebau auf vierter kolonie</TD>
+     <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+
+
+
+
+//tactics
+tactics [margin=0, style=bold, label=<
+<TABLE color="azure4" border="4" cellborder="0">
+<TR ><TD align="right"><b>Taktik</b></TD>
+     <TD align="left"><IMG SRC="img/research_field/miscellaneous.png" /></TD>
+</TR>
+</TABLE>>]
+
+
+better_defence [margin=0, style=bold, label=<
+<TABLE color="azure4" border="4" cellborder="0">
+<TR><TD ROWSPAN="2"><IMG SRC="img/tactics/echelon_left.png" /></TD>
+    <TD COLSPAN="2"><b>Bessere Verteidigung</b></TD>
+</TR>
+<TR ><TD align="right">Echelon Links</TD>
+     <TD align="left"><IMG SRC="img/research_field/miscellaneous.png" /></TD>
+</TR>
+</TABLE>>]
+
+better_attack [margin=0, style=bold, label=<
+<TABLE color="azure4" border="4" cellborder="0">
+<TR><TD ROWSPAN="2"><IMG SRC="img/tactics/echelon_right.png" /></TD>
+    <TD COLSPAN="2"><b>Besserer Angriff</b></TD>
+</TR>
+<TR ><TD align="right">Echelon Rechts</TD>
+     <TD align="left"><IMG SRC="img/research_field/miscellaneous.png" /></TD>
+</TR>
+</TABLE>>]
+
+surprise_attack [margin=0, style=bold, label=<
+<TABLE color="azure4" border="4" cellborder="0">
+<TR><TD ROWSPAN="2"><IMG SRC="img/tactics/ladder.png" /></TD>
+    <TD COLSPAN="2"><b>&#252;berraschender Angriff</b></TD>
+</TR>
+<TR ><TD align="right">Ladder</TD>
+     <TD align="left"><IMG SRC="img/research_field/miscellaneous.png" /></TD>
+</TR>
+</TABLE>>]
+
+effective_first_stricke [margin=0, style=bold, label=<
+<TABLE color="azure4" border="4" cellborder="0">
+<TR><TD ROWSPAN="2"><IMG SRC="img/tactics/inverted_ladder.png" /></TD>
+    <TD COLSPAN="2"><b>Effektiver Erstschlag</b></TD>
+</TR>
+<TR ><TD align="right">Invertierte Ladder</TD>
+     <TD align="left"><IMG SRC="img/research_field/miscellaneous.png" /></TD>
+</TR>
+</TABLE>>]
+
+concentrated_firepower [margin=0, style=bold, label=<
+<TABLE color="azure4" border="4" cellborder="0">
+<TR><TD ROWSPAN="2"><IMG SRC="img/tactics/linebreast.png" /></TD>
+    <TD COLSPAN="2"><b>Konzentrierte Feuerkraft</b></TD>
+</TR>
+<TR ><TD align="right">Linebreast</TD>
+     <TD align="left"><IMG SRC="img/research_field/miscellaneous.png" /></TD>
+</TR>
+</TABLE>>]
+
+focused_defence [margin=0, style=bold, label=<
+<TABLE color="azure4" border="4" cellborder="0">
+<TR><TD ROWSPAN="2"><IMG SRC="img/tactics/diamond.png" /></TD>
+    <TD COLSPAN="2"><b>Zielgerichtete Verteidigung</b></TD>
+</TR>
+<TR ><TD align="right">Diamond</TD>
+     <TD align="left"><IMG SRC="img/research_field/miscellaneous.png" /></TD>
+</TR>
+</TABLE>>]
+
+universal_approach [margin=0, style=bold, label=<
+<TABLE color="azure4" border="4" cellborder="0">
+<TR><TD ROWSPAN="2"><IMG SRC="img/tactics/trail.png" /></TD>
+    <TD COLSPAN="2"><b>Universelles Vorgehen</b></TD>
+</TR>
+<TR ><TD align="right">Trial</TD>
+     <TD align="left"><IMG SRC="img/research_field/miscellaneous.png" /></TD>
+</TR>
+</TABLE>>]
+
+scattered_approach [margin=0, style=bold, label=<
+<TABLE color="azure4" border="4" cellborder="0">
+<TR><TD ROWSPAN="2"><IMG SRC="img/tactics/wedge.png" /></TD>
+    <TD COLSPAN="2"><b>Verstreutes Vorgehen</b></TD>
+</TR>
+<TR ><TD align="right">Wedge</TD>
+     <TD align="left"><IMG SRC="img/research_field/miscellaneous.png" /></TD>
+</TR>
+</TABLE>>]
+
+
+//bonus
+damage_bonus_for_space_combat [margin=0, style=bold, label=<
+<TABLE color="azure4" border="4" cellborder="0">
+<TR><TD ><IMG SRC="img/research_field_big/weapons.png" /></TD>
+    <TD align="right"><b>Schadensbonus im Raumkampf</b></TD>
+    <TD align="left"><IMG SRC="img/research_field/weapons.png" /></TD>
+</TR>
+</TABLE>>]
+
+scan_booster [margin=0, style=bold, label=<
+<TABLE color="azure4" border="4" cellborder="0">
+<TR><TD ><IMG SRC="img/research_field_big/equipment.png" /></TD>
+    <TD align="right"><b>Scanbooster</b></TD>
+    <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+defense_bonus_for_space_combat [margin=0, style=bold, label=<
+<TABLE color="azure4" border="4" cellborder="0">
+<TR><TD ><IMG SRC="img/research_field_big/defence.png" /></TD>
+    <TD align="right"><b>Verteidigungsbonus im Raumkampf</b></TD>
+    <TD align="left"><IMG SRC="img/research_field/defence.png" /></TD>
+</TR>
+</TABLE>>]
+
+maneuverability_bonus_for_space_combat [margin=0, style=bold, label=<
+<TABLE color="azure4" border="4" cellborder="0">
+<TR><TD ><IMG SRC="img/research_field_big/chassis.png" /></TD>
+    <TD align="right"><b>Man&#246;vrierf&#228;higkeitsbonus im Raumkampf</b></TD>
+    <TD align="left"><IMG SRC="img/research_field/chassis.png" /></TD>
+</TR>
+</TABLE>>]
+
+drive_bonus [margin=0, style=bold, label=<
+<TABLE color="azure4" border="4" cellborder="0">
+<TR><TD ><IMG SRC="img/research_field_big/engine.png" /></TD>
+    <TD align="right"><b>Antriebsbonus</b></TD>
+    <TD align="left"><IMG SRC="img/research_field/engine.png" /></TD>
+</TR>
+</TABLE>>]
+
+damage_bonus_for_ground_battle [margin=0, style=bold, label=<
+<TABLE color="azure4" border="4" cellborder="0">
+<TR><TD ><IMG SRC="img/research_field_big/miscellaneous.png" /></TD>
+    <TD align="right"><b>Truppenbonus im Bodenkampf</b></TD>
+    <TD align="left"><IMG SRC="img/research_field/miscellaneous.png" /></TD>
+</TR>
+</TABLE>>]
+
+
+//troops
+infantry [margin=0, style=bold, label=<
+<TABLE color="red3" border="4" cellborder="0">
+<TR><TD ROWSPAN="2"><IMG SRC="img/troop.png" /></TD>
+    <TD COLSPAN="2"><b>Infanterie</b></TD>
+</TR>
+<TR ><TD align="right">Pionier(s)</TD>
+     <TD align="left"><IMG SRC="img/research_field/weapons.png" /></TD>
+</TR>
+</TABLE>>]
+
+paratroop [margin=0, style=bold, label=<
+<TABLE color="red3" border="4" cellborder="0">
+<TR><TD ROWSPAN="2"><IMG SRC="img/troop.png" /></TD>
+    <TD COLSPAN="2"><b>Fallschirmj&#228;ger</b></TD>
+</TR>
+<TR ><TD align="right">Fallschirmj&#228;ger</TD>
+     <TD align="left"><IMG SRC="img/research_field/weapons.png" /></TD>
+</TR>
+</TABLE>>]
+
+
+gun_mortar [margin=0, style=bold, label=<
+<TABLE color="red3" border="4" cellborder="0">
+<TR><TD ROWSPAN="2"><IMG SRC="img/troop.png" /></TD>
+    <TD COLSPAN="2"><b>M&#246;rser</b></TD>
+</TR>
+<TR ><TD align="right">M&#246;rser</TD>
+     <TD align="left"><IMG SRC="img/research_field/weapons.png" /></TD>
+</TR>
+</TABLE>>]
+
+//other
+space_travel [margin=0, style=bold, label=<
+<TABLE color="azure4" border="4" cellborder="0">
+<TR ><TD align="right"><b>Raumfahrt</b></TD>
+     <TD align="left"><IMG SRC="img/research_field/miscellaneous.png" /></TD>
+</TR>
+</TABLE>>]
+
+
+
+
+
+
+
+
+
+//#################################################################
+//#################################################################
+//#################################################################
+//#################################################################
+
+//below is the same for all languages
+
+
+
+
+
+//RC lvl 1
+{rank = same; "research_facility_expansion_1"; "space_travel";
+ "interstellar_trade"; "improved_system_of_government"; "university";}
+//RC lvl 1a
+{rank = same;
+"engine_techniques";"coherent_resonators";}
+
+
+//RC lvl 2
+{rank = same; "research_facility_expansion_2";
+"more_effective_iron_mining";"additional_ressource_mining";"ground_battle";"cloaking";"simple_impulse_drive";"stronger_reconnaissance_ship";}
+//RC lvl 2a
+{rank = same;
+"infantry";"projectiles";"light_speed";"bundling_of_impulse";}
+
+//RC lvl 3
+{rank = same; "research_facility_expansion_3";
+"more_effective_aluminium_mining";"more_effective_hydrogene_mining";"scan";"armor";"stronger_detonation";
+"impulsebooster";"ions";"modular_construction";"paratroop";"transport_facilities_in_space";}
+//RC lvl 3a
+{rank = same; "tactics"; "dynamics_field_voltage";"advanced_energy_field";"increased_load_volume";"asteroid_fields";"fields_of_wreckage";}
+
+
+//RC lvl 4
+{rank = same; "research_facility_expansion_4";"laser_impulses";"maximized_energy_field";
+"improved_penetration";"improved_torpedo_head";"increased_ionfirepower";"more_effective_silicon_mining";
+"more_effective_uranium_mining";
+"better_defence";"surprise_attack";"concentrated_firepower";"universal_approach";
+"shockwaves";}
+
+//RC lvl 5
+{rank = same;"research_facility_expansion_5";"enhance_shockwaves";"better_heat_protection";"reconnaissance_ship";
+"wee1_upgrade";"transport_of_ground_troops";"large_laser";
+"protective_shield";"increased_production_rate";
+"better_attack";"effective_first_stricke";"focused_defence";"scattered_approach";
+"more_effective_nitrogen_extraction";
+effective_spacial_use
+}
+
+//RC lvl 6
+{rank = same;"research_facility_expansion_6";
+"advanced_hunter";
+"ion_fusion";
+"blaster_advancement_blaster_ext";
+"hardened_armour";
+"new_scan_technology";
+"stungo_extreme";
+"compact_troop_transporter";
+"maximize_shockwaves";
+"maximize_load_volume_cargo_300";
+"asteroid_fields_level_2";
+"damage_bonus_for_space_combat";"scan_booster";"defense_bonus_for_space_combat";
+"maneuverability_bonus_for_space_combat";"drive_bonus";"damage_bonus_for_ground_battle";
+"gun_mortar";
+"planet_research_first_invisible";}
+
+//RC lvl 6 a
+{rank = "same";
+"scorpion";"_50_mw_shield";}
+
+
+//RC lvl 7
+{rank = same;"research_facility_expansion_7";
+"blaster_advancement_blaster_rapid";
+"hardened_armour_ii";
+"energy_waves_scan";
+"extended_tank_medium_tank";
+"spacesaving_transporter";
+"enhanced_splinter";
+"optimal_loading_space";
+"ion_bundeling";
+"leviathan";
+"stronger_shield";
+"drailer";"nutter";}
+
+//RC lvl 8
+{rank = same;"research_facility_expansion_8";"better_use_of_the_environment";
+"blaster_doubling";
+"higher_troopcapacity";"new_scantechnologie_anemu";"usiel";"extended_tank_large_tank";
+"enhanced_ion_bundeling";"slit_enhancement";
+"structural_integrity";"improved_reconnaissance_ship";"new_battleship_dreadnought";
+"bemoth";"impulse1";"pahid";"new_blaster_treatment_blaster";"_115_mw_defense_shield";
+"new_battleship_leviathan";"second_colony";}
+
+
+
+//bbbb
+//RC lvl 9
+{rank = same;"research_facility_expansion_9";"impulse3";
+"pahid_3_upgrade";
+"maximize_load_volume_cargo_320";"_130_mw_defense_shield";
+"_160_mw_defense_shield";"_195_mw_defense_shield";
+"third_colony_invisible";
+"shortnose";
+"jumbo_tank_plentropian";
+"hydra_weganian";
+"hydra_magumian";
+"hydra_ozoid";
+"zuup_minilaser_zuup";
+"dub_nuf";
+"zuup_transporter_module_zuup";"invasion_module_ozoid";"mini_troop_transport_module_weganer";
+"ion_acceleration";
+"new_scantechnologie_jyief";}
+
+
+
+
+
+//RC lvl 10
+{rank = same;"research_facility_expansion_10";
+"masterk";
+"pahid_5";
+"mega_titan";
+"additional_loading_space";
+"_200_mw_defense_shield";
+"cloaking_for_big_fleets";
+"buran";
+"res_100";
+"cyjumbo_invisible";}
+
+
+
+
+{
+edge[style=dotted;color="white"];
+research_facility_expansion_1 -> research_facility_expansion_2 [label="Baue stufe 1 von allen verf&#252;gbaren geb&#228;uden",fontname="Droid Sans Mono",fontsize=15,style=dotted];
+research_facility_expansion_2 -> research_facility_expansion_3 -> research_facility_expansion_4 -> research_facility_expansion_5 ->
+research_facility_expansion_6 -> research_facility_expansion_7 -> research_facility_expansion_8 -> research_facility_expansion_9 ->
+ research_facility_expansion_10;
+
+
+
+university-> research_facility_expansion_2;
+improved_system_of_government-> research_facility_expansion_2;
+shipyard-> research_facility_expansion_2;
+}
+
+
+
+
+edge[color="lightsalmon4"]
+
+
+
+//Chassis
+//Destroyer
+space_travel-> exploration_of_space;
+long_range_communication-> exploration_of_space [constraint=false];
+engine_techniques -> space_hunter;
+baal->advanced_hunter;
+orbital_station_lvl_4->mesotron;
+leviathan->structural_integrity;
+system_defence->shortnose;
+
+//Firefly
+stronger_reconnaissance_ship->modular_construction;
+improved_reconnaissance_ship->system_defence;
+new_battleship_leviathan->system_defence;
+shortnose->teletron;
+advanced_hunter->great_warpship;
+leviathan->improved_reconnaissance_ship;
+space_hunter->stronger_reconnaissance_ship;
+advanced_hunter->battleship;
+leviathan->new_battleship_dreadnought;
+shortnose->enhanced_dreadnought;
+
+//Cruiser
+modular_construction->reconnaissance_ship;
+advanced_hunter->new_battleship_behemoth;
+mach->zyklop;
+leviathan->bemoth;
+shortnose->mach;
+
+
+//Battleships
+mach->minotaurus;
+mega_titan->buran;
+minotaurus->buran;
+bemoth->mega_titan;
+mach->mega_titan;
+leviathan->new_battleship_leviathan;
+advanced_hunter->new_battleship_titan;
+
+//Space-station
+shipyard->hydra;
+reconnaissance_ship->baal;
+new_battleship_titan->leviathan;
+shortnose->orbital_station_lvl_4;
+orbital_station_lvl_4->bemoth_2;
+
+
+
+edge[color="green4"]
+//Engines
+//impulse
+hydra -> engine_techniques;
+space_hunter->simple_impulse_drive;
+stronger_reconnaissance_ship->bundling_of_impulse;
+bundling_of_impulse->impulsebooster;
+impulsebooster->dynamics_field_voltage;
+dynamics_field_voltage->gmt_advanced_extented;
+leviathan->impulse1;
+impulse1->impulse2;
+wee1_upgrade->impulse2;
+impulse2->impulse3;
+impulse3->impulse_cyborg;
+impulse3->jamov_imp;
+impulse3->impulse_mosoran;
+impulse3->ozoid_mini_impulse_ozoid;
+ozoid_mini_impulse_ozoid->ozoid_jumbo_impulse_ozoid;
+cyjumbo_invisible [margin=0 shape=none label=""];
+ozoid_jumbo_impulse_ozoid->cyjumbo_invisible [style=invis weight=0];
+//warp
+stronger_reconnaissance_ship->light_speed;
+simple_impulse_drive->light_speed;
+modular_construction->advanced_energy_field;
+advanced_energy_field->advanced_energy_field_extended;
+advanced_energy_field->maximized_energy_field;
+maximized_energy_field->wee1_upgrade;
+wee1_upgrade->improved_warp_control;
+advanced_hunter->improved_warp_control;
+leviathan->pahid;
+pahid->pahid_2;
+blaster_advancement_blaster_ext->pahid_2;
+pahid_2->pahid_3_upgrade;
+pahid_3_upgrade->pahid_4;
+pahid_4->pahid_5;
+pahid_5->pahid_6;
+pahid_5->pahid_jamazoid;
+pahid_5->pahid_magumar;
+pahid_5->pahid_mosoran;
+pahid_5->mini_warp_terra;
+mini_warp_terra->jumbo_warp_terra;
+
+
+edge[color="red3"]
+//weapons
+//projectiles
+stronger_reconnaissance_ship->projectiles;
+projectiles->stronger_detonation;
+stronger_detonation->improved_penetration;
+stronger_detonation->improved_torpedo_head;
+improved_penetration->stungo_extreme;
+stungo_extreme->scorpion;
+scorpion->drailer;
+drailer->masterk;
+scorpion->nutter;
+nutter->usiel;
+usiel->usiel_elite;
+masterk->master_w;
+masterk->master_z;
+masterk->master_m;
+masterk->jamo_project_mini;
+jamo_project_mini->jamo_project_jumbo;
+jamo_project_jumbo->jamo_project_jumbo_elite;
+//ions
+light_speed->ions;
+ions->increased_ionfirepower;
+increased_ionfirepower->ion_fusion;
+ion_fusion->ion_bundeling;
+ion_bundeling->enhanced_ion_bundeling;
+enhanced_ion_bundeling->miniion_cannon;
+miniion_cannon->ion_acceleration;
+ion_acceleration->igop_jamazoid;
+ion_acceleration->igop_magumar;
+ion_acceleration->igop_ozoidian;
+//laser
+hydra ->  coherent_resonators;
+coherent_resonators->efficient_cooling;
+efficient_cooling->laser_impulses;
+laser_impulses->large_laser;
+reconnaissance_ship->bundled_laser_beams;
+bundled_laser_beams->blaster_advancement_blaster_ext;
+blaster_advancement_blaster_ext->blaster_advancement_blaster_rapid;
+blaster_advancement_blaster_ext->new_blaster_treatment_blaster;
+leviathan->new_blaster_treatment_blaster;
+blaster_advancement_blaster_rapid->blaster_doubling;
+new_blaster_treatment_blaster->new_blaster_hydra_blaster;
+new_blaster_hydra_blaster->hydra_weganian;
+new_blaster_hydra_blaster->hydra_magumian;
+new_blaster_hydra_blaster->hydra_ozoid;
+hydra_ozoid->hydra_blaster_o2;
+new_blaster_hydra_blaster->zuup_minilaser_zuup;
+zuup_minilaser_zuup->zuuper_jumbo_laser_zuup;
+zuuper_jumbo_laser_zuup->zuuper_elite_jumbo_laser_zuup;
+
+
+
+//troops
+ground_battle->infantry;
+infantry->paratroop;
+paratroop->gun_mortar;
+
+
+
+//defence
+//resilience
+edge [color="darkslategray3"];
+stronger_reconnaissance_ship->armor;
+armor->better_heat_protection;
+better_heat_protection->metal_concentration;
+metal_concentration->cluster_alloy;
+cluster_alloy->hardened_armour;
+hardened_armour->hardened_armour_ii;
+hardened_armour_ii->slit_enhancement;
+slit_enhancement->licim;
+slit_enhancement->inamibo;
+licim->dub_nuf;
+dub_nuf->dub_nuf_elite;
+dub_nuf->dub_nuf_cy3000_cyborg;
+dub_nuf->dub_nuf_plentropian;
+dub_nuf->mini_armor_mosoran;
+mini_armor_mosoran->jumbo_armor_mosoran;
+
+//shield
+modular_construction->protective_shield;
+protective_shield->_50_mw_shield;
+_50_mw_shield->_50_mw_shield_elite;
+advanced_hunter->_50_mw_shield;
+_50_mw_shield->stronger_shield;
+_50_mw_shield->_115_mw_defense_shield;
+leviathan->_115_mw_defense_shield;
+_115_mw_defense_shield->_125_mw_defense_shield;
+_125_mw_defense_shield->_130_mw_defense_shield;
+_115_mw_defense_shield->_145_mw_defense_shield;
+_145_mw_defense_shield->_160_mw_defense_shield;
+_145_mw_defense_shield->_195_mw_defense_shield;
+_195_mw_defense_shield->_200_mw_defense_shield;
+_200_mw_defense_shield->_200_mw_plentropian;
+_200_mw_plentropian->plentrop_217_5mw;
+_200_mw_defense_shield->_200_mw_mosoran;
+_200_mw_mosoran->moso_s200mw_elite;
+_200_mw_defense_shield->cymini_shield_cybog;
+cymini_shield_cybog->jumbo_shield_cyborg;
+
+
+
+edge [color="darkgoldenrod2"];
+
+//Equipment
+//Mining laser
+transport_facilities_in_space->asteroid_fields;
+asteroid_fields->asteroid_fields_level_2;
+maximize_load_volume_cargo_290->asteroid_fields_level_2;
+asteroid_fields_level_2->asteroid_fields_level_3;
+additional_loading_space->asteroid_fields_level_3;
+asteroid_fields_level_3->mining_laser_mk4;
+asteroid_fields_level_3->mk3_weganian;
+asteroid_fields_level_3->mk3_plentropian;
+
+//salvage tool
+transport_facilities_in_space->fields_of_wreckage;
+fields_of_wreckage->fields_of_wreckage_level_2;
+maximize_load_volume_cargo_300->fields_of_wreckage_level_2;
+fields_of_wreckage_level_2->salvage_tool_prototype_level_3;
+additional_loading_space->salvage_tool_prototype_level_3;
+salvage_tool_prototype_level_3->salvage_tool_mk4;
+salvage_tool_prototype_level_3->mk3_plentropian;
+salvage_tool_prototype_level_3->recovery_device_mkomega;
+
+//cargo
+light_speed->transport_facilities_in_space;
+transport_facilities_in_space->increased_load_volume;
+increased_load_volume->cargo_m_plus;
+increased_load_volume->masstransport;
+masstransport->effective_spacial_use;
+reconnaissance_ship->maximize_load_volume_cargo_270;
+maximized_energy_field->maximize_load_volume_cargo_270;
+effective_spacial_use->maximize_load_volume_cargo_270;
+maximize_load_volume_cargo_270->maximize_load_volume_cargo_290;
+maximize_load_volume_cargo_290->maximize_load_volume_cargo_300;
+maximize_load_volume_cargo_300->optimal_loading_space;
+optimal_loading_space->maximize_load_volume_cargo_320;
+maximize_load_volume_cargo_320->additional_loading_space;
+additional_loading_space->cargo_plentropian;
+cargo_plentropian->cargo_plentropian_elite;
+additional_loading_space->cargo_storage_optimize_human;
+additional_loading_space->mag_cargo_mini_magumer;
+mag_cargo_mini_magumer->mag_jumbo_cargo_magumer;
+
+
+
+//cloak
+efficient_cooling-> cloaking;
+cloaking->extended_stealth;
+reconnaissance_ship->extended_stealth;
+extended_stealth->cloaking_for_big_fleets;
+new_battleship_titan->cloaking_for_big_fleets;
+
+//colo mod
+reconnaissance_ship->colonize_planets;
+
+
+//scan
+coherent_resonators -> scan;
+space_hunter->scan;
+scan->shockwaves;
+enhance_shockwaves->new_scan_technology;
+enhance_shockwaves->maximize_shockwaves;
+shockwaves->enhance_shockwaves;
+stronger_reconnaissance_ship->energy_waves_scan;
+new_scan_technology->energy_waves_scan;
+new_scan_technology->enhanced_splinter;
+energy_waves_scan->new_scantechnologie_anemu;
+new_scantechnologie_anemu->new_scantechnologie_for_dix_prime;
+new_scantechnologie_for_dix_prime->new_scantechnologie_jyief;
+new_scantechnologie_jyief->jyeif_xt_magumer;
+new_scantechnologie_jyief->jyeif_20_human;
+
+
+//troop transporter
+masstransport->transport_of_ground_troops;
+transport_of_ground_troops->compact_troop_transporter;
+compact_troop_transporter->spacesaving_transporter;
+spacesaving_transporter->higher_troopcapacity;
+higher_troopcapacity->troops_transporter_50k;
+troops_transporter_50k->zuup_transporter_module_zuup;
+troops_transporter_50k->invasion_module_ozoid;
+invasion_module_ozoid->invasion_module_ozid_elite;
+troops_transporter_50k->mini_troop_transport_module_weganer;
+mini_troop_transport_module_weganer->jumbo_troop_transport_module_weganer;
+
+
+//tank
+advanced_hunter->tank_capacity;
+new_battleship_titan->extended_tank_medium_tank;
+tank_capacity->extended_tank_medium_tank;
+extended_tank_medium_tank->extended_tank_large_tank;
+extended_tank_large_tank->large_tank_elite;
+improved_warp_control->extended_tank_large_tank;
+extended_tank_large_tank->mini_tank_plentropian;
+mini_tank_plentropian->jumbo_tank_plentropian;
+
+
+
+
+
+edge[color=azure4];
+
+//building
+
+
+interstellar_trade -> long_range_communication;
+exploration_of_space -> shipyard;
+space_hunter->ground_battle;
+transport_facilities_in_space->securing_of_ressources;
+reconnaissance_ship->dock;
+ground_battle->dock;
+
+//ressources
+
+long_range_communication -> more_effective_titanium_mining;
+long_range_communication -> more_effective_copper_mining;
+shipyard -> ressource_facilities_efficiency_enhancement;
+//more_effective_silicon_mining
+//more_effective_uranium_mining
+ressource_facilities_efficiency_enhancement->additional_ressource_mining;
+additional_ressource_mining  ->  increased_production_rate;
+increased_production_rate -> better_use_of_the_environment ;
+increased_production_rate->res_100;
+
+edge[color=darkgoldenrod2];
+//colonization
+colonize_planets->first_colony;
+leviathan->second_colony
+shortnose->third_colony;
+buran->fourth_colony;
+
+
+planet_research_first_invisible [margin=0 shape=none label=""];
+planet_research_first->planet_research_first_invisible [style=invis weight=0];
+first_colony->planet_research_first [label="Kolonisieren",fontname="Droid Sans Mono",fontsize=15,style=dotted];
+second_colony->planet_research_second [label="Kolonisieren",fontname="Droid Sans Mono",fontsize=15,style=dotted];
+third_colony->planet_research_third [label="Kolonisieren",fontname="Droid Sans Mono",fontsize=15,style=dotted];
+third_colony_invisible [margin=0 shape=none label=""];
+planet_research_third->third_colony_invisible [style=invis weight=0];
+fourth_colony->planet_research_fourth [label="Kolonisieren",fontname="Droid Sans Mono",fontsize=15,style=dotted];
+
+
+
+edge[color=azure4];
+//tactics
+modular_construction->tactics [constraint=false];
+tactics->better_defence;
+better_defence->better_attack;
+tactics->surprise_attack;
+surprise_attack->effective_first_stricke;
+tactics->concentrated_firepower;
+concentrated_firepower->focused_defence;
+tactics->universal_approach;
+universal_approach->scattered_approach;
+
+/*
+//bonus
+damage_bonus_for_space_combat [label="Damage Bonus for Space Combat"];
+scan_booster [label="Scan Booster"];
+defense_bonus_for_space_combat [label="Defense Bonus for Space Combat"];
+maneuverability_bonus_for_space_combat [label="Maneuverability Bonus for Space Combat"];
+drive_bonus [label="Drive bonuse"];
+damage_bonus_for_ground_battle [label="Damage bonus for Ground Battle"];
+
+
+*/
+
+
+}
+
+
+}

@@ -1,0 +1,77 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+```html
+<!-- `display: block` sprite -->
+<div class="icon-home"></div>
+
+<!-- `display: inline-block` sprite -->
+<img class="icon-home" />
+```
+*/
+.icon-barracks {
+  background-image: url(../../img/sprite/building.png);
+  background-position: -60px 0px;
+  width: 60px;
+  height: 50px;
+}
+.icon-bunker {
+  background-image: url(../../img/sprite/building.png);
+  background-position: -120px -50px;
+  width: 60px;
+  height: 50px;
+}
+.icon-com_center {
+  background-image: url(../../img/sprite/building.png);
+  background-position: 0px -50px;
+  width: 60px;
+  height: 50px;
+}
+.icon-control_center {
+  background-image: url(../../img/sprite/building.png);
+  background-position: -60px -50px;
+  width: 60px;
+  height: 50px;
+}
+.icon-dock {
+  background-image: url(../../img/sprite/building.png);
+  background-position: -120px 0px;
+  width: 60px;
+  height: 50px;
+}
+.icon-gov {
+  background-image: url(../../img/sprite/building.png);
+  background-position: 0px 0px;
+  width: 60px;
+  height: 50px;
+}
+.icon-res_facility {
+  background-image: url(../../img/sprite/building.png);
+  background-position: -60px -100px;
+  width: 60px;
+  height: 50px;
+}
+.icon-research_center {
+  background-image: url(../../img/sprite/building.png);
+  background-position: 0px -100px;
+  width: 60px;
+  height: 50px;
+}
+.icon-shipyard {
+  background-image: url(../../img/sprite/building.png);
+  background-position: -120px -100px;
+  width: 60px;
+  height: 50px;
+}
+.icon-trade {
+  background-image: url(../../img/sprite/building.png);
+  background-position: -180px 0px;
+  width: 60px;
+  height: 50px;
+}
+.icon-univ {
+  background-image: url(../../img/sprite/building.png);
+  background-position: -180px -50px;
+  width: 60px;
+  height: 50px;
+}

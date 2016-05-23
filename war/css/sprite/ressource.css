@@ -1,0 +1,59 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+```html
+<!-- `display: block` sprite -->
+<div class="icon-home"></div>
+
+<!-- `display: inline-block` sprite -->
+<img class="icon-home" />
+```
+*/
+.icon-aluminium {
+  background-image: url(../../img/sprite/ressource.png);
+  background-position: 0px 0px;
+  width: 40px;
+  height: 40px;
+}
+.icon-copper {
+  background-image: url(../../img/sprite/ressource.png);
+  background-position: -40px 0px;
+  width: 40px;
+  height: 40px;
+}
+.icon-hydrogen {
+  background-image: url(../../img/sprite/ressource.png);
+  background-position: 0px -40px;
+  width: 40px;
+  height: 40px;
+}
+.icon-iron {
+  background-image: url(../../img/sprite/ressource.png);
+  background-position: -40px -40px;
+  width: 40px;
+  height: 40px;
+}
+.icon-nitrogen {
+  background-image: url(../../img/sprite/ressource.png);
+  background-position: -80px 0px;
+  width: 40px;
+  height: 40px;
+}
+.icon-silicon {
+  background-image: url(../../img/sprite/ressource.png);
+  background-position: -80px -40px;
+  width: 40px;
+  height: 40px;
+}
+.icon-titanium {
+  background-image: url(../../img/sprite/ressource.png);
+  background-position: 0px -80px;
+  width: 40px;
+  height: 40px;
+}
+.icon-uranium {
+  background-image: url(../../img/sprite/ressource.png);
+  background-position: -40px -80px;
+  width: 40px;
+  height: 40px;
+}

@@ -1,0 +1,1019 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+```html
+<!-- `display: block` sprite -->
+<div class="icon-home"></div>
+
+<!-- `display: inline-block` sprite -->
+<img class="icon-home" />
+```
+*/
+.icon-100_mw_shield {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -40px 0px;
+  width: 40px;
+  height: 40px;
+}
+.icon-115_mw_shield {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -360px -120px;
+  width: 40px;
+  height: 40px;
+}
+.icon-125_mw_shield {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: 0px -40px;
+  width: 40px;
+  height: 40px;
+}
+.icon-130_mw_shield {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -40px -40px;
+  width: 40px;
+  height: 40px;
+}
+.icon-145_mw_shield {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -80px 0px;
+  width: 40px;
+  height: 40px;
+}
+.icon-160_mw_shield {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -80px -40px;
+  width: 40px;
+  height: 40px;
+}
+.icon-195_mw_shield {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: 0px -80px;
+  width: 40px;
+  height: 40px;
+}
+.icon-200_mw_shield {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -40px -80px;
+  width: 40px;
+  height: 40px;
+}
+.icon-25_mw_shield {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -80px -80px;
+  width: 40px;
+  height: 40px;
+}
+.icon-50_mw_shield {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -120px 0px;
+  width: 40px;
+  height: 40px;
+}
+.icon-50_mw_shield_elite {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -120px -40px;
+  width: 40px;
+  height: 40px;
+}
+.icon-anemu {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -120px -80px;
+  width: 40px;
+  height: 40px;
+}
+.icon-at4 {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: 0px -120px;
+  width: 40px;
+  height: 40px;
+}
+.icon-ats {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -40px -120px;
+  width: 40px;
+  height: 40px;
+}
+.icon-atsm {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -80px -120px;
+  width: 40px;
+  height: 40px;
+}
+.icon-blaster {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -120px -120px;
+  width: 40px;
+  height: 40px;
+}
+.icon-blaster_double {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -160px 0px;
+  width: 40px;
+  height: 40px;
+}
+.icon-blaster_ext {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -160px -40px;
+  width: 40px;
+  height: 40px;
+}
+.icon-blaster_rapid {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -160px -80px;
+  width: 40px;
+  height: 40px;
+}
+.icon-cargo_270 {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -160px -120px;
+  width: 40px;
+  height: 40px;
+}
+.icon-cargo_290 {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: 0px -160px;
+  width: 40px;
+  height: 40px;
+}
+.icon-cargo_300 {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -40px -160px;
+  width: 40px;
+  height: 40px;
+}
+.icon-cargo_310 {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -80px -160px;
+  width: 40px;
+  height: 40px;
+}
+.icon-cargo_320 {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -120px -160px;
+  width: 40px;
+  height: 40px;
+}
+.icon-cargo_350 {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -160px -160px;
+  width: 40px;
+  height: 40px;
+}
+.icon-cargo_l {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -200px 0px;
+  width: 40px;
+  height: 40px;
+}
+.icon-cargo_m {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -200px -40px;
+  width: 40px;
+  height: 40px;
+}
+.icon-cargo_m_plus {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -200px -80px;
+  width: 40px;
+  height: 40px;
+}
+.icon-cargo_plentropian {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -200px -120px;
+  width: 40px;
+  height: 40px;
+}
+.icon-cargo_plentropian_elite {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -200px -160px;
+  width: 40px;
+  height: 40px;
+}
+.icon-cargo_s {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: 0px -200px;
+  width: 40px;
+  height: 40px;
+}
+.icon-cargo_terra {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -40px -200px;
+  width: 40px;
+  height: 40px;
+}
+.icon-colonizations_module {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -80px -200px;
+  width: 40px;
+  height: 40px;
+}
+.icon-cymini_shield_cyborg {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -120px -200px;
+  width: 40px;
+  height: 40px;
+}
+.icon-cys_impulse {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -160px -200px;
+  width: 40px;
+  height: 40px;
+}
+.icon-dats {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -200px -200px;
+  width: 40px;
+  height: 40px;
+}
+.icon-drailer {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -240px 0px;
+  width: 40px;
+  height: 40px;
+}
+.icon-dub_nuf {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -240px -40px;
+  width: 40px;
+  height: 40px;
+}
+.icon-dub_nuf_cy3000 {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -240px -80px;
+  width: 40px;
+  height: 40px;
+}
+.icon-dub_nuf_elite {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -240px -120px;
+  width: 40px;
+  height: 40px;
+}
+.icon-dub_nuf_plentropian {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -240px -160px;
+  width: 40px;
+  height: 40px;
+}
+.icon-dx-1 {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -240px -200px;
+  width: 40px;
+  height: 40px;
+}
+.icon-dx-2 {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: 0px -240px;
+  width: 40px;
+  height: 40px;
+}
+.icon-dx-21 {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -40px -240px;
+  width: 40px;
+  height: 40px;
+}
+.icon-eraser_v1 {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -440px -480px;
+  width: 40px;
+  height: 39px;
+}
+.icon-espionage_antenna {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -120px -240px;
+  width: 40px;
+  height: 40px;
+}
+.icon-extended_cargo {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -160px -240px;
+  width: 40px;
+  height: 40px;
+}
+.icon-for_dix_prime {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -200px -240px;
+  width: 40px;
+  height: 40px;
+}
+.icon-gmt-1 {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -240px -240px;
+  width: 40px;
+  height: 40px;
+}
+.icon-gmt-2 {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -280px 0px;
+  width: 40px;
+  height: 40px;
+}
+.icon-gmt-3 {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -280px -40px;
+  width: 40px;
+  height: 40px;
+}
+.icon-gmt-advanced {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -280px -80px;
+  width: 40px;
+  height: 40px;
+}
+.icon-gmt-advanced_extented {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -280px -120px;
+  width: 40px;
+  height: 40px;
+}
+.icon-horch_iii {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -280px -160px;
+  width: 40px;
+  height: 40px;
+}
+.icon-horch_iv {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -280px -200px;
+  width: 40px;
+  height: 40px;
+}
+.icon-horch_v {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -280px -240px;
+  width: 40px;
+  height: 40px;
+}
+.icon-hydra_blaster {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: 0px -280px;
+  width: 40px;
+  height: 40px;
+}
+.icon-hydra_blaster_m {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -40px -280px;
+  width: 40px;
+  height: 40px;
+}
+.icon-hydra_blaster_o {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -80px -280px;
+  width: 40px;
+  height: 40px;
+}
+.icon-hydra_blaster_o2 {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -120px -280px;
+  width: 40px;
+  height: 40px;
+}
+.icon-hydra_blaster_w {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -160px -280px;
+  width: 40px;
+  height: 40px;
+}
+.icon-igop {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -200px -280px;
+  width: 40px;
+  height: 40px;
+}
+.icon-igop_jamazoid {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -240px -280px;
+  width: 40px;
+  height: 40px;
+}
+.icon-igop_magumar {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -280px -280px;
+  width: 40px;
+  height: 40px;
+}
+.icon-igop_ozoidian {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -320px 0px;
+  width: 40px;
+  height: 40px;
+}
+.icon-impulse1 {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -320px -40px;
+  width: 40px;
+  height: 40px;
+}
+.icon-impulse2 {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -320px -80px;
+  width: 40px;
+  height: 40px;
+}
+.icon-impulse3 {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -320px -120px;
+  width: 40px;
+  height: 40px;
+}
+.icon-impulse_cloaking_shield {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -320px -160px;
+  width: 40px;
+  height: 40px;
+}
+.icon-impulse_mosoran {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -320px -200px;
+  width: 40px;
+  height: 40px;
+}
+.icon-inamibo {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -320px -240px;
+  width: 40px;
+  height: 40px;
+}
+.icon-invasion_module_ozid {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -320px -280px;
+  width: 40px;
+  height: 40px;
+}
+.icon-invasion_module_ozid_elite {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: 0px -320px;
+  width: 40px;
+  height: 40px;
+}
+.icon-jamo_project_jumbo {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -80px -320px;
+  width: 40px;
+  height: 40px;
+}
+.icon-jamo_project_jumbo_elite {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -120px -320px;
+  width: 40px;
+  height: 40px;
+}
+.icon-jamo_project_mini {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -160px -320px;
+  width: 40px;
+  height: 40px;
+}
+.icon-jamov_imp {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -40px -320px;
+  width: 40px;
+  height: 40px;
+}
+.icon-jumbo_armor_mosoraner {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -200px -320px;
+  width: 40px;
+  height: 40px;
+}
+.icon-jumbo_impulse_ozoid {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -240px -320px;
+  width: 40px;
+  height: 40px;
+}
+.icon-jumbo_shield_cyborg {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -280px -320px;
+  width: 40px;
+  height: 40px;
+}
+.icon-jumbo_troop_transport_module_weganer {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -320px -320px;
+  width: 40px;
+  height: 40px;
+}
+.icon-jumbo_warp_terra_human {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -360px 0px;
+  width: 40px;
+  height: 40px;
+}
+.icon-jyief {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -360px -40px;
+  width: 40px;
+  height: 40px;
+}
+.icon-jyief_2_0 {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -360px -80px;
+  width: 40px;
+  height: 40px;
+}
+.icon-jyief_xt {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: 0px 0px;
+  width: 40px;
+  height: 40px;
+}
+.icon-kt_l-ion {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -360px -160px;
+  width: 40px;
+  height: 40px;
+}
+.icon-l-ion {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -360px -200px;
+  width: 40px;
+  height: 40px;
+}
+.icon-l-ion_ext {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -360px -240px;
+  width: 40px;
+  height: 40px;
+}
+.icon-large_fleet_cloaking_shield {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -360px -280px;
+  width: 40px;
+  height: 40px;
+}
+.icon-large_impulse_cloaking_shield {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -360px -320px;
+  width: 40px;
+  height: 40px;
+}
+.icon-large_ion_cannon {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: 0px -360px;
+  width: 40px;
+  height: 40px;
+}
+.icon-large_laser {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -40px -360px;
+  width: 40px;
+  height: 40px;
+}
+.icon-large_tank {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -80px -360px;
+  width: 40px;
+  height: 40px;
+}
+.icon-large_tank_elite {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -120px -360px;
+  width: 40px;
+  height: 40px;
+}
+.icon-large_tank_plentrop {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -160px -360px;
+  width: 40px;
+  height: 40px;
+}
+.icon-large_tank_plentrop_max {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -200px -360px;
+  width: 40px;
+  height: 40px;
+}
+.icon-licim {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -240px -360px;
+  width: 40px;
+  height: 40px;
+}
+.icon-lux-torpedo {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -280px -360px;
+  width: 40px;
+  height: 40px;
+}
+.icon-mag_cargo_jumbo_magumer {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -320px -360px;
+  width: 40px;
+  height: 40px;
+}
+.icon-mag_cargo_mini_magumer {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -360px -360px;
+  width: 40px;
+  height: 40px;
+}
+.icon-master_k {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -400px 0px;
+  width: 40px;
+  height: 40px;
+}
+.icon-master_m {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -400px -40px;
+  width: 40px;
+  height: 40px;
+}
+.icon-master_w {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -400px -80px;
+  width: 40px;
+  height: 40px;
+}
+.icon-master_z {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -400px -120px;
+  width: 40px;
+  height: 40px;
+}
+.icon-medium_ion_cannon {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -400px -160px;
+  width: 40px;
+  height: 40px;
+}
+.icon-medium_laser {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -400px -200px;
+  width: 40px;
+  height: 40px;
+}
+.icon-medium_tank {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -400px -240px;
+  width: 40px;
+  height: 40px;
+}
+.icon-mini_armor_mosoraner {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -80px -400px;
+  width: 40px;
+  height: 40px;
+}
+.icon-mini_impulse_ozoid {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -120px -400px;
+  width: 40px;
+  height: 40px;
+}
+.icon-mini_troop_transport_module_weganer {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -160px -400px;
+  width: 40px;
+  height: 40px;
+}
+.icon-mini_warp_terra_human {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -200px -400px;
+  width: 40px;
+  height: 40px;
+}
+.icon-mining_laser_mk2 {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -400px -280px;
+  width: 40px;
+  height: 40px;
+}
+.icon-mining_laser_mk3 {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -400px -320px;
+  width: 40px;
+  height: 40px;
+}
+.icon-mining_laser_mk4 {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -400px -360px;
+  width: 40px;
+  height: 40px;
+}
+.icon-mining_laser_mkwega {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: 0px -400px;
+  width: 40px;
+  height: 40px;
+}
+.icon-mining_laser_prototype {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -40px -400px;
+  width: 40px;
+  height: 40px;
+}
+.icon-mk3_astero_plentropian {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -240px -400px;
+  width: 40px;
+  height: 40px;
+}
+.icon-mk3_plentropian {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -280px -400px;
+  width: 40px;
+  height: 40px;
+}
+.icon-moso_s200mw {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -320px -400px;
+  width: 40px;
+  height: 40px;
+}
+.icon-moso_s200mw_elite {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -360px -400px;
+  width: 40px;
+  height: 40px;
+}
+.icon-naa {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -400px -400px;
+  width: 40px;
+  height: 40px;
+}
+.icon-nutter {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -440px 0px;
+  width: 40px;
+  height: 40px;
+}
+.icon-pahid {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -440px -40px;
+  width: 40px;
+  height: 40px;
+}
+.icon-pahid_2 {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -440px -80px;
+  width: 40px;
+  height: 40px;
+}
+.icon-pahid_3 {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -440px -120px;
+  width: 40px;
+  height: 40px;
+}
+.icon-pahid_4 {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -440px -160px;
+  width: 40px;
+  height: 40px;
+}
+.icon-pahid_5 {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -440px -200px;
+  width: 40px;
+  height: 40px;
+}
+.icon-pahid_6 {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -440px -240px;
+  width: 40px;
+  height: 40px;
+}
+.icon-pahid_jamazoid {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -440px -280px;
+  width: 40px;
+  height: 40px;
+}
+.icon-pahid_magumar {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -440px -320px;
+  width: 40px;
+  height: 40px;
+}
+.icon-pahid_mosoran {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -440px -360px;
+  width: 40px;
+  height: 40px;
+}
+.icon-plentrop_200mw {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -440px -400px;
+  width: 40px;
+  height: 40px;
+}
+.icon-plentrop_217_5mw {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: 0px -440px;
+  width: 40px;
+  height: 40px;
+}
+.icon-recovery_device_mkomega {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -40px -440px;
+  width: 40px;
+  height: 40px;
+}
+.icon-salvage_tool_mk2 {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -80px -440px;
+  width: 40px;
+  height: 40px;
+}
+.icon-salvage_tool_mk3 {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -120px -440px;
+  width: 40px;
+  height: 40px;
+}
+.icon-salvage_tool_mk4 {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -160px -440px;
+  width: 40px;
+  height: 40px;
+}
+.icon-salvage_tool_prototype {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -200px -440px;
+  width: 40px;
+  height: 40px;
+}
+.icon-scorp {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -240px -440px;
+  width: 40px;
+  height: 40px;
+}
+.icon-scorp_ii {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -320px -440px;
+  width: 40px;
+  height: 40px;
+}
+.icon-scorp_iii {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -360px -440px;
+  width: 40px;
+  height: 40px;
+}
+.icon-scorpion {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -280px -440px;
+  width: 40px;
+  height: 40px;
+}
+.icon-slit {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -400px -440px;
+  width: 40px;
+  height: 40px;
+}
+.icon-slt {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -440px -440px;
+  width: 40px;
+  height: 40px;
+}
+.icon-small_ion_cannon {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -480px 0px;
+  width: 40px;
+  height: 40px;
+}
+.icon-small_laser {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -480px -40px;
+  width: 40px;
+  height: 40px;
+}
+.icon-splinter {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -480px -80px;
+  width: 40px;
+  height: 40px;
+}
+.icon-splinter_2 {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -480px -120px;
+  width: 40px;
+  height: 40px;
+}
+.icon-standard_armor {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -480px -160px;
+  width: 40px;
+  height: 40px;
+}
+.icon-standard_engine {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -480px -200px;
+  width: 40px;
+  height: 40px;
+}
+.icon-stungo_extreme {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -480px -240px;
+  width: 40px;
+  height: 40px;
+}
+.icon-tank {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -480px -280px;
+  width: 40px;
+  height: 40px;
+}
+.icon-treatment_blaster {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -480px -320px;
+  width: 40px;
+  height: 40px;
+}
+.icon-troop_transporter_20k {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -480px -360px;
+  width: 40px;
+  height: 40px;
+}
+.icon-troop_transporter_30k {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -480px -400px;
+  width: 40px;
+  height: 40px;
+}
+.icon-troop_transporter_40k {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -480px -440px;
+  width: 40px;
+  height: 40px;
+}
+.icon-troop_transporter_50k {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: 0px -480px;
+  width: 40px;
+  height: 40px;
+}
+.icon-troop_transporter_module {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -40px -480px;
+  width: 40px;
+  height: 40px;
+}
+.icon-usiel {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -80px -480px;
+  width: 40px;
+  height: 40px;
+}
+.icon-usiel_elite {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -120px -480px;
+  width: 40px;
+  height: 40px;
+}
+.icon-warp_experimental_engine_v1 {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -160px -480px;
+  width: 40px;
+  height: 40px;
+}
+.icon-warp_experimental_engine_v2 {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -200px -480px;
+  width: 40px;
+  height: 40px;
+}
+.icon-warp_experimental_engine_v3 {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -240px -480px;
+  width: 40px;
+  height: 40px;
+}
+.icon-wincom_laser {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -280px -480px;
+  width: 40px;
+  height: 40px;
+}
+.icon-zuup_minilaser_zuup {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -80px -240px;
+  width: 40px;
+  height: 40px;
+}
+.icon-zuup_transport_module {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -400px -480px;
+  width: 40px;
+  height: 40px;
+}
+.icon-zuuper_elite_jumbo_laser_zuup {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -320px -480px;
+  width: 40px;
+  height: 40px;
+}
+.icon-zuuper_jumbo_laser_zuup {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: -360px -480px;
+  width: 40px;
+  height: 40px;
+}

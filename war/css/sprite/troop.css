@@ -1,0 +1,77 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+```html
+<!-- `display: block` sprite -->
+<div class="icon-home"></div>
+
+<!-- `display: inline-block` sprite -->
+<img class="icon-home" />
+```
+*/
+.icon-no_chassis {
+  background-image: url(../../img/sprite/troop.png);
+  background-position: -135px -45px;
+  width: 40px;
+  height: 40px;
+}
+.icon-troop_army_group {
+  background-image: url(../../img/sprite/troop.png);
+  background-position: -90px -45px;
+  width: 45px;
+  height: 45px;
+}
+.icon-troop_battalion {
+  background-image: url(../../img/sprite/troop.png);
+  background-position: 0px -45px;
+  width: 45px;
+  height: 45px;
+}
+.icon-troop_brigade {
+  background-image: url(../../img/sprite/troop.png);
+  background-position: -45px -45px;
+  width: 45px;
+  height: 45px;
+}
+.icon-troop_company {
+  background-image: url(../../img/sprite/troop.png);
+  background-position: -90px 0px;
+  width: 45px;
+  height: 45px;
+}
+.icon-troop_corps {
+  background-image: url(../../img/sprite/troop.png);
+  background-position: 0px 0px;
+  width: 45px;
+  height: 45px;
+}
+.icon-troop_division {
+  background-image: url(../../img/sprite/troop.png);
+  background-position: 0px -90px;
+  width: 45px;
+  height: 45px;
+}
+.icon-troop_group {
+  background-image: url(../../img/sprite/troop.png);
+  background-position: -45px -90px;
+  width: 45px;
+  height: 45px;
+}
+.icon-troop_guard {
+  background-image: url(../../img/sprite/troop.png);
+  background-position: -90px -90px;
+  width: 45px;
+  height: 45px;
+}
+.icon-troop_large_union {
+  background-image: url(../../img/sprite/troop.png);
+  background-position: -135px 0px;
+  width: 45px;
+  height: 45px;
+}
+.icon-troop_platoon {
+  background-image: url(../../img/sprite/troop.png);
+  background-position: -45px 0px;
+  width: 45px;
+  height: 45px;
+}

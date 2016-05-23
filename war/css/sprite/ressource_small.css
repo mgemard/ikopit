@@ -1,0 +1,65 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+```html
+<!-- `display: block` sprite -->
+<div class="icon-home"></div>
+
+<!-- `display: inline-block` sprite -->
+<img class="icon-home" />
+```
+*/
+.icon-aluminium {
+  background-image: url(../../img/sprite/ressource_small.png);
+  background-position: 0px 0px;
+  width: 10px;
+  height: 10px;
+}
+.icon-copper {
+  background-image: url(../../img/sprite/ressource_small.png);
+  background-position: -10px 0px;
+  width: 10px;
+  height: 10px;
+}
+.icon-credit {
+  background-image: url(../../img/sprite/ressource_small.png);
+  background-position: 0px -10px;
+  width: 10px;
+  height: 10px;
+}
+.icon-hydrogen {
+  background-image: url(../../img/sprite/ressource_small.png);
+  background-position: -10px -10px;
+  width: 10px;
+  height: 10px;
+}
+.icon-iron {
+  background-image: url(../../img/sprite/ressource_small.png);
+  background-position: -20px 0px;
+  width: 10px;
+  height: 10px;
+}
+.icon-nitrogen {
+  background-image: url(../../img/sprite/ressource_small.png);
+  background-position: -20px -10px;
+  width: 10px;
+  height: 10px;
+}
+.icon-silicon {
+  background-image: url(../../img/sprite/ressource_small.png);
+  background-position: 0px -20px;
+  width: 10px;
+  height: 10px;
+}
+.icon-titanium {
+  background-image: url(../../img/sprite/ressource_small.png);
+  background-position: -10px -20px;
+  width: 10px;
+  height: 10px;
+}
+.icon-uranium {
+  background-image: url(../../img/sprite/ressource_small.png);
+  background-position: -20px -20px;
+  width: 10px;
+  height: 10px;
+}

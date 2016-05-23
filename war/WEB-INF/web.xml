@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://java.sun.com/xml/ns/javaee"
+xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+
+   <servlet>
+        <servlet-name>HomeRedirect</servlet-name>
+		<servlet-class>ikopit.servlets.redirect.Home</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>HomeRedirect</servlet-name>
+		<url-pattern>/home</url-pattern>
+	</servlet-mapping>
+			
+    <servlet>
+        <servlet-name>TechtreeRedirect</servlet-name>
+		<servlet-class>ikopit.servlets.redirect.Techtree</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>TechtreeRedirect</servlet-name>
+		<url-pattern>/tech-tree</url-pattern>
+	</servlet-mapping>
+	    
+    <servlet>
+        <servlet-name>TechtreebetaRedirect</servlet-name>
+		<servlet-class>ikopit.servlets.redirect.Techtreebeta</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>TechtreebetaRedirect</servlet-name>
+		<url-pattern>/tech-tree-beta</url-pattern>
+	</servlet-mapping>
+	    
+	    
+	            <servlet>
+        <servlet-name>Techtreebeta2Redirect</servlet-name>
+		<servlet-class>ikopit.servlets.redirect.Techtreebeta2</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Techtreebeta2Redirect</servlet-name>
+		<url-pattern>/tech-tree-beta2</url-pattern>
+	</servlet-mapping>
+	    
+	    
+	    
+	    
+	 <servlet>
+        <servlet-name>ComponentsRedirect</servlet-name>
+		<servlet-class>ikopit.servlets.redirect.Components</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ComponentsRedirect</servlet-name>
+		<url-pattern>/components</url-pattern>
+	</servlet-mapping>
+	
+	
+	 <servlet>
+        <servlet-name>TroopsComponentsRedirect</servlet-name>
+		<servlet-class>ikopit.servlets.redirect.TroopsComponents</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>TroopsComponentsRedirect</servlet-name>
+		<url-pattern>/troops-components</url-pattern>
+	</servlet-mapping>
+	
+	
+	    
+	<servlet>
+        <servlet-name>ChassisRedirect</servlet-name>
+		<servlet-class>ikopit.servlets.redirect.Chassis</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ChassisRedirect</servlet-name>
+		<url-pattern>/chassis</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>TroopsRedirect</servlet-name>
+		<servlet-class>ikopit.servlets.redirect.Troops</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>TroopsRedirect</servlet-name>
+		<url-pattern>/troops</url-pattern>
+	</servlet-mapping>
+	
+	
+		 <servlet>
+        <servlet-name>BuildingsRedirect</servlet-name>
+		<servlet-class>ikopit.servlets.redirect.Buildings</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BuildingsRedirect</servlet-name>
+		<url-pattern>/buildings</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>ResearchtimeRedirect</servlet-name>
+		<servlet-class>ikopit.servlets.redirect.Researchtime</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ResearchtimeRedirect</servlet-name>
+		<url-pattern>/research-time</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+        <servlet-name>ShipbuilderRedirect</servlet-name>
+		<servlet-class>ikopit.servlets.redirect.Shipbuilder</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ShipbuilderRedirect</servlet-name>
+		<url-pattern>/ship-builder</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>TroopbuilderRedirect</servlet-name>
+		<servlet-class>ikopit.servlets.redirect.Troopbuilder</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>TroopbuilderRedirect</servlet-name>
+		<url-pattern>/troop-builder</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+        <servlet-name>RouteplannerRedirect</servlet-name>
+		<servlet-class>ikopit.servlets.redirect.Routeplanner</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RouteplannerRedirect</servlet-name>
+		<url-pattern>/route-planner</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>WlrceRedirect</servlet-name>
+		<servlet-class>ikopit.servlets.redirect.Wlrce</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>WlrceRedirect</servlet-name>
+		<url-pattern>/wlrce</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>PlanetfinderRedirect</servlet-name>
+		<servlet-class>ikopit.servlets.redirect.Planetfinder</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PlanetfinderRedirect</servlet-name>
+		<url-pattern>/planet-finder</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>BattleanalyzerRedirect</servlet-name>
+		<servlet-class>ikopit.servlets.redirect.Battleanalyzer</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BattleanalyzerRedirect</servlet-name>
+		<url-pattern>/battle-analyzer</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>TroopBattleanalyzerRedirect</servlet-name>
+		<servlet-class>ikopit.servlets.redirect.TroopBattleanalyzer</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>TroopBattleanalyzerRedirect</servlet-name>
+		<url-pattern>/troop-battle-analyzer</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>ContactsRedirect</servlet-name>
+		<servlet-class>ikopit.servlets.redirect.Contacts</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ContactsRedirect</servlet-name>
+		<url-pattern>/contact</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ContactsRedirect</servlet-name>
+		<url-pattern>/contacts</url-pattern>
+	</servlet-mapping>
+	
+		 <servlet>
+        <servlet-name>DonationRedirect</servlet-name>
+		<servlet-class>ikopit.servlets.redirect.Donation</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DonationRedirect</servlet-name>
+		<url-pattern>/donation</url-pattern>
+	</servlet-mapping>
+	
+	 
+	
+	
+	
+	
+	
+	
+	
+   <servlet>
+        <servlet-name>Home</servlet-name>
+		<servlet-class>ikopit.servlets.Home</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Home</servlet-name>
+		<url-pattern>/fr/accueil</url-pattern>
+		<url-pattern>/de/willkommen</url-pattern>
+		<url-pattern>/en/home</url-pattern>
+	</servlet-mapping>
+  
+    <servlet>
+        <servlet-name>Techtree</servlet-name>
+		<servlet-class>ikopit.servlets.Techtree</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Techtree</servlet-name>
+		<url-pattern>/fr/arbre-technologique</url-pattern>
+		<url-pattern>/de/technologiebaum</url-pattern>
+		<url-pattern>/en/technology-tree</url-pattern>
+	</servlet-mapping>
+
+	    
+	    
+	 <servlet>
+        <servlet-name>Components</servlet-name>
+		<servlet-class>ikopit.servlets.Components</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Components</servlet-name>
+		<url-pattern>/fr/modules-de-vaisseau</url-pattern>
+		<url-pattern>/de/schiff-komponenten</url-pattern>
+		<url-pattern>/en/ship-components</url-pattern>
+	</servlet-mapping>
+	
+	
+	 <servlet>
+        <servlet-name>TroopsComponents</servlet-name>
+		<servlet-class>ikopit.servlets.TroopsComponents</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>TroopsComponents</servlet-name>
+		<url-pattern>/fr/modules-de-troupe</url-pattern>
+		<url-pattern>/de/truppe-komponenten</url-pattern>
+		<url-pattern>/en/troop-components</url-pattern>
+	</servlet-mapping>
+	
+	
+	    
+	<servlet>
+        <servlet-name>Chassis</servlet-name>
+		<servlet-class>ikopit.servlets.Chassis</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Chassis</servlet-name>
+		<url-pattern>/fr/chassis</url-pattern>
+		<url-pattern>/de/schiffe</url-pattern>
+		<url-pattern>/en/chassis</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>Troops</servlet-name>
+		<servlet-class>ikopit.servlets.Troops</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Troops</servlet-name>
+		<url-pattern>/fr/troupes</url-pattern>
+		<url-pattern>/de/truppen</url-pattern>
+		<url-pattern>/en/troops</url-pattern>
+	</servlet-mapping>
+	
+	
+		 <servlet>
+        <servlet-name>Buildings</servlet-name>
+		<servlet-class>ikopit.servlets.Buildings</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Buildings</servlet-name>
+		<url-pattern>/fr/batiments</url-pattern>
+		<url-pattern>/de/bauwerke</url-pattern>
+		<url-pattern>/en/buildings</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+        <servlet-name>Researchtime</servlet-name>
+		<servlet-class>ikopit.servlets.Researchtime</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Researchtime</servlet-name>
+		<url-pattern>/fr/temps-de-recherche</url-pattern>
+		<url-pattern>/de/forschungsdauer</url-pattern>
+		<url-pattern>/en/research-time</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+        <servlet-name>Shipbuilder</servlet-name>
+		<servlet-class>ikopit.servlets.Shipbuilder</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Shipbuilder</servlet-name>
+		<url-pattern>/fr/constructeur-de-vaisseaux</url-pattern>
+		<url-pattern>/de/schiffsbauer</url-pattern>
+		<url-pattern>/en/ship-builder</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>Troopbuilder</servlet-name>
+		<servlet-class>ikopit.servlets.Troopbuilder</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Troopbuilder</servlet-name>
+		<url-pattern>/fr/entraineur-de-troupes</url-pattern>
+		<url-pattern>/de/truppen-simulator</url-pattern>
+		<url-pattern>/en/troop-trainer</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+        <servlet-name>Routeplanner</servlet-name>
+		<servlet-class>ikopit.servlets.Routeplanner</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Routeplanner</servlet-name>
+		<url-pattern>/fr/plannificateur-de-trajet</url-pattern>
+		<url-pattern>/de/routenplaner</url-pattern>
+		<url-pattern>/en/route-planner</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>Wlrce</servlet-name>
+		<servlet-class>ikopit.servlets.Wlrce</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Wlrce</servlet-name>
+		<url-pattern>/fr/wlrce</url-pattern>
+		<url-pattern>/de/wlrce</url-pattern>
+		<url-pattern>/en/wlrce</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>Planetfinder</servlet-name>
+		<servlet-class>ikopit.servlets.Planetfinder</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Planetfinder</servlet-name>
+		<url-pattern>/fr/triangulateur-de-planete</url-pattern>
+		<url-pattern>/de/planeten-finder</url-pattern>
+		<url-pattern>/en/planet-triangulator</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>Battleanalyzer</servlet-name>
+		<servlet-class>ikopit.servlets.Battleanalyzer</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Battleanalyzer</servlet-name>
+		<url-pattern>/fr/analyser-de-combat-spacial</url-pattern>
+		<url-pattern>/de/raumkampf-auswerter</url-pattern>
+		<url-pattern>/en/space-battle-analyzer</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>TroopBattleanalyzer</servlet-name>
+		<servlet-class>ikopit.servlets.TroopBattleanalyzer</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>TroopBattleanalyzer</servlet-name>
+		<url-pattern>/fr/analyser-de-combat-terrestre</url-pattern>
+		<url-pattern>/de/bodenkampf-auswerter</url-pattern>
+		<url-pattern>/en/ground-battle-analyzer</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+        <servlet-name>Contacts</servlet-name>
+		<servlet-class>ikopit.servlets.Contacts</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Contacts</servlet-name>
+		<url-pattern>/fr/contact</url-pattern>
+		<url-pattern>/de/kontakt</url-pattern>
+		<url-pattern>/en/contact</url-pattern>
+	</servlet-mapping>
+
+	
+
+	
+	<servlet>
+        <servlet-name>Donation</servlet-name>
+			<servlet-class>ikopit.servlets.Donation</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Donation</servlet-name>
+		<url-pattern>/fr/donation</url-pattern>
+		<url-pattern>/de/spenden</url-pattern>
+		<url-pattern>/en/donation</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	 
+<servlet>
+    <servlet-name>Download</servlet-name>
+    <servlet-class>ikopit.servlets.Download</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>Download</servlet-name>
+    <url-pattern>/fichiers/*</url-pattern>
+</servlet-mapping>
+	 
+	 
+	 
+	 
+	<servlet>
+        <servlet-name>JsonServletExportWh</servlet-name>
+		<servlet-class>ikopit.servlets.JsonServletExportWh</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>JsonServletExportWh</servlet-name>
+		<url-pattern>/jsonservletexportwh</url-pattern>
+	</servlet-mapping>
+	 
+	<servlet>
+        <servlet-name>JsonServletImportWh</servlet-name>
+		<servlet-class>ikopit.servlets.JsonServletImportWh</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>JsonServletImportWh</servlet-name>
+		<url-pattern>/jsonservletimportwh</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	
+
+	 
+	<welcome-file-list>
+		<welcome-file>home</welcome-file>
+	</welcome-file-list>	
+<filter>
+        <filter-name>ObjectifyFilter</filter-name>
+        <filter-class>com.googlecode.objectify.ObjectifyFilter</filter-class>
+</filter>
+<filter-mapping>
+        <filter-name>ObjectifyFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+</filter-mapping>
+
+
+<filter>
+    <filter-name>SessionFilter</filter-name>
+    <filter-class>ikopit.filters.SessionFilter</filter-class>
+</filter>
+<filter-mapping>
+    <filter-name>SessionFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+</filter-mapping>
+
+
+<context-param>
+    <param-name>org.mortbay.jetty.servlet.SessionURL</param-name>
+    <param-value>none</param-value>
+</context-param>
+
+
+</web-app>

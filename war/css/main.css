@@ -1,0 +1,639 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+
+
+/* 
+@media only screen and (min-device-width: 480px){}
+@media only screen and (min-device-width: 768px){}  */
+
+@media (min-device-width: 768px){
+	body {
+	background-image:linear-gradient(rgba(0, 0, 0, 0),  rgba(34, 34, 34, 1)),linear-gradient(rgba(34, 34, 34, 0.8),  rgba(34, 34, 34, 0.8)),
+	           url("http://i4.de.empireuniverse.com/branding/empireuniverse3/gfx/style_3/background.jpg");
+	
+	}
+}
+
+
+body {
+ 	color: #FFFFFF;
+ 	background-position: center 600px,center top,center top ;
+	background-size:1500px 400px, 1500px 1000px,1500px 1000px;
+    background-repeat: no-repeat;
+    background-color: #222222;
+    
+}
+
+
+.bodytext {
+	padding-top: 90px;
+
+}
+
+
+
+h1 {
+	font-weight: bold;
+}
+
+
+textarea {
+	
+	background-color: rgba(125, 125, 125, 0.01);
+    width:100%;
+}
+
+button {
+	
+	 color:black;
+}
+
+
+/* RESPONSIVE TABLE
+-------------------------------------------------- */
+
+
+.table-hover > tbody > tr:hover > td{
+	background-color: rgba(34, 34, 34, 1) !important;
+}
+
+
+.clickable-hide {
+	background-color:rgba(125, 125, 125, 0.28);
+}
+
+
+.building-time {
+	display:inline-block;
+	margin-top:12px;
+}
+
+.building-res {
+	display:inline-block;
+	margin-top:6px;
+	width:30px;
+	height:30px;
+}
+
+.res-mini {
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+	padding-left:20px;
+	padding-right:10px;
+	vertical-align:middle;
+	line-height:10px;
+	display: inline-block;
+	width:11.5%;
+}
+
+.res-mini-title {
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+	display: inline-block;
+    height: 10px;
+    width: 100%; /* may not be necessary */
+}
+
+.titanium {
+	background-image:url("../img/ressource_small/titanium.png");
+}
+.copper {
+	background-image:url("../img/ressource_small/copper.png");
+}
+.iron  {
+	background-image:url("../img/ressource_small/iron.png");
+}
+.aluminium {
+	background-image:url("../img/ressource_small/aluminium.png");
+}
+.silicon {
+	background-image:url("../img/ressource_small/silicon.png");
+}
+.uranium {
+	background-image:url("../img/ressource_small/uranium.png");
+}
+.nitrogen {
+	background-image:url("../img/ressource_small/nitrogen.png");
+}
+.hydrogen {
+	background-image:url("../img/ressource_small/hydrogen.png");
+}
+
+
+
+
+
+/* TECH TREE
+-------------------------------------------------- */
+
+#noscroll {
+	width:100%;
+	overflow:auto
+}
+
+
+
+
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+
+
+/* LINK
+-------------------------------------------------- */
+
+a:hover {
+	
+	color:rgba(108, 224, 0, 1) !important;
+}
+
+
+/* JUMBOTRON
+------------------------- */
+
+.jumbotron  {
+	background-color:transparent;
+}
+
+
+
+/* CAROUSSEL BUG NOT CENTERED
+------------------------- */
+
+.carousel-inner > .item > img { margin: 0 auto; }
+
+/*Twitter Bootstrap carousel different height images cause bouncing arrows*/
+.peopleCarouselImg  img {
+	margin-left: auto;
+    margin-right: auto;
+  width: auto;
+  height: 400px;
+  max-height: 400px;
+}
+
+
+
+
+
+
+/* FEATURETES (not used)
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+
+.featurette-heading {
+    font-size: 50px;
+  
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}
+
+
+
+
+
+ /* STICKY FOOTER STYLES 
+-------------------------------------------------- */
+
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap { 
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by it's height */
+  margin: 0 auto -40px;
+}
+
+/* Set the fixed height of the footer here */
+#push,
+#footer {
+  height: 40px;
+}
+#footer {
+}
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
+  #footer {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+     
+      
+     
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 0px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 1050px) {
+	.bodytext {
+		margin-top: 100px;
+	}
+}
+
+@media (min-width: 1050px) and (max-width: 1200px) {
+	.bodytext {
+		margin-top: 70px;
+	}
+}
+
+
+
+/* INFO ICON
+---------------- */
+
+.info-icon {    
+    opacity: 0.8;
+	display: inline-block;
+	background-image:url("../img/info-icon-small.png");
+    background-repeat: no-repeat;
+	min-width:32px;
+	min-height:32px;
+}
+
+.info-icon:hover {   
+    opacity: 1;
+}
+
+
+
+/* MENU DROPDOWN ON HOVER
+----------------------- */
+@media (min-width: 768px)  {
+		ul.nav li.dropdown:hover > ul.dropdown-menu {
+	    display: block;  
+	}
+}
+
+.dropdown-menu > li > a, .dropdown-menu  {
+ 	background-color:#222222;
+ 	color: #9D9D9D;
+ }
+ 
+.dropdown-menu > li > a:hover {
+	background-color:#222222;
+}
+
+ 
+ /* SHIP BUILDER MENU
+----------------------- */
+
+.clickable {
+	cursor: pointer; cursor: hand;	
+}
+ 
+ 
+ #menu1 td, #menu1 th {
+ 	padding: 3px;
+ 	text-align: center;
+ 	
+ }
+ 
+ .scrollable-menu {
+    padding-right: 20px;
+    height: auto;
+    max-height: 300px;
+    overflow-x: hidden;
+}
+
+ 
+ @media (max-width: 768px) {
+	ul.dropdown-menu {
+	 	color:#777 ;
+	}
+ }
+ 
+ 
+/* SHIP BUILDER CUSTOM LAYOUT
+----------------------- */
+ 
+@media (min-width: 470px) {
+ 	.details_res, .details_stat {
+ 		padding-left:15px;
+ 		padding-rigth:15px;
+ 	}
+ 	.details_stat {
+ 		float:right;
+	 	width:58%;
+ 	}
+ 	.details_res {
+	 	width:42%;
+ 	}
+}
+ 
+
+ 
+/* CONTACTS FORM
+----------------------- */
+
+form label {
+    float: left;
+    width: 200px;
+    margin: 3px 0px 0px 0px;
+}
+
+/*
+form input.sansLabel, .g-recaptcha  {
+    margin-left: 200px; 
+}*/
+
+form .erreur {
+    color: #FF0000 !important;
+}
+
+form fieldset input.form-control, form fieldset textarea.form-control {
+	 background:transparent !important;
+	 color:#FFFFFF !important;
+	 
+}
+
+
+
+
+/* PLANET FINDER
+----------------------- */
+
+table.triangulation input {
+	width:50px;
+}
+
+@media (min-width: 450px) and (max-width: 760px) {
+	table.triangulation input {
+		width:40px;
+	}
+}
+
+@media (max-width: 450px) {
+	table.triangulation input {
+		width:40px;
+	}
+}
+
+
+
+/* ROUTE PLANNER
+----------------------- */
+
+
+.route-block {
+	
+     border-radius: 20px 5px 20px 20px;
+	 width:250px;
+	 border-style:solid;
+	 padding:10px;
+	 margin:10px;
+	 position:absolute;
+}
+
+.sub-route-block {
+	 border-style:solid;
+	 padding:10px;
+	 margin:10px;
+}
+
+
+
+
+/* BATTLE ANALYZER
+----------------------- */
+
+
+.input-battle-analyzer {
+	background-color:transparent !important;
+	margin-right:5px !important;
+}
+
+table.battle-analyzer {
+	margin-top:20px;
+}
+
+table.battle-analyzer td, table.battle-analyzer th {
+	text-align:center;
+}
+/*
+table.battle-analyzer td.right {
+	text-align:right;	
+}*/
+
+
+.table-left-border {
+	border-left: 1px solid;
+}
+
+
+table.battle-analyzer th {
+	background-color: rgba(30, 42, 48, 0.5);
+	vertical-align: middle !important;
+	min-width:70px;
+}
+
+p.cell-top {
+	margin: -3px;
+}
+
+p.cell-bottom {
+	margin: 0px;
+}
+
+button.battle-analyser-button-analyse {
+	margin-right:15px;
+}
+
+.headerSort {
+  background: #f5f5f5 url(../img/test_sort.gif) no-repeat right 5px center;
+	
+}
+
+.headerSortAsc {
+  background: #f5f5f5 url(../img/test_asc.gif) no-repeat right 5px center;
+	
+}
+
+.headerSortDesc {
+  background: #f5f5f5 url(../img/test_desc.gif) no-repeat right 5px center;
+	
+}
+
+.cell-sorted {
+    font-weight: bold !important;
+}
+
+.modal-content {
+	
+	background-color: #222222 !important;
+}
+
+
+
+/*
+SPRITE
+---------------------- */
+
+
+.icon-ressource {
+	display: inline-block;
+}
+
+
+
+/*
+POLITICAL ALIGNEMENT
+COMMANDER POINTS
+---------------------- */
+
+
+table.table-politics {
+	max-width:600px;
+	min-width:375px;
+	width:100%;
+}
+
+table.table-commander {
+	
+	min-width:375px;
+	width:100%;
+}
+
+td.button-politics-commander {
+	width:20px;
+	padding:0 !important;
+}
+
+td.button-politics-commander button {
+	width:24px;
+}
+
+td.text-politics-commander {
+	margin-left:50px;
+}
+
+td.text-politics-commander {
+	white-space: nowrap !important;  
+    width: 1px;
+}
+    
+    
+.output-politics-commander output {
+	text-align:center;
+	padding:0px;
+}
+
+
+output {
+	color:#C0C0C0;
+}
+			
+			
+.glyphicon-cog {
+	float:right;
+	font-size:24px;
+	color:#333;
+	padding:0px 4px;
+}
+
+
+.slider-content {
+	display:none;
+}
+
+
+
+
+
+
+/*
+RESEACH TIME
+---------------------- */
+
+.star-research-difficuly {
+  background-image: url(http://game.global.empireuniverse.com/static/building/technology/star.png);
+ /* background-position: -60px 0px; */
+  width: 13px;
+  height: 13px;
+  display: inline-block;
+
+	
+}
+
+
+.star-research-difficuly-opacity {
+  background-image: url(http://game.global.empireuniverse.com/static/building/technology/star.png);
+ /* background-position: -60px 0px; */
+  width: 13px;
+  height: 13px;
+  display: inline-block;
+opacity: 0.4;
+	
+}
+
+
+
