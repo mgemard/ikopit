@@ -122,6 +122,23 @@ var comps = [{
         		"nitrogen":800,
         		"hydrogen":400	
               },{
+                  "name": "amphibious_vehicle",
+                  "image": "/img/engine/standard_engine.gif",
+                  "size": 24,
+          		"agility": 8,
+          		"mobility":2700,
+          		"armor":0,
+          		"upkeep":10,
+          		"time":14000,
+          		"titanium":1000,
+          		"copper":1400,
+          		"iron":6020,
+          		"aluminium":1500,
+          		"silicon":0,
+          		"uranium":4000,
+          		"nitrogen":1800,
+          		"hydrogen":1200	
+                },{
                   "name": "gamma_air_transporter",
                   "image": "/img/engine/standard_engine.gif",
                   "size": 24,
@@ -155,7 +172,24 @@ var comps = [{
             		"uranium":500,
             		"nitrogen":500,
             		"hydrogen":0	
-                  }
+                  }, {
+                "name": "moso_navigator",
+                "image": "/img/engine/standard_engine.gif",
+                "size": 24,
+        		"agility": 8,
+        		"mobility":2800,
+        		"armor":0,
+        		"upkeep":10,
+        		"time":7000,
+        		"titanium":500,
+        		"copper":700,
+        		"iron":3010,
+        		"aluminium":750,
+        		"silicon":0,
+        		"uranium":2000,
+        		"nitrogen":900,
+        		"hydrogen":600	
+              }
 	 ],
     "projectile": [
  	  {

@@ -2743,9 +2743,9 @@ light_aerotransit [margin=0, style=bold, label=<
 medium_aerotransit [margin=0, style=bold, label=<
 <TABLE color="green4" border="4" cellborder="0" HREF="../../en/troop-components#medium_aerotransit" TARGET="_blank">
 <TR><TD ROWSPAN="2"><IMG SRC="img/ground_dummy.gif" /></TD>
-    <TD COLSPAN="2"><b>medium_aerotransit</b></TD>
+    <TD COLSPAN="2"><b>Medium weight troop transporter</b></TD>
 </TR>
-<TR ><TD align="right">medium_aerotransit</TD>
+<TR ><TD align="right">Medium weight troop transporter</TD>
      <TD align="left"><IMG SRC="img/research_field/engine.png" /></TD>
 </TR>
 </TABLE>>]
@@ -2804,9 +2804,29 @@ medium_air_transporter [margin=0, style=bold, label=<
 gamma_air_transporter [margin=0, style=bold, label=<
 <TABLE color="green4" border="4" cellborder="0" HREF="../../en/troop-components#gamma_air_transporter" TARGET="_blank">
 <TR><TD ROWSPAN="2"><IMG SRC="img/ground_dummy.gif" /></TD>
-    <TD COLSPAN="2"><b>Big Air Transporter</b></TD>
+    <TD COLSPAN="2"><b>Large air transport</b></TD>
 </TR>
 <TR ><TD align="right">Big Air Transporter</TD>
+     <TD align="left"><IMG SRC="img/research_field/engine.png" /></TD>
+</TR>
+</TABLE>>]
+
+amphibian_vehicle [margin=0, style=bold, label=<
+<TABLE color="green4" border="4" cellborder="0" HREF="../../en/troop-components#amphibian_vehicle" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/ground_dummy.gif" /></TD>
+    <TD COLSPAN="2"><b>Amphibian vehicle</b></TD>
+</TR>
+<TR ><TD align="right">Amphibian vehicle</TD>
+     <TD align="left"><IMG SRC="img/research_field/engine.png" /></TD>
+</TR>
+</TABLE>>]
+
+moso_navigator [margin=0, style=bold, label=<
+<TABLE color="green4" border="4" cellborder="0" HREF="../../en/troop-components#moso_navigator" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/ground_dummy.gif" /></TD>
+    <TD COLSPAN="2"><b>Moso Navigator</b></TD>
+</TR>
+<TR ><TD align="right">Moso Navigator</TD>
      <TD align="left"><IMG SRC="img/research_field/engine.png" /></TD>
 </TR>
 </TABLE>>]
@@ -2934,9 +2954,9 @@ heavy_machine_gun [margin=0, style=bold, label=<
 tzoonamy [margin=0, style=bold, label=<
 <TABLE color="red3" border="4" cellborder="0" HREF="../../en/troop-components#tzoonamy" TARGET="_blank">
 <TR><TD ROWSPAN="2"><IMG SRC="img/ground_dummy.gif" /></TD>
-    <TD COLSPAN="2"><b>tzoonamy</b></TD>
+    <TD COLSPAN="2"><b>Tzoonamy</b></TD>
 </TR>
-<TR ><TD align="right">tzoonamy</TD>
+<TR ><TD align="right">Tzoonamy</TD>
      <TD align="left"><IMG SRC="img/research_field/weapons.png" /></TD>
 </TR>
 </TABLE>>]
@@ -2944,9 +2964,9 @@ tzoonamy [margin=0, style=bold, label=<
 scimitar [margin=0, style=bold, label=<
 <TABLE color="red3" border="4" cellborder="0" HREF="../../en/troop-components#scimitar" TARGET="_blank">
 <TR><TD ROWSPAN="2"><IMG SRC="img/ground_dummy.gif" /></TD>
-    <TD COLSPAN="2"><b>scimitar</b></TD>
+    <TD COLSPAN="2"><b>Scimitar</b></TD>
 </TR>
-<TR ><TD align="right">scimitar</TD>
+<TR ><TD align="right">Scimitar</TD>
      <TD align="left"><IMG SRC="img/research_field/weapons.png" /></TD>
 </TR>
 </TABLE>>]
@@ -2954,9 +2974,9 @@ scimitar [margin=0, style=bold, label=<
 hammer [margin=0, style=bold, label=<
 <TABLE color="red3" border="4" cellborder="0" HREF="../../en/troop-components#hammer" TARGET="_blank">
 <TR><TD ROWSPAN="2"><IMG SRC="img/ground_dummy.gif" /></TD>
-    <TD COLSPAN="2"><b>hammer</b></TD>
+    <TD COLSPAN="2"><b>Hammer</b></TD>
 </TR>
-<TR ><TD align="right">hammer</TD>
+<TR ><TD align="right">Hammer</TD>
      <TD align="left"><IMG SRC="img/research_field/weapons.png" /></TD>
 </TR>
 </TABLE>>]
@@ -3044,9 +3064,9 @@ phaser [margin=0, style=bold, label=<
 gopper [margin=0, style=bold, label=<
 <TABLE color="red3" border="4" cellborder="0" HREF="../../en/troop-components#gopper" TARGET="_blank">
 <TR><TD ROWSPAN="2"><IMG SRC="img/ground_dummy.gif" /></TD>
-    <TD COLSPAN="2"><b>gopper</b></TD>
+    <TD COLSPAN="2"><b>Gopper</b></TD>
 </TR>
-<TR ><TD align="right">gopper</TD>
+<TR ><TD align="right">Gopper</TD>
      <TD align="left"><IMG SRC="img/research_field/weapons.png" /></TD>
 </TR>
 </TABLE>>]
@@ -3114,9 +3134,9 @@ rapid_flash [margin=0, style=bold, label=<
 kontinium_transfunkionator [margin=0, style=bold, label=<
 <TABLE color="red3" border="4" cellborder="0" HREF="../../en/troop-components#kontinium_transfunkionator" TARGET="_blank">
 <TR><TD ROWSPAN="2"><IMG SRC="img/ground_dummy.gif" /></TD>
-    <TD COLSPAN="2"><b>kontinium_transfunkionator</b></TD>
+    <TD COLSPAN="2"><b>Continuum Transfunctioner</b></TD>
 </TR>
-<TR ><TD align="right">kontinium_transfunkionator</TD>
+<TR ><TD align="right">Continuum Transfunctioner</TD>
      <TD align="left"><IMG SRC="img/research_field/weapons.png" /></TD>
 </TR>
 </TABLE>>]
@@ -3253,9 +3273,9 @@ exoskeleton [margin=0, style=bold, label=<
 medevac [margin=0, style=bold, label=<
 <TABLE color="darkslategray3" border="4" cellborder="0" HREF="../../en/troop-components#medevac" TARGET="_blank">
 <TR><TD ROWSPAN="2"><IMG SRC="img/ground_dummy.gif" /></TD>
-    <TD COLSPAN="2"><b>medevac</b></TD>
+    <TD COLSPAN="2"><b>Medevac</b></TD>
 </TR>
-<TR ><TD align="right">medevac</TD>
+<TR ><TD align="right">Medevac</TD>
      <TD align="left"><IMG SRC="img/research_field/defence.png" /></TD>
 </TR>
 </TABLE>>]
@@ -3263,9 +3283,9 @@ medevac [margin=0, style=bold, label=<
 mutagen [margin=0, style=bold, label=<
 <TABLE color="darkslategray3" border="4" cellborder="0" HREF="../../en/troop-components#mutagen" TARGET="_blank">
 <TR><TD ROWSPAN="2"><IMG SRC="img/ground_dummy.gif" /></TD>
-    <TD COLSPAN="2"><b>mutagen</b></TD>
+    <TD COLSPAN="2"><b>Mutagene</b></TD>
 </TR>
-<TR ><TD align="right">mutagen</TD>
+<TR ><TD align="right">Gene mutagen</TD>
      <TD align="left"><IMG SRC="img/research_field/defence.png" /></TD>
 </TR>
 </TABLE>>]
@@ -3466,9 +3486,9 @@ nano_vest [margin=0, style=bold, label=<
 ganzkorper_reflektor [margin=0, style=bold, label=<
 <TABLE color="darkslategray3" border="4" cellborder="0" HREF="../../en/troop-components#ganzkorper_reflektor" TARGET="_blank">
 <TR><TD ROWSPAN="2"><IMG SRC="img/ground_dummy.gif" /></TD>
-    <TD COLSPAN="2"><b>ganzkorper_reflektor</b></TD>
+    <TD COLSPAN="2"><b>Full body reflector</b></TD>
 </TR>
-<TR ><TD align="right">ganzkorper_reflektor</TD>
+<TR ><TD align="right">Whole-body Reflector</TD>
      <TD align="left"><IMG SRC="img/research_field/defence.png" /></TD>
 </TR>
 </TABLE>>]
@@ -3499,9 +3519,9 @@ visier [margin=0, style=bold, label=<
 ballistic_visier [margin=0, style=bold, label=<
 <TABLE color="darkgoldenrod2" border="4" cellborder="0" HREF="../../en/troop-components#ballistic_visier" TARGET="_blank">
 <TR><TD ROWSPAN="2"><IMG SRC="img/ground_dummy.gif" /></TD>
-    <TD COLSPAN="2"><b>ballistic_visier</b></TD>
+    <TD COLSPAN="2"><b>Low light sight</b></TD>
 </TR>
-<TR ><TD align="right">ballistic_visier</TD>
+<TR ><TD align="right">Restlichtvisier (Max. 1)</TD>
      <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
 </TR>
 </TABLE>>]
@@ -3682,17 +3702,19 @@ vehicle_fleet [margin=0, style=bold, label=<
 "buran";
 "res_100";
 "cyjumbo_invisible";
-"troop_large_union";}
+"troop_large_union";
+"cloaking_for_big_fleets";
+"medevac";}
 
 
 
 
 {
 edge[style=dotted;color="white"];
-research_facility_expansion_1 -> research_facility_expansion_2; 
+research_facility_expansion_1 -> research_facility_expansion_2;
 //[label="Construct level 1 of all available buildings",fontname="Droid Sans Mono",fontsize=15,style=dotted];
-research_facility_expansion_2 -> research_facility_expansion_3 -> research_facility_expansion_4 -> research_facility_expansion_5 -> 
-research_facility_expansion_6 -> research_facility_expansion_7 -> research_facility_expansion_8 -> research_facility_expansion_9 -> 
+research_facility_expansion_2 -> research_facility_expansion_3 -> research_facility_expansion_4 -> research_facility_expansion_5 ->
+research_facility_expansion_6 -> research_facility_expansion_7 -> research_facility_expansion_8 -> research_facility_expansion_9 ->
 research_facility_expansion_10;
 
 
@@ -4086,13 +4108,14 @@ edge[color=green4];
 troop_division->light_aerotransit;
 troop_battalion->air_transporter;
 troop_guard->armored_troop_carrier;
+troop_large_union->medium_aerotransit;
 
 troop_group->hovercraft_cw1_1;
 troop_company->hovercraft_cw1_2;
 troop_brigade->medium_air_transporter;
 troop_corps->gamma_air_transporter;
-
-
+gamma_air_transporter->amphibian_vehicle
+amphibian_vehicle->moso_navigator;
 
 //troop weapons
 
@@ -4117,6 +4140,9 @@ troop_battalion->desintegrator;
 troop_brigade->eradicator;
 troop_group->l_ion;
 troop_platoon->microsphere;
+troop_large_union->scimitar;
+scimitar->hammer;
+troop_large_union->tzoonamy;
 
 troop_guard->phaser;
 troop_group->dim_12;
@@ -4129,6 +4155,8 @@ sunspot->white_dwarf;
 troop_company->starlight_x;
 troop_corps->sunspot;
 troop_battalion->superblaster;
+troop_large_union->kontinium_transfunkionator;
+troop_large_union->gopper;
 
 // troup armor
 
@@ -4143,6 +4171,8 @@ troop_battalion->regenimplant;
 troop_corps->exoskeleton;
 troop_division->cy_prosthesis;
 troop_group->stimpack;
+troop_large_union->mutagen;
+mutagen->medevac;
 
 troop_company->traumapatch;
 
@@ -4162,6 +4192,8 @@ troop_division->power_armor;
 troop_corps->nano_helmet;
 nano_helmet->nano_vest;
 troop_guard->protective_mask;
+troop_large_union->nano_armor;
+troop_large_union->ganzkorper_reflektor;
 
 
 // troop Equipment
@@ -4171,10 +4203,11 @@ edge[color=darkgoldenrod2];
 troop_guard->binocular;
 troop_company->visier;
 troop_battalion->large_vehicle_fleet;
-troop_division->crawler;
+troop_division->Crawler;
 troop_guard->magumanic_transporter_platform;
 troop_guard->transporter;
 troop_platoon->vehicle_fleet;
+troop_large_union->ballistic_visier;
 
 
 
@@ -4197,4 +4230,3 @@ damage_bonus_for_ground_battle [label="Damage bonus for Ground Battle"];
 
 
 }
-

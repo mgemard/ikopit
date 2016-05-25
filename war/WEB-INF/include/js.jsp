@@ -1,9 +1,9 @@
 <fmt:setBundle basename="js" var="js"/>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js" ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js" ></script>
 
     <script src="inc/bootstrap/js/bootstrap.min.js" ></script>
     
-    <script src="js/js-cookie/js.cookie-2.1.0.min.js" ></script>
+    <script src="js/js-cookie/js.cookie-2.1.1.min.js" ></script>
 
     <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
 <script type="text/javascript" >

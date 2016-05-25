@@ -2793,6 +2793,26 @@ gamma_air_transporter [margin=0, style=bold, label=<
 </TR>
 </TABLE>>]
 
+amphibian_vehicle [margin=0, style=bold, label=<
+<TABLE color="green4" border="4" cellborder="0" HREF="../../fr/modules-de-troupe#amphibian_vehicle" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/ground_dummy.gif" /></TD>
+    <TD COLSPAN="2"><b>Amphibian vehicle</b></TD>
+</TR>
+<TR ><TD align="right">Amphibian vehicle</TD>
+     <TD align="left"><IMG SRC="img/research_field/engine.png" /></TD>
+</TR>
+</TABLE>>]
+
+moso_navigator [margin=0, style=bold, label=<
+<TABLE color="green4" border="4" cellborder="0" HREF="../../fr/modules-de-troupe#moso_navigator" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/ground_dummy.gif" /></TD>
+    <TD COLSPAN="2"><b>Moso Navigator</b></TD>
+</TR>
+<TR ><TD align="right">Moso Navigator</TD>
+     <TD align="left"><IMG SRC="img/research_field/engine.png" /></TD>
+</TR>
+</TABLE>>]
+
 ozo_agro_tractor [margin=0, style=bold, label=<
 <TABLE color="green4" border="4" cellborder="0" HREF="../../fr/modules-de-troupe#ozo_agro_tractor" TARGET="_blank">
 <TR><TD ROWSPAN="2"><IMG SRC="img/ground_dummy.gif" /></TD>
@@ -3555,7 +3575,6 @@ vehicle_fleet [margin=0, style=bold, label=<
 
 
 
-
 //RC lvl 1
 {rank = same; "research_facility_expansion_1"; "space_travel";
  "interstellar_trade"; "improved_system_of_government"; "university";}
@@ -3665,17 +3684,19 @@ vehicle_fleet [margin=0, style=bold, label=<
 "buran";
 "res_100";
 "cyjumbo_invisible";
-"troop_large_union";}
+"troop_large_union";
+"cloaking_for_big_fleets";
+"medevac";}
 
 
 
 
 {
 edge[style=dotted;color="white"];
-research_facility_expansion_1 -> research_facility_expansion_2; 
+research_facility_expansion_1 -> research_facility_expansion_2;
 //[label="Construct level 1 of all available buildings",fontname="Droid Sans Mono",fontsize=15,style=dotted];
-research_facility_expansion_2 -> research_facility_expansion_3 -> research_facility_expansion_4 -> research_facility_expansion_5 -> 
-research_facility_expansion_6 -> research_facility_expansion_7 -> research_facility_expansion_8 -> research_facility_expansion_9 -> 
+research_facility_expansion_2 -> research_facility_expansion_3 -> research_facility_expansion_4 -> research_facility_expansion_5 ->
+research_facility_expansion_6 -> research_facility_expansion_7 -> research_facility_expansion_8 -> research_facility_expansion_9 ->
 research_facility_expansion_10;
 
 
@@ -4069,13 +4090,14 @@ edge[color=green4];
 troop_division->light_aerotransit;
 troop_battalion->air_transporter;
 troop_guard->armored_troop_carrier;
+troop_large_union->medium_aerotransit;
 
 troop_group->hovercraft_cw1_1;
 troop_company->hovercraft_cw1_2;
 troop_brigade->medium_air_transporter;
 troop_corps->gamma_air_transporter;
-
-
+gamma_air_transporter->amphibian_vehicle
+amphibian_vehicle->moso_navigator;
 
 //troop weapons
 
@@ -4100,6 +4122,9 @@ troop_battalion->desintegrator;
 troop_brigade->eradicator;
 troop_group->l_ion;
 troop_platoon->microsphere;
+troop_large_union->scimitar;
+scimitar->hammer;
+troop_large_union->tzoonamy;
 
 troop_guard->phaser;
 troop_group->dim_12;
@@ -4112,6 +4137,8 @@ sunspot->white_dwarf;
 troop_company->starlight_x;
 troop_corps->sunspot;
 troop_battalion->superblaster;
+troop_large_union->kontinium_transfunkionator;
+troop_large_union->gopper;
 
 // troup armor
 
@@ -4126,6 +4153,8 @@ troop_battalion->regenimplant;
 troop_corps->exoskeleton;
 troop_division->cy_prosthesis;
 troop_group->stimpack;
+troop_large_union->mutagen;
+mutagen->medevac;
 
 troop_company->traumapatch;
 
@@ -4145,6 +4174,8 @@ troop_division->power_armor;
 troop_corps->nano_helmet;
 nano_helmet->nano_vest;
 troop_guard->protective_mask;
+troop_large_union->nano_armor;
+troop_large_union->ganzkorper_reflektor;
 
 
 // troop Equipment
@@ -4158,6 +4189,7 @@ troop_division->crawler;
 troop_guard->magumanic_transporter_platform;
 troop_guard->transporter;
 troop_platoon->vehicle_fleet;
+troop_large_union->ballistic_visier;
 
 
 
@@ -4180,4 +4212,3 @@ damage_bonus_for_ground_battle [label="Damage bonus for Ground Battle"];
 
 
 }
-

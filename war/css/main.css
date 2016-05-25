@@ -10,7 +10,8 @@
 
 @media (min-device-width: 768px){
 	body {
-	background-image:linear-gradient(rgba(0, 0, 0, 0),  rgba(34, 34, 34, 1)),linear-gradient(rgba(34, 34, 34, 0.8),  rgba(34, 34, 34, 0.8)),
+	background-image:linear-gradient(rgba(0, 0, 0, 0),  rgba(34, 34, 34, 1)),linear-gradient(rgba(34, 34, 34, 0.8),  
+			   rgba(34, 34, 34, 0.8)),
 	           url("http://i4.de.empireuniverse.com/branding/empireuniverse3/gfx/style_3/background.jpg");
 	
 	}
@@ -20,7 +21,7 @@
 body {
  	color: #FFFFFF;
  	background-position: center 600px,center top,center top ;
-	background-size:1500px 400px, 1500px 1000px,1500px 1000px;
+	background-size:1920px 520px, 1920px 1120px,1920px 1120px;
     background-repeat: no-repeat;
     background-color: #222222;
     
