@@ -1810,16 +1810,9 @@ $( window ).resize(function() {console.log($(window).width());
 	  
 	});
 
-    
-
 
 $("#navbar-tools").css({color:"#FFFFFF"});
 $("#navbar-ship-builder").css({color:'#FFFFFF'});
-
-
-
-
-
 
 
 
