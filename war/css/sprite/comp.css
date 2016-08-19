@@ -306,7 +306,7 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-eraser_v1 {
   background-image: url(../../img/sprite/comp.png);
-  background-position: -120px -520px;
+  background-position: -160px -520px;
   width: 40px;
   height: 39px;
 }
@@ -1000,111 +1000,117 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
   width: 40px;
   height: 40px;
 }
-.icon-standard_armor {
+.icon-splinter_2_elite {
   background-image: url(../../img/sprite/comp.png);
   background-position: -320px -480px;
   width: 40px;
   height: 40px;
 }
-.icon-standard_engine {
+.icon-standard_armor {
   background-image: url(../../img/sprite/comp.png);
   background-position: -360px -480px;
   width: 40px;
   height: 40px;
 }
-.icon-standard_engine_crude {
+.icon-standard_engine {
   background-image: url(../../img/sprite/comp.png);
   background-position: -400px -480px;
   width: 40px;
   height: 40px;
 }
-.icon-stungo_extreme {
+.icon-standard_engine_crude {
   background-image: url(../../img/sprite/comp.png);
   background-position: -440px -480px;
   width: 40px;
   height: 40px;
 }
-.icon-tank {
+.icon-stungo_extreme {
   background-image: url(../../img/sprite/comp.png);
   background-position: -480px -480px;
   width: 40px;
   height: 40px;
 }
-.icon-treatment_blaster {
+.icon-tank {
   background-image: url(../../img/sprite/comp.png);
   background-position: -520px 0px;
   width: 40px;
   height: 40px;
 }
-.icon-troop_transporter_20k {
+.icon-treatment_blaster {
   background-image: url(../../img/sprite/comp.png);
   background-position: -520px -40px;
   width: 40px;
   height: 40px;
 }
-.icon-troop_transporter_30k {
+.icon-troop_transporter_20k {
   background-image: url(../../img/sprite/comp.png);
   background-position: -520px -80px;
   width: 40px;
   height: 40px;
 }
-.icon-troop_transporter_40k {
+.icon-troop_transporter_30k {
   background-image: url(../../img/sprite/comp.png);
   background-position: -520px -120px;
   width: 40px;
   height: 40px;
 }
-.icon-troop_transporter_50k {
+.icon-troop_transporter_40k {
   background-image: url(../../img/sprite/comp.png);
   background-position: -520px -160px;
   width: 40px;
   height: 40px;
 }
-.icon-troop_transporter_module {
+.icon-troop_transporter_50k {
   background-image: url(../../img/sprite/comp.png);
   background-position: -520px -200px;
   width: 40px;
   height: 40px;
 }
-.icon-usiel {
+.icon-troop_transporter_module {
   background-image: url(../../img/sprite/comp.png);
   background-position: -520px -240px;
   width: 40px;
   height: 40px;
 }
-.icon-usiel_elite {
+.icon-usiel {
   background-image: url(../../img/sprite/comp.png);
   background-position: -520px -280px;
   width: 40px;
   height: 40px;
 }
-.icon-warp_experimental_engine_v1 {
+.icon-usiel_elite {
   background-image: url(../../img/sprite/comp.png);
   background-position: -520px -320px;
   width: 40px;
   height: 40px;
 }
-.icon-warp_experimental_engine_v2 {
+.icon-warp_experimental_engine_v1 {
   background-image: url(../../img/sprite/comp.png);
   background-position: -520px -360px;
   width: 40px;
   height: 40px;
 }
-.icon-warp_experimental_engine_v3 {
+.icon-warp_experimental_engine_v2 {
   background-image: url(../../img/sprite/comp.png);
   background-position: -520px -400px;
   width: 40px;
   height: 40px;
 }
-.icon-wincom_laser {
+.icon-warp_experimental_engine_v3 {
   background-image: url(../../img/sprite/comp.png);
   background-position: -520px -440px;
   width: 40px;
   height: 40px;
 }
-.icon-wincom_laser_crude {
+.icon-wincom_laser {
   background-image: url(../../img/sprite/comp.png);
   background-position: -520px -480px;
+  width: 40px;
+  height: 40px;
+}
+.icon-wincom_laser_crude {
+  background-image: url(../../img/sprite/comp.png);
+  background-position: 0px -520px;
   width: 40px;
   height: 40px;
 }
@@ -1116,19 +1122,19 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-zuup_transport_module {
   background-image: url(../../img/sprite/comp.png);
-  background-position: -80px -520px;
+  background-position: -120px -520px;
   width: 40px;
   height: 40px;
 }
 .icon-zuuper_elite_jumbo_laser_zuup {
   background-image: url(../../img/sprite/comp.png);
-  background-position: 0px -520px;
+  background-position: -40px -520px;
   width: 40px;
   height: 40px;
 }
 .icon-zuuper_jumbo_laser_zuup {
   background-image: url(../../img/sprite/comp.png);
-  background-position: -40px -520px;
+  background-position: -80px -520px;
   width: 40px;
   height: 40px;
 }

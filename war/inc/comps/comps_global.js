@@ -556,7 +556,7 @@ var comps = [{
 		},{
 		"name": "mini_warp_terra_human",
 		"image": "/img/engine/mini_warp_terra_human.gif",
-		"size": [3,6],
+		"size": [4,7],
 		"impulse": 250,
 		"warp": 9600,
 		"consumption":0.6,
@@ -2587,6 +2587,21 @@ var comps = [{
          			"silicon":4334,
          			"uranium":1334,
          			"nitrogen":1334,
+         			"hydrogen":0	
+         	      },{
+         	        "name": "splinter_2_elite",
+         	        "image": "/img/equipment/splinter_2_elite.gif",
+         	        "size":[15,15],
+         			"scan": 8,
+         			"time":8062,
+         			"totCost":24004,
+         			"titanium":0,
+         			"copper":0,
+         			"iron":0,
+         			"aluminium":10000,
+         			"silicon":8668,
+         			"uranium":2668,
+         			"nitrogen":2668,
          			"hydrogen":0	
          	      },{
          	        "name": "anemu",

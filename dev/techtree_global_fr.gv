@@ -1922,6 +1922,16 @@ enhanced_splinter [margin=0, style=bold, label=<
 </TR>
 </TABLE>>]
 
+enhanced_splinter_elite [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0"  HREF="../../fr/modules-de-vaisseau#splinter_2_elite" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/equipment/splinter_2_elite.gif" /></TD>
+    <TD COLSPAN="2"><b>Enhanced Splinter Elite</b></TD>
+</TR>
+<TR ><TD align="right">Splinter 2.3</TD>
+    <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
 new_scantechnologie_anemu [margin=0, style=bold, label=<
 <TABLE color="darkgoldenrod2" border="4" cellborder="0"  HREF="../../fr/modules-de-vaisseau#anemu" TARGET="_blank">
 <TR><TD ROWSPAN="2"><IMG SRC="img/equipment/anemu.gif" /></TD>
@@ -3807,6 +3817,7 @@ shortnose->mach;
 mach->minotaurus;
 mega_titan->buran;
 minotaurus->buran;
+minotaurus->buran;
 bemoth->mega_titan;
 mach->mega_titan;
 leviathan->new_battleship_leviathan;
@@ -4039,6 +4050,7 @@ shockwaves->enhance_shockwaves;
 stronger_reconnaissance_ship->energy_waves_scan;
 new_scan_technology->energy_waves_scan;
 new_scan_technology->enhanced_splinter;
+enhanced_splinter->enhanced_splinter_elite;
 energy_waves_scan->new_scantechnologie_anemu;
 new_scantechnologie_anemu->new_scantechnologie_for_dix_prime;
 new_scantechnologie_for_dix_prime->new_scantechnologie_jyief;

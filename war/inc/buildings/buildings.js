@@ -204,7 +204,7 @@ var buildings = [{
         	"uranium":10667,
         	"nitrogen":42667,
         	"hydrogen":0,	
-        	"time":800
+        	"time":1728000
         },{
         	"name": "level_9",
         	"titanium":20250,
@@ -340,7 +340,7 @@ var buildings = [{
     	 "uranium":250001,
     	 "nitrogen":300001,
     	 "hydrogen":0,	
-    	 "time":800
+    	 "time":2592000
      }
  ],"research_center": [
       {
@@ -682,7 +682,7 @@ var buildings = [{
     	"uranium":0,
     	"nitrogen":0,
     	"hydrogen":0,	
-    	"time":800
+    	"time":2592000
     }
  ],"shipyard": [
      {
@@ -888,7 +888,7 @@ var buildings = [{
     	  "uranium":100000,
     	  "nitrogen":0,
     	  "hydrogen":0,	
-    	  "time":800
+    	  "time":1728000
       },{
     	  "name": "level_9",
     	  "titanium":500000,
@@ -899,7 +899,7 @@ var buildings = [{
     	  "uranium":150000,
     	  "nitrogen":0,
     	  "hydrogen":0,	
-    	  "time":800
+    	  "time":2160000
       },{
     	  "name": "level_10",
     	  "titanium":750000,

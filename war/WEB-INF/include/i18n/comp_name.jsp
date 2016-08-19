@@ -161,6 +161,7 @@ var compName = {
 "at4":"<fmt:message key="at4" bundle="${components_name}"/>",
 "horch_v":"<fmt:message key="horch_v" bundle="${components_name}"/>",
 "splinter_2":"<fmt:message key="splinter_2" bundle="${components_name}"/>",
+"splinter_2_elite":"<fmt:message key="splinter_2_elite" bundle="${components_name}"/>",
 "anemu":"<fmt:message key="anemu" bundle="${components_name}"/>",
 "for_dix_prime":"<fmt:message key="for_dix_prime" bundle="${components_name}"/>",
 "jyief":"<fmt:message key="jyief" bundle="${components_name}"/>",
