@@ -19,6 +19,23 @@ var comps = [{
 		"hydrogen":150	
       },
       {
+          "name": "standard_engine_crude",
+          "image": "/img/engine/standard_engine_crude.gif",
+          "size": [1,2],
+  		"impulse": 70,
+  		"consumption":0.1,
+  		"time":250,
+  		"totCost":751,
+  		"titanium":125,
+  		"copper":100,
+  		"iron":75,
+  		"aluminium":50,
+  		"silicon":25,
+  		"uranium":113,
+  		"nitrogen":188,
+  		"hydrogen":75	
+        },
+        {
           "name": "gmt-1",
           "image": "/img/engine/gmt-1.gif",
           "size": [2,4],
@@ -180,6 +197,22 @@ var comps = [{
 			"nitrogen":900,
 			"hydrogen":600	
 			},{
+			"name": "jamov_imp_elite",
+			"image": "/img/engine/jamov_imp_elite.gif",
+			"size": [12,24],
+			"impulse": 2700,
+			"consumption":1.5,
+			"time":14000,
+			"totCost":16920,
+			"titanium":1000,
+			"copper":1400,
+			"iron":6020,
+			"aluminium":1500,
+			"silicon":0,
+			"uranium":4000,
+			"nitrogen":1800,
+			"hydrogen":1200	
+			},{
 			"name": "impulse_mosoran",
 			"image": "/img/engine/impulse_mosoran.gif",
 			"size": [12,24],
@@ -249,6 +282,23 @@ var comps = [{
 		"nitrogen":2001,
 		"hydrogen":0	
       },{
+          "name": "dx-1_crude",
+          "image": "/img/engine/dx-1_crude.gif",
+          "size": [2,4],
+  		"impulse": 0,
+  		"warp": 520,
+  		"consumption":1.5,
+  		"time":500,
+  		"totCost":4503,
+  		"titanium":900,
+  		"copper":0,
+  		"iron":0,
+  		"aluminium":0,
+  		"silicon":250,
+  		"uranium":200,
+  		"nitrogen":400,
+  		"hydrogen":0	
+        },{
 		"name": "dx-2",
 		"image": "/img/engine/dx-2.gif",
 		"size": [7,14],
@@ -470,6 +520,23 @@ var comps = [{
 		"nitrogen":7267,
 		"hydrogen":0	
 		},{
+		"name": "pahid_magumar_elite",
+		"image": "/img/engine/pahid_magumar_elite.gif",
+		"size": [9,17],
+		"impulse": 320,
+		"warp": 26500,
+		"consumption":2.0,
+		"time":13464,
+		"totCost":91802,
+		"titanium":12000,
+		"copper":13000,
+		"iron":0,
+		"aluminium":0,
+		"silicon":34134,
+		"uranium":18134,
+		"nitrogen":14534,
+		"hydrogen":0	
+		},{
 		"name": "pahid_mosoran",
 		"image": "/img/engine/pahid_mosoran.gif",
 		"size": [8,15],
@@ -540,6 +607,22 @@ var comps = [{
 		"nitrogen":5000,
 		"hydrogen":0	
       },{
+          "name": "scorp_crude",
+          "image": "/img/weapon/scorp_crude.gif",
+          "size": [3,5],
+  		"attack": 15,
+  		"aim": 15,
+  		"time":7200,
+  		"totCost":12480,
+  		"titanium":98,
+  		"copper":50,
+  		"iron":0,
+  		"aluminium":0,
+  		"silicon":300,
+  		"uranium":300,
+  		"nitrogen":500,
+  		"hydrogen":0	
+        },{
 		"name": "scorp_ii",
 		"image": "/img/weapon/scorp_ii.gif",
 		"size": [4,7],
@@ -570,6 +653,22 @@ var comps = [{
 		"silicon":4167,
 		"uranium":167,
 		"nitrogen":167,
+		"hydrogen":0	
+		},{
+		"name": "scorp_iii_elite",
+		"image": "/img/weapon/scorp_iii_elite.gif",
+		"size": [5,9],
+		"attack": 45,
+		"aim": 25,
+		"time":14400,
+		"totCost":10002,
+		"titanium":1000,
+		"copper":0,
+		"iron":0,
+		"aluminium":0,
+		"silicon":8334,
+		"uranium":334,
+		"nitrogen":334,
 		"hydrogen":0	
 		},{
 		"name": "lux-torpedo",
@@ -847,6 +946,22 @@ var comps = [{
 			"nitrogen":2584,
 			"hydrogen":10000	
      	      },{
+			"name": "large_ion_cannon_deluxe",
+			"image": "/img/weapon/large_ion_cannon_deluxe.gif",
+			"size": [10,20],
+			"attack": 80,
+			"aim": 80,
+			"time":24556,
+			"totCost":72517,
+			"titanium":10000,
+			"copper":975,
+			"iron":423,
+			"aluminium":0,
+			"silicon":12456,
+			"uranium":7850,
+			"nitrogen":4215,
+			"hydrogen":36598	
+     	      },{
 			"name": "l-ion",
 			"image": "/img/weapon/l-ion.gif",
 			"size": [8,15],
@@ -878,6 +993,22 @@ var comps = [{
 			"uranium":8334,
 			"nitrogen":8584,
 			"hydrogen":10000	
+     	      },{
+			"name": "l-ion_ext_elite",
+			"image": "/img/weapon/l-ion_ext_elite.gif",
+			"size": [9,18],
+			"attack": 55,
+			"aim": 62,
+			"time":8326,
+			"totCost":83010,
+			"titanium":8600,
+			"copper":994,
+			"iron":0,
+			"aluminium":2912,
+			"silicon":16668,
+			"uranium":16668,
+			"nitrogen":17168,
+			"hydrogen":20000	
      	      },{
 			"name": "kt_l-ion",
 			"image": "/img/weapon/kt_l-ion.gif",
@@ -958,6 +1089,22 @@ var comps = [{
 			"uranium":0,
 			"nitrogen":250,
 			"hydrogen":10000	
+     	      },{
+			"name": "igop_ozoidian_elite",
+			"image": "/img/weapon/igop_ozoidian_elite.gif",
+			"size": [13,25],
+			"attack": 80,
+			"aim": 70,
+			"time":4299,
+			"totCost":41464,
+			"titanium":19600,
+			"copper":862,
+			"iron":0,
+			"aluminium":702,
+			"silicon":0,
+			"uranium":0,
+			"nitrogen":500,
+			"hydrogen":20000	
      	      }
      	    ],
  	    "laser": [
@@ -966,6 +1113,22 @@ var comps = [{
      	        "image": "/img/weapon/wincom_laser.gif",
      	        "size": [2,3],
      			"attack": 6,
+     			"aim": 50,
+     			"time":500,
+     			"totCost":1001,
+     			"titanium":50,
+     			"copper":250,
+     			"iron":0,
+     			"aluminium":500,
+     			"silicon":67,
+     			"uranium":67,
+     			"nitrogen":67,
+     			"hydrogen":0	
+     	      },{
+     	        "name": "wincom_laser_crude",
+     	        "image": "/img/weapon/wincom_laser_crude.gif",
+     	        "size": [2,3],
+     			"attack": 4,
      			"aim": 50,
      			"time":500,
      			"totCost":1001,
@@ -1470,7 +1633,7 @@ var comps = [{
         	        "size": [5,10],
         			"shield": [125,500],
         			"time":900,
-        			"totCost":1602,
+        			"totCost":7501,
         			"titanium":0,
         			"copper":500,
         			"iron":250,
@@ -1479,6 +1642,21 @@ var comps = [{
         			"uranium":1167,
         			"nitrogen":167,
         			"hydrogen":1000	
+        	      },{
+        	        "name": "25_mw_shield_deluxe",
+        	        "image": "/img/defence/25_mw_shield_deluxe.gif",
+        	        "size": [1,2],
+        			"shield": [63,250],
+        			"time":5997,
+        			"totCost":55002,
+        			"titanium":0,
+        			"copper":428,
+        			"iron":468,
+        			"aluminium":21486,
+        			"silicon":3236,
+        			"uranium":25120,
+        			"nitrogen":3632,
+        			"hydrogen":632	
         	      },{
         	        "name": "50_mw_shield",
         	        "image": "/img/defence/50_mw_shield.gif",
@@ -1539,6 +1717,21 @@ var comps = [{
         			"uranium":6667,
         			"nitrogen":1667,
         			"hydrogen":1000	
+        	      },{
+        	        "name": "115_mw_shield_elite",
+        	        "image": "/img/defence/115_mw_shield_elite.gif",
+        	        "size": [12,24],
+        			"shield": [588,2350],
+        			"time":4236,
+        			"totCost":40002,
+        			"titanium":0,
+        			"copper":1000,
+        			"iron":500,
+        			"aluminium":16000,
+        			"silicon":3834,
+        			"uranium":13334,
+        			"nitrogen":3334,
+        			"hydrogen":2000	
         	      },{
         	        "name": "125_mw_shield",
         	        "image": "/img/defence/125_mw_shield.gif",
@@ -1739,6 +1932,22 @@ var comps = [{
         			"nitrogen":100,
         			"hydrogen":0	
         	      },{
+        	        "name": "mining_laser_prototype_crude",
+        	        "image": "/img/equipment/mining_laser_prototype_crude.gif",
+        	        "size":[5,5],
+        			"cargo": 0,
+        			"rate":1,
+        			"time":7572,
+        			"totCost":2250,
+        			"titanium":750,
+        			"copper":450,
+        			"iron":750,
+        			"aluminium":75,
+        			"silicon":100,
+        			"uranium":100,
+        			"nitrogen":25,
+        			"hydrogen":0	
+        	      },{
         	        "name": "mining_laser_mk2",
         	        "image": "/img/equipment/mining_laser_mk2.gif",
         	        "size":[5,5],
@@ -1770,6 +1979,22 @@ var comps = [{
         			"uranium":1000,
         			"nitrogen":250,
         			"hydrogen":0	
+        	      },{
+        	        "name": "mining_laser_mk3_deluxe",
+        	        "image": "/img/equipment/mining_laser_mk3.gif",
+        	        "size":[5,5],
+        			"cargo": 10000,
+        			"rate":4,
+        			"time":12684,
+        			"totCost":22500,
+        			"titanium":24523,
+        			"copper":2132,
+        			"iron":25000,
+        			"aluminium":405,
+        			"silicon":605,
+        			"uranium":2000,
+        			"nitrogen":350,
+        			"hydrogen":7
         	      },{
         	    	  "name": "mining_laser_mk4",
           	        "image": "/img/equipment/mining_laser_mk4.gif",
@@ -1835,6 +2060,22 @@ var comps = [{
         			"silicon":400,
         			"uranium":400,
         			"nitrogen":100,
+        			"hydrogen":0	
+        	      },{
+        	        "name": "salvage_tool_prototype_crude",
+        	        "image": "/img/equipment/salvage_tool_prototype_crude.gif",
+        	        "size":[5,5],
+        			"cargo": 0,
+        			"rate":1,
+        			"time":2500,
+        			"totCost":2250,
+        			"titanium":750,
+        			"copper":450,
+        			"iron":750,
+        			"aluminium":75,
+        			"silicon":100,
+        			"uranium":100,
+        			"nitrogen":25,
         			"hydrogen":0	
         	      },{
         	        "name": "salvage_tool_mk2",
@@ -1933,6 +2174,21 @@ var comps = [{
          			"silicon":334,
          			"uranium":334,
          			"nitrogen":334,
+         			"hydrogen":0	
+         	      },{
+         	        "name": "cargo_s_crude",
+         	        "image": "/img/equipment/cargo_s_crude.gif",
+         	        "size":[2,2],
+         			"cargo": 1250,
+         			"time":1000,
+         			"totCost":500,
+         			"titanium":200,
+         			"copper":0,
+         			"iron":50,
+         			"aluminium":50,
+         			"silicon":67,
+         			"uranium":67,
+         			"nitrogen":67,
          			"hydrogen":0	
          	      },{
          	        "name": "cargo_m",
@@ -2407,14 +2663,29 @@ var comps = [{
          			"uranium":2334,
          			"nitrogen":2334,
          			"hydrogen":0	
-         	      }
+         	      }, {
+       	        "name": "mini_scanner",
+       	        "image": "/img/equipment/mini_scanner.gif",
+     	        "size":[5,5],
+     			"scan": 4,
+     			"time":5865,
+     			"totCost":56001,
+     			"titanium":0,
+     			"copper":0,
+     			"iron":0,
+     			"aluminium":20000,
+     			"silicon":22667,
+     			"uranium":6667,
+     			"nitrogen":6667,
+     			"hydrogen":0	
+     	      }
          	    ],
          	    "troop": [
          	  {
          	        "name": "troop_transporter_module",
          	        "image": "/img/equipment/troop_transporter_module.gif",
-         	        "size":[60,60],
-         			"troop": 25,
+         	        "size":[50,50],
+         			"troop": 15000,
          			"maneuv": 20,
          			"time":3600,
          			"totCost":31001,
@@ -2429,8 +2700,8 @@ var comps = [{
          	      },{
          	        "name": "troop_transporter_20k",
          	        "image": "/img/equipment/troop_transporter_20k.gif",
-         	        "size":[30,30],
-         			"troop": 25,
+         	        "size":[40,40],
+         			"troop": 20000,
          			"maneuv": 20,
          			"time":3344,
          			"totCost":25900,
@@ -2445,8 +2716,8 @@ var comps = [{
          	      },{
          	        "name": "troop_transporter_30k",
          	        "image": "/img/equipment/troop_transporter_30k.gif",
-         	        "size":[180,180],
-         			"troop": 100,
+         	        "size":[50,50],
+         			"troop": 30000,
          			"maneuv": 20,
          			"time":4107,
          			"totCost":29801,
@@ -2461,8 +2732,8 @@ var comps = [{
          	      },{
          	        "name": "troop_transporter_40k",
          	        "image": "/img/equipment/troop_transporter_40k.gif",
-         	        "size":[80,80],
-         			"troop": 50,
+         	        "size":[60,60],
+         			"troop": 40000,
          			"maneuv": 20,
          			"time":1053,
          			"totCost":45702,
@@ -2477,8 +2748,8 @@ var comps = [{
          	      },{
          	        "name": "troop_transporter_50k",
          	        "image": "/img/equipment/troop_transporter_50k.gif",
-         	        "size":[45,45],
-         			"troop": 50,
+         	        "size":[70,70],
+         			"troop": 50000,
          			"maneuv": 20,
          			"time":2538,
          			"totCost":54600,
@@ -2493,8 +2764,8 @@ var comps = [{
          	      },{
          	        "name": "zuup_transport_module",
          	        "image": "/img/equipment/zuup_transport_module.gif",
-         	        "size":[75,75],
-         			"troop": 100,
+         	        "size":[70,70],
+         			"troop": 55000,
          			"maneuv": 20,
          			"time":2538,
          			"totCost":54600,
@@ -2510,7 +2781,7 @@ var comps = [{
          	        "name": "invasion_module_ozid",
          	        "image": "/img/equipment/invasion_module_ozid.gif",
          	        "size":[65,65],
-         			"troop": 75,
+         			"troop": 50000,
          			"maneuv": 20,
          			"time":2538,
          			"totCost":54600,
@@ -2525,8 +2796,8 @@ var comps = [{
          	      },{
          	        "name": "invasion_module_ozid_elite",
          	        "image": "/img/equipment/invasion_module_ozid_elite.gif",
-         	        "size":[67,67],
-         			"troop": 84,
+         	        "size":[63,63],
+         			"troop": 55000,
          			"maneuv": 18,
          			"time":5074,
          			"totCost":109200,
@@ -2541,8 +2812,8 @@ var comps = [{
          	      },{
          	        "name": "mini_troop_transport_module_weganer",
          	        "image": "/img/equipment/mini_troop_transport_module_weganer.gif",
-         	        "size":[38,38],
-         			"troop": 50,
+         	        "size":[25,25],
+         			"troop": 20000,
          			"maneuv": 20,
          			"time":1269,
          			"totCost":27300,
@@ -2557,8 +2828,8 @@ var comps = [{
          	      },{
          	        "name": "jumbo_troop_transport_module_weganer",
          	        "image": "/img/equipment/jumbo_troop_transport_module_weganer.gif",
-         	        "size":[205,205],
-         			"troop": 250,
+         	        "size":[140,140],
+         			"troop": 114240,
          			"maneuv": 20,
          			"time":7200,
          			"totCost":114240,

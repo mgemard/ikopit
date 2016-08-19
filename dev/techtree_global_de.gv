@@ -467,6 +467,16 @@ jamov_imp [margin=0, style=bold, label=<
 </TR>
 </TABLE>>]
 
+jamov_imp_elite [margin=0, style=bold, label=<
+<TABLE color="green4" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#jamov_imp_elite" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/engine/jamov_imp_elite.gif" /></TD>
+    <TD COLSPAN="2"><b>Impulse (Jamazoid)</b></TD>
+</TR>
+<TR ><TD align="right">JamoVI Impuls</TD>
+    <TD align="left"><IMG SRC="img/research_field/engine.png" /></TD>
+</TR>
+</TABLE>>]
+
 
 impulse_mosoran [margin=0, style=bold, label=<
 <TABLE color="green4" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#impulse_mosoran" TARGET="_blank">
@@ -640,10 +650,20 @@ pahid_magumar [margin=0, style=bold, label=<
 </TR>
 </TABLE>>]
 
+pahid_magumar_elite [margin=0, style=bold, label=<
+<TABLE color="green4" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#pahid_magumar_elite" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/engine/pahid_magumar_elite.gif" /></TD>
+    <TD COLSPAN="2"><b>Pahid (Magumar)</b></TD>
+</TR>
+<TR ><TD align="right">Mag Warp 5.5</TD>
+    <TD align="left"><IMG SRC="img/research_field/engine.png" /></TD>
+</TR>
+</TABLE>>]
+
 pahid_mosoran [margin=0, style=bold, label=<
 <TABLE color="green4" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#pahid_mosoran" TARGET="_blank">
 <TR><TD ROWSPAN="2"><IMG SRC="img/engine/pahid_mosoran.gif" /></TD>
-    <TD COLSPAN="2"><b>Pahid (Mosoran)</b></TD>
+    <TD COLSPAN="2"><b>Mos Warp 5 (Mosoran)</b></TD>
 </TR>
 <TR ><TD align="right">Mos Warp 5</TD>
     <TD align="left"><IMG SRC="img/research_field/engine.png" /></TD>
@@ -701,6 +721,16 @@ improved_penetration [margin=0, style=bold, label=<
     <TD COLSPAN="2"><b>Improved Penetration</b></TD>
 </TR>
 <TR ><TD align="right">Scorp III</TD>
+    <TD align="left"><IMG SRC="img/research_field/weapons.png" /></TD>
+</TR>
+</TABLE>>]
+
+improved_penetration_elite [margin=0, style=bold, label=<
+<TABLE color="red3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#scorp_iii_elite" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/weapon/scorp_iii_elite.gif" /></TD>
+    <TD COLSPAN="2"><b>Improved Penetration</b></TD>
+</TR>
+<TR ><TD align="right">Scorp IV</TD>
     <TD align="left"><IMG SRC="img/research_field/weapons.png" /></TD>
 </TR>
 </TABLE>>]
@@ -888,6 +918,16 @@ enhanced_ion_bundeling [margin=0, style=bold, label=<
     <TD COLSPAN="2"><b>Enhanced ion Bundeling</b></TD>
 </TR>
 <TR ><TD align="right">L-ion EXT</TD>
+    <TD align="left"><IMG SRC="img/research_field/weapons.png" /></TD>
+</TR>
+</TABLE>>]
+
+enhanced_ion_bundeling_elite [margin=0, style=bold, label=<
+<TABLE color="red3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#l-ion_ext_elite" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/weapon/l-ion_ext_elite.gif" /></TD>
+    <TD COLSPAN="2"><b>Enhanced ion Bundeling</b></TD>
+</TR>
+<TR ><TD align="right">L-ion EXT HD</TD>
     <TD align="left"><IMG SRC="img/research_field/weapons.png" /></TD>
 </TR>
 </TABLE>>]
@@ -1286,9 +1326,9 @@ jumbo_armor_mosoran [margin=0, style=bold, label=<
 protective_shield [margin=0, style=bold, label=<
 <TABLE color="darkslategray3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#25_mw_shield" TARGET="_blank">
 <TR><TD ROWSPAN="2"><IMG SRC="img/defence/25_mw_shield.gif" /></TD>
-    <TD COLSPAN="2"><b>Protective Shield</b></TD>
+    <TD COLSPAN="2"><b>Protective Schild</b></TD>
 </TR>
-<TR ><TD align="right">25 MW Shield</TD>
+<TR ><TD align="right">25 MW Schild</TD>
     <TD align="left"><IMG SRC="img/research_field/defence.png" /></TD>
 </TR>
 </TABLE>>]
@@ -1296,9 +1336,9 @@ protective_shield [margin=0, style=bold, label=<
 _50_mw_shield [margin=0, style=bold, label=<
 <TABLE color="darkslategray3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#50_mw_shield" TARGET="_blank">
 <TR><TD ROWSPAN="2"><IMG SRC="img/defence/50_mw_shield.gif" /></TD>
-    <TD COLSPAN="2"><b>50 MW Shield</b></TD>
+    <TD COLSPAN="2"><b>50 MW Schild</b></TD>
 </TR>
-<TR ><TD align="right">50 MW Shield</TD>
+<TR ><TD align="right">50 MW Schild</TD>
     <TD align="left"><IMG SRC="img/research_field/defence.png" /></TD>
 </TR>
 </TABLE>>]
@@ -1306,9 +1346,9 @@ _50_mw_shield [margin=0, style=bold, label=<
 _50_mw_shield_elite [margin=0, style=bold, label=<
 <TABLE color="darkslategray3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#50_mw_shield_elite" TARGET="_blank">
 <TR><TD ROWSPAN="2"><IMG SRC="img/defence/50_mw_shield_elite.gif" /></TD>
-    <TD COLSPAN="2"><b>50 MW Shield Elite</b></TD>
+    <TD COLSPAN="2"><b>50 MW Schild Elite</b></TD>
 </TR>
-<TR ><TD align="right">50 MW Shield Elite</TD>
+<TR ><TD align="right">50 MW Schild Elite</TD>
     <TD align="left"><IMG SRC="img/research_field/defence.png" /></TD>
 </TR>
 </TABLE>>]
@@ -1316,9 +1356,9 @@ _50_mw_shield_elite [margin=0, style=bold, label=<
 stronger_shield [margin=0, style=bold, label=<
 <TABLE color="darkslategray3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#100_mw_shield" TARGET="_blank">
 <TR><TD ROWSPAN="2"><IMG SRC="img/defence/100_mw_shield.gif" /></TD>
-    <TD COLSPAN="2"><b>100 MW Shield</b></TD>
+    <TD COLSPAN="2"><b>100 MW Schild</b></TD>
 </TR>
-<TR ><TD align="right">100 MW Shield</TD>
+<TR ><TD align="right">100 MW Schild</TD>
     <TD align="left"><IMG SRC="img/research_field/defence.png" /></TD>
 </TR>
 </TABLE>>]
@@ -1326,9 +1366,19 @@ stronger_shield [margin=0, style=bold, label=<
 _115_mw_defense_shield [margin=0, style=bold, label=<
 <TABLE color="darkslategray3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#115_mw_shield" TARGET="_blank">
 <TR><TD ROWSPAN="2"><IMG SRC="img/defence/115_mw_shield.gif" /></TD>
-    <TD COLSPAN="2"><b>115 MW Shield</b></TD>
+    <TD COLSPAN="2"><b>115 MW Schild</b></TD>
 </TR>
-<TR ><TD align="right">115 MW Shield</TD>
+<TR ><TD align="right">115 MW Schild</TD>
+    <TD align="left"><IMG SRC="img/research_field/defence.png" /></TD>
+</TR>
+</TABLE>>]
+
+_115_mw_defense_shield_elite [margin=0, style=bold, label=<
+<TABLE color="darkslategray3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#115_mw_shield_elite" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/defence/115_mw_shield_elite.gif" /></TD>
+    <TD COLSPAN="2"><b>115 MW Schild Deluxe</b></TD>
+</TR>
+<TR ><TD align="right">117,5 MW Schild</TD>
     <TD align="left"><IMG SRC="img/research_field/defence.png" /></TD>
 </TR>
 </TABLE>>]
@@ -1337,9 +1387,9 @@ _115_mw_defense_shield [margin=0, style=bold, label=<
 _125_mw_defense_shield [margin=0, style=bold, label=<
 <TABLE color="darkslategray3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#125_mw_shield" TARGET="_blank">
 <TR><TD ROWSPAN="2"><IMG SRC="img/defence/125_mw_shield.gif" /></TD>
-    <TD COLSPAN="2"><b>125 MW Shield</b></TD>
+    <TD COLSPAN="2"><b>125 MW Schild</b></TD>
 </TR>
-<TR ><TD align="right">125 MW Shield</TD>
+<TR ><TD align="right">125 MW Schild</TD>
     <TD align="left"><IMG SRC="img/research_field/defence.png" /></TD>
 </TR>
 </TABLE>>]
@@ -1347,9 +1397,9 @@ _125_mw_defense_shield [margin=0, style=bold, label=<
 _130_mw_defense_shield [margin=0, style=bold, label=<
 <TABLE color="darkslategray3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#130_mw_shield" TARGET="_blank">
 <TR><TD ROWSPAN="2"><IMG SRC="img/defence/130_mw_shield.gif" /></TD>
-    <TD COLSPAN="2"><b>130 MW Shield</b></TD>
+    <TD COLSPAN="2"><b>130 MW Schild</b></TD>
 </TR>
-<TR ><TD align="right">130 MW Shield</TD>
+<TR ><TD align="right">130 MW Schild</TD>
     <TD align="left"><IMG SRC="img/research_field/defence.png" /></TD>
 </TR>
 </TABLE>>]
@@ -1357,9 +1407,9 @@ _130_mw_defense_shield [margin=0, style=bold, label=<
 _145_mw_defense_shield [margin=0, style=bold, label=<
 <TABLE color="darkslategray3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#145_mw_shield" TARGET="_blank">
 <TR><TD ROWSPAN="2"><IMG SRC="img/defence/145_mw_shield.gif" /></TD>
-    <TD COLSPAN="2"><b>145 MW Shield</b></TD>
+    <TD COLSPAN="2"><b>145 MW Schild</b></TD>
 </TR>
-<TR ><TD align="right">145 MW Shield</TD>
+<TR ><TD align="right">145 MW Schild</TD>
     <TD align="left"><IMG SRC="img/research_field/defence.png" /></TD>
 </TR>
 </TABLE>>]
@@ -1367,9 +1417,9 @@ _145_mw_defense_shield [margin=0, style=bold, label=<
 _160_mw_defense_shield [margin=0, style=bold, label=<
 <TABLE color="darkslategray3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#160_mw_shield" TARGET="_blank">
 <TR><TD ROWSPAN="2"><IMG SRC="img/defence/160_mw_shield.gif" /></TD>
-    <TD COLSPAN="2"><b>160 MW Shield</b></TD>
+    <TD COLSPAN="2"><b>160 MW Schild</b></TD>
 </TR>
-<TR ><TD align="right">160 MW Shield</TD>
+<TR ><TD align="right">160 MW Schild</TD>
     <TD align="left"><IMG SRC="img/research_field/defence.png" /></TD>
 </TR>
 </TABLE>>]
@@ -1377,9 +1427,9 @@ _160_mw_defense_shield [margin=0, style=bold, label=<
 _195_mw_defense_shield [margin=0, style=bold, label=<
 <TABLE color="darkslategray3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#195_mw_shield" TARGET="_blank">
 <TR><TD ROWSPAN="2"><IMG SRC="img/defence/195_mw_shield.gif" /></TD>
-    <TD COLSPAN="2"><b>195 MW Shield</b></TD>
+    <TD COLSPAN="2"><b>195 MW Schild</b></TD>
 </TR>
-<TR ><TD align="right">195 MW Shield</TD>
+<TR ><TD align="right">195 MW Schild</TD>
     <TD align="left"><IMG SRC="img/research_field/defence.png" /></TD>
 </TR>
 </TABLE>>]
@@ -1387,9 +1437,9 @@ _195_mw_defense_shield [margin=0, style=bold, label=<
 _200_mw_defense_shield [margin=0, style=bold, label=<
 <TABLE color="darkslategray3" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#200_mw_shield" TARGET="_blank">
 <TR><TD ROWSPAN="2"><IMG SRC="img/defence/200_mw_shield.gif" /></TD>
-    <TD COLSPAN="2"><b>200 MW Shield</b></TD>
+    <TD COLSPAN="2"><b>200 MW Schild</b></TD>
 </TR>
-<TR ><TD align="right">200 MW Shield</TD>
+<TR ><TD align="right">200 MW Schild</TD>
     <TD align="left"><IMG SRC="img/research_field/defence.png" /></TD>
 </TR>
 </TABLE>>]
@@ -1922,6 +1972,16 @@ jyeif_20_human [margin=0, style=bold, label=<
     <TD COLSPAN="2"><b>Jyeif 2.0 (Human)</b></TD>
 </TR>
 <TR ><TD align="right">Jyeif 2.0 (Human)</TD>
+    <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+mini_scanner [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0"  HREF="../../de/schiff-komponenten#mini_scanner" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/equipment/mini_scanner.gif" /></TD>
+    <TD COLSPAN="2"><b>Miniscanner</b></TD>
+</TR>
+<TR ><TD align="right">Miniscanner</TD>
     <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
 </TR>
 </TABLE>>]
@@ -3576,7 +3636,6 @@ vehicle_fleet [margin=0, style=bold, label=<
 
 
 
-
 //RC lvl 1
 {rank = same; "research_facility_expansion_1"; "space_travel";
  "interstellar_trade"; "improved_system_of_government"; "university";}
@@ -3779,6 +3838,7 @@ wee1_upgrade->impulse2;
 impulse2->impulse3;
 impulse3->impulse_cyborg;
 impulse3->jamov_imp;
+jamov_imp->jamov_imp_elite;
 impulse3->impulse_mosoran;
 impulse3->ozoid_mini_impulse_ozoid;
 ozoid_mini_impulse_ozoid->ozoid_jumbo_impulse_ozoid;
@@ -3802,6 +3862,7 @@ pahid_4->pahid_5;
 pahid_5->pahid_6;
 pahid_5->pahid_jamazoid;
 pahid_5->pahid_magumar;
+pahid_magumar->pahid_magumar_elite;
 pahid_5->pahid_mosoran;
 pahid_5->mini_warp_terra;
 mini_warp_terra->jumbo_warp_terra;
@@ -3813,6 +3874,7 @@ edge[color="red3"]
 stronger_reconnaissance_ship->projectiles;
 projectiles->stronger_detonation;
 stronger_detonation->improved_penetration;
+improved_penetration->improved_penetration_elite;
 stronger_detonation->improved_torpedo_head;
 improved_penetration->stungo_extreme;
 stungo_extreme->scorpion;
@@ -3833,6 +3895,7 @@ ions->increased_ionfirepower;
 increased_ionfirepower->ion_fusion;
 ion_fusion->ion_bundeling;
 ion_bundeling->enhanced_ion_bundeling;
+enhanced_ion_bundeling->enhanced_ion_bundeling_elite;
 enhanced_ion_bundeling->miniion_cannon;
 miniion_cannon->ion_acceleration;
 ion_acceleration->igop_jamazoid;
@@ -3890,6 +3953,7 @@ _50_mw_shield->_50_mw_shield_elite;
 advanced_hunter->_50_mw_shield;
 _50_mw_shield->stronger_shield;
 _50_mw_shield->_115_mw_defense_shield;
+_115_mw_defense_shield->_115_mw_defense_shield_elite;
 leviathan->_115_mw_defense_shield;
 _115_mw_defense_shield->_125_mw_defense_shield;
 _125_mw_defense_shield->_130_mw_defense_shield;
@@ -3982,6 +4046,7 @@ new_scantechnologie_anemu->new_scantechnologie_for_dix_prime;
 new_scantechnologie_for_dix_prime->new_scantechnologie_jyief;
 new_scantechnologie_jyief->jyeif_xt_magumer;
 new_scantechnologie_jyief->jyeif_20_human;
+new_scantechnologie_jyief->mini_scanner;
 
 
 //troop transporter
@@ -4187,7 +4252,7 @@ edge[color=darkgoldenrod2];
 troop_guard->binocular;
 troop_company->visier;
 troop_battalion->large_vehicle_fleet;
-troop_division->crawler;
+troop_division->Crawler;
 troop_guard->magumanic_transporter_platform;
 troop_guard->transporter;
 troop_platoon->vehicle_fleet;

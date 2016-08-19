@@ -148,8 +148,15 @@
             
       <script src="js/react_comp/responsive_table.js"></script>
       
-<script type="text/javascript" src="<c:url value="inc/chassis/chassis.js"/>" charset="UTF-8"> </script> 
-      
+        <script type="text/javascript" src="<c:url value="inc/chassis/chassis.js"/>" charset="UTF-8"> </script> 
+ 	  <c:choose>
+						<c:when test="${server == 'global_infinity'}">
+	                   <script type="text/javascript" src="<c:url value="inc/chassis/chassis_global.js"/>" charset="UTF-8"> </script> 
+	                </c:when>
+					    <c:otherwise>
+					     <script type="text/javascript" src="<c:url value="inc/chassis/chassis.js"/>" charset="UTF-8"> </script> 
+					    </c:otherwise>
+					  </c:choose>
      <script>
 
      
