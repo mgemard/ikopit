@@ -377,8 +377,8 @@ var chassis = [
 	    }],"aurel": [{
 			"name":"aurel",
 		    "image": "/img/chassis/aurel.gif",
-	        "size": 176,
-	        "hull":3675,
+	        "size": 170,
+	        "hull":3400,
 	        "maneuv":20,
 	        "tank":55000,
 			"impulse": 0.51,
@@ -402,7 +402,7 @@ var chassis = [
 	        "maneuv":15,
 	        "tank":90000,
 			"impulse": 0.17,
-			"warp":1.27,
+			"warp":0.47,
 			"cloak":0.35,
 			"time":90000,
 			"totCost":173002,
@@ -420,7 +420,7 @@ var chassis = [
 		 "minotaur": [{
 			"name":"minotaur",
 		    "image": "/img/chassis/minotaur.gif",
-	        "size": 220,
+	        "size": 200,
 	        "hull":3250,
 	        "maneuv":30,
 	        "tank":70000,

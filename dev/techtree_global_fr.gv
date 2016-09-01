@@ -2882,12 +2882,42 @@ moso_navigator [margin=0, style=bold, label=<
 </TR>
 </TABLE>>]
 
+tank_mini_carrier_ozoid [margin=0, style=bold, label=<
+<TABLE color="green4" border="4" cellborder="0" HREF="../../fr/modules-de-troupe#tank_mini_carrier_ozoid" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/ground_dummy.gif" /></TD>
+    <TD COLSPAN="2"><b>CAPTION_TANK_CARRIER_OZOID (Ozoid)</b></TD>
+</TR>
+<TR ><TD align="right">CAPTION_TANK_CARRIER_OZOID (Ozoid)</TD>
+     <TD align="left"><IMG SRC="img/research_field/engine.png" /></TD>
+</TR>
+</TABLE>>]
+
 ozo_agro_tractor [margin=0, style=bold, label=<
 <TABLE color="green4" border="4" cellborder="0" HREF="../../fr/modules-de-troupe#ozo_agro_tractor" TARGET="_blank">
 <TR><TD ROWSPAN="2"><IMG SRC="img/ground_dummy.gif" /></TD>
-    <TD COLSPAN="2"><b>Ozo-Agro-Tractor</b></TD>
+    <TD COLSPAN="2"><b>CAPTION_TANK_CARRIER_OZOID (Ozoid)</b></TD>
 </TR>
-<TR ><TD align="right">Ozo-Agro-Tractor</TD>
+<TR ><TD align="right">CAPTION_TANK_CARRIER_OZOID (Ozoid)</TD>
+     <TD align="left"><IMG SRC="img/research_field/engine.png" /></TD>
+</TR>
+</TABLE>>]
+
+amphibian_carrier_jamozoid [margin=0, style=bold, label=<
+<TABLE color="green4" border="4" cellborder="0" HREF="../../fr/modules-de-troupe#amphibian_carrier_jamozoid" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/ground_dummy.gif" /></TD>
+    <TD COLSPAN="2"><b>Transporteur Amphibie (Jamazoid)</b></TD>
+</TR>
+<TR ><TD align="right">Transporteur Amphibie (Jamazoid)</TD>
+     <TD align="left"><IMG SRC="img/research_field/engine.png" /></TD>
+</TR>
+</TABLE>>]
+
+raptor_leg_cyborg [margin=0, style=bold, label=<
+<TABLE color="green4" border="4" cellborder="0" HREF="../../fr/modules-de-troupe#raptor_leg_cyborg" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/ground_dummy.gif" /></TD>
+    <TD COLSPAN="2"><b>CAPTION_RAPTOR_LEG_CYBORG (Cyborg)</b></TD>
+</TR>
+<TR ><TD align="right">CAPTION_RAPTOR_LEG_CYBORG (Cyborg)</TD>
      <TD align="left"><IMG SRC="img/research_field/engine.png" /></TD>
 </TR>
 </TABLE>>]
@@ -2948,6 +2978,26 @@ eagle_ii [margin=0, style=bold, label=<
     <TD COLSPAN="2"><b>Eagle II</b></TD>
 </TR>
 <TR ><TD align="right">Eagle II</TD>
+     <TD align="left"><IMG SRC="img/research_field/weapons.png" /></TD>
+</TR>
+</TABLE>>]
+
+eagle_ii_z [margin=0, style=bold, label=<
+<TABLE color="red3" border="4" cellborder="0" HREF="../../fr/modules-de-troupe#eagle_ii_z" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/ground_dummy.gif" /></TD>
+    <TD COLSPAN="2"><b>Eagle II / Z (Zuup)</b></TD>
+</TR>
+<TR ><TD align="right">Eagle II / Z (Zuup)</TD>
+     <TD align="left"><IMG SRC="img/research_field/weapons.png" /></TD>
+</TR>
+</TABLE>>]
+
+eagle_ii_w [margin=0, style=bold, label=<
+<TABLE color="red3" border="4" cellborder="0" HREF="../../fr/modules-de-troupe#eagle_ii_w" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/ground_dummy.gif" /></TD>
+    <TD COLSPAN="2"><b>Eagle II / W (Weganian)</b></TD>
+</TR>
+<TR ><TD align="right">Eagle II / W (Weganian)</TD>
      <TD align="left"><IMG SRC="img/research_field/weapons.png" /></TD>
 </TR>
 </TABLE>>]
@@ -3032,16 +3082,6 @@ hammer [margin=0, style=bold, label=<
 </TR>
 </TABLE>>]
 
-explosive_sling [margin=0, style=bold, label=<
-<TABLE color="red3" border="4" cellborder="0" HREF="../../fr/modules-de-troupe#hammer" TARGET="_blank">
-<TR><TD ROWSPAN="2"><IMG SRC="img/ground_dummy.gif" /></TD>
-    <TD COLSPAN="2"><b>Explosive Sling</b></TD>
-</TR>
-<TR ><TD align="right">Explosive Sling</TD>
-     <TD align="left"><IMG SRC="img/research_field/weapons.png" /></TD>
-</TR>
-</TABLE>>]
-
 sword [margin=0, style=bold, label=<
 <TABLE color="red3" border="4" cellborder="0" HREF="../../fr/modules-de-troupe#sword" TARGET="_blank">
 <TR><TD ROWSPAN="2"><IMG SRC="img/ground_dummy.gif" /></TD>
@@ -3118,6 +3158,26 @@ gopper [margin=0, style=bold, label=<
     <TD COLSPAN="2"><b>Gopper</b></TD>
 </TR>
 <TR ><TD align="right">Gopper</TD>
+     <TD align="left"><IMG SRC="img/research_field/weapons.png" /></TD>
+</TR>
+</TABLE>>]
+
+gopper_jammer_jamozoid [margin=0, style=bold, label=<
+<TABLE color="red3" border="4" cellborder="0" HREF="../../fr/modules-de-troupe#gopper_jammer_jamozoid" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/ground_dummy.gif" /></TD>
+    <TD COLSPAN="2"><b>CAPTION_GOPPER_JAMMER_JAMAZOID (Jamazoid)</b></TD>
+</TR>
+<TR ><TD align="right">CAPTION_GOPPER_JAMMER_JAMAZOID (Jamazoid)</TD>
+     <TD align="left"><IMG SRC="img/research_field/weapons.png" /></TD>
+</TR>
+</TABLE>>]
+
+gopper_zoid_x_four_ozoid [margin=0, style=bold, label=<
+<TABLE color="red3" border="4" cellborder="0" HREF="../../fr/modules-de-troupe#gopper_zoid_x_four_ozoid" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/ground_dummy.gif" /></TD>
+    <TD COLSPAN="2"><b>CAPTION_GOPPER_ZOID_X_FOUR_OZOID (Ozoid)</b></TD>
+</TR>
+<TR ><TD align="right">CAPTION_GOPPER_ZOID_X_FOUR_OZOID (Ozoid)</TD>
      <TD align="left"><IMG SRC="img/research_field/weapons.png" /></TD>
 </TR>
 </TABLE>>]
@@ -3252,6 +3312,46 @@ superblaster [margin=0, style=bold, label=<
 </TR>
 </TABLE>>]
 
+dual_dim_12_2_zuup [margin=0, style=bold, label=<
+<TABLE color="red3" border="4" cellborder="0" HREF="../../fr/modules-de-troupe#dual_dim_12_2_zuup" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/ground_dummy.gif" /></TD>
+    <TD COLSPAN="2"><b>Dual Dim 12-2 (Zuup)</b></TD>
+</TR>
+<TR ><TD align="right">Dual Dim 12-2 (Zuup)</TD>
+     <TD align="left"><IMG SRC="img/research_field/weapons.png" /></TD>
+</TR>
+</TABLE>>]
+
+divine_zuup [margin=0, style=bold, label=<
+<TABLE color="red3" border="4" cellborder="0" HREF="../../fr/modules-de-troupe#divine_zuup" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/ground_dummy.gif" /></TD>
+    <TD COLSPAN="2"><b>Intervention Divine (Zuup)</b></TD>
+</TR>
+<TR ><TD align="right">Intervention Divine (Zuup)</TD>
+     <TD align="left"><IMG SRC="img/research_field/weapons.png" /></TD>
+</TR>
+</TABLE>>]
+
+darkness_weganian [margin=0, style=bold, label=<
+<TABLE color="red3" border="4" cellborder="0" HREF="../../fr/modules-de-troupe#darkness_weganian" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/ground_dummy.gif" /></TD>
+    <TD COLSPAN="2"><b>CAPTION_DARKNESS_WEGANIAN (Weganian)</b></TD>
+</TR>
+<TR ><TD align="right">CAPTION_DARKNESS_WEGANIAN (Weganian)</TD>
+     <TD align="left"><IMG SRC="img/research_field/weapons.png" /></TD>
+</TR>
+</TABLE>>]
+
+darkness_ozoid [margin=0, style=bold, label=<
+<TABLE color="red3" border="4" cellborder="0" HREF="../../fr/modules-de-troupe#darkness_ozoid" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/ground_dummy.gif" /></TD>
+    <TD COLSPAN="2"><b>Silvermoon 2 (Ozoid)</b></TD>
+</TR>
+<TR ><TD align="right">Silvermoon 2 (Ozoid)</TD>
+     <TD align="left"><IMG SRC="img/research_field/weapons.png" /></TD>
+</TR>
+</TABLE>>]
+
 
 
 
@@ -3294,9 +3394,9 @@ medkit [margin=0, style=bold, label=<
 mosomedic [margin=0, style=bold, label=<
 <TABLE color="darkslategray3" border="4" cellborder="0" HREF="../../fr/modules-de-troupe#mosomedic" TARGET="_blank">
 <TR><TD ROWSPAN="2"><IMG SRC="img/ground_dummy.gif" /></TD>
-    <TD COLSPAN="2"><b>Mosomedic</b></TD>
+    <TD COLSPAN="2"><b>CAPTION_MOSOMEDIC (Mosorian)</b></TD>
 </TR>
-<TR ><TD align="right">Mosomedic</TD>
+<TR ><TD align="right">CAPTION_MOSOMEDIC (Mosorian)</TD>
      <TD align="left"><IMG SRC="img/research_field/defence.png" /></TD>
 </TR>
 </TABLE>>]
@@ -3354,9 +3454,9 @@ cy_prosthesis [margin=0, style=bold, label=<
 imperial_mosomedic [margin=0, style=bold, label=<
 <TABLE color="darkslategray3" border="4" cellborder="0" HREF="../../fr/modules-de-troupe#imperial_mosomedic" TARGET="_blank">
 <TR><TD ROWSPAN="2"><IMG SRC="img/ground_dummy.gif" /></TD>
-    <TD COLSPAN="2"><b>Mosomedic impérial</b></TD>
+    <TD COLSPAN="2"><b>Mosomedic imperial (Mosorian)</b></TD>
 </TR>
-<TR ><TD align="right">Mosomedic impérial</TD>
+<TR ><TD align="right">Mosomedic imperial (Mosorian)</TD>
      <TD align="left"><IMG SRC="img/research_field/defence.png" /></TD>
 </TR>
 </TABLE>>]
@@ -3387,6 +3487,16 @@ vitagel [margin=0, style=bold, label=<
     <TD COLSPAN="2"><b>Vitagel</b></TD>
 </TR>
 <TR ><TD align="right">Vitagel</TD>
+     <TD align="left"><IMG SRC="img/research_field/defence.png" /></TD>
+</TR>
+</TABLE>>]
+
+cybermedic_cyborg [margin=0, style=bold, label=<
+<TABLE color="darkslategray3" border="4" cellborder="0" HREF="../../fr/modules-de-troupe#cybermedic_cyborg" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/ground_dummy.gif" /></TD>
+    <TD COLSPAN="2"><b>CAPTION_CYBERMEDIC_CYBORG (Cyborg)</b></TD>
+</TR>
+<TR ><TD align="right">CAPTION_CYBERMEDIC_CYBORG (Cyborg)</TD>
      <TD align="left"><IMG SRC="img/research_field/defence.png" /></TD>
 </TR>
 </TABLE>>]
@@ -3507,9 +3617,9 @@ nano_helmet [margin=0, style=bold, label=<
 armosore [margin=0, style=bold, label=<
 <TABLE color="darkslategray3" border="4" cellborder="0" HREF="../../fr/modules-de-troupe#armosore" TARGET="_blank">
 <TR><TD ROWSPAN="2"><IMG SRC="img/ground_dummy.gif" /></TD>
-    <TD COLSPAN="2"><b>Armosore</b></TD>
+    <TD COLSPAN="2"><b>CAPTION_ARMOSORE (Mosoraner)</b></TD>
 </TR>
-<TR ><TD align="right">Armosore</TD>
+<TR ><TD align="right">CAPTION_ARMOSORE (Mosoraner)</TD>
      <TD align="left"><IMG SRC="img/research_field/defence.png" /></TD>
 </TR>
 </TABLE>>]
@@ -3540,6 +3650,26 @@ ganzkorper_reflektor [margin=0, style=bold, label=<
     <TD COLSPAN="2"><b>Ganzkörper Reflektor</b></TD>
 </TR>
 <TR ><TD align="right">Ganzkörper Reflektor</TD>
+     <TD align="left"><IMG SRC="img/research_field/defence.png" /></TD>
+</TR>
+</TABLE>>]
+
+shild_generator_cyborg [margin=0, style=bold, label=<
+<TABLE color="darkslategray3" border="4" cellborder="0" HREF="../../fr/modules-de-troupe#shild_generator_cyborg" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/ground_dummy.gif" /></TD>
+    <TD COLSPAN="2"><b>Generateur de champs magnetique (Cyborg)</b></TD>
+</TR>
+<TR ><TD align="right">Generateur de champs magnetique (Cyborg)</TD>
+     <TD align="left"><IMG SRC="img/research_field/defence.png" /></TD>
+</TR>
+</TABLE>>]
+
+power_armor_adv_cyborg [margin=0, style=bold, label=<
+<TABLE color="darkslategray3" border="4" cellborder="0" HREF="../../fr/modules-de-troupe#power_armor_adv_cyborg" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/ground_dummy.gif" /></TD>
+    <TD COLSPAN="2"><b>CAPTION_POWER_ARMOR_ADV_CYBORG (Cyborg)</b></TD>
+</TR>
+<TR ><TD align="right">CAPTION_POWER_ARMOR_ADV_CYBORG (Cyborg)</TD>
      <TD align="left"><IMG SRC="img/research_field/defence.png" /></TD>
 </TR>
 </TABLE>>]
@@ -3586,6 +3716,16 @@ large_vehicle_fleet [margin=0, style=bold, label=<
     <TD COLSPAN="2"><b>Transitron XL</b></TD>
 </TR>
 <TR ><TD align="right">Transitron XL</TD>
+     <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
+</TR>
+</TABLE>>]
+
+magu_transplat_magumer [margin=0, style=bold, label=<
+<TABLE color="darkgoldenrod2" border="4" cellborder="0" HREF="../../fr/modules-de-troupe#magu_transplat_magumer" TARGET="_blank">
+<TR><TD ROWSPAN="2"><IMG SRC="img/ground_dummy.gif" /></TD>
+    <TD COLSPAN="2"><b>CAPTION_MAGU_TRANSPLAT_MAGUMER (Magumar)</b></TD>
+</TR>
+<TR ><TD align="right">CAPTION_MAGU_TRANSPLAT_MAGUMER (Magumar)</TD>
      <TD align="left"><IMG SRC="img/research_field/equipment.png" /></TD>
 </TR>
 </TABLE>>]
@@ -3639,8 +3779,6 @@ vehicle_fleet [margin=0, style=bold, label=<
 //#################################################################
 
 //below is the same for all languages
-
-
 
 
 
@@ -3817,7 +3955,7 @@ shortnose->mach;
 mach->minotaurus;
 mega_titan->buran;
 minotaurus->buran;
-minotaurus->buran;
+minotaurus->mega_titan;
 bemoth->mega_titan;
 mach->mega_titan;
 leviathan->new_battleship_leviathan;
@@ -3916,6 +4054,7 @@ coherent_resonators->efficient_cooling;
 efficient_cooling->laser_impulses;
 laser_impulses->large_laser;
 reconnaissance_ship->bundled_laser_beams;
+laser_impulses->bundled_laser_beams;
 bundled_laser_beams->blaster_advancement_blaster_ext;
 blaster_advancement_blaster_ext->blaster_advancement_blaster_rapid;
 blaster_advancement_blaster_ext->new_blaster_treatment_blaster;
@@ -4175,6 +4314,9 @@ troop_brigade->medium_air_transporter;
 troop_corps->gamma_air_transporter;
 gamma_air_transporter->amphibian_vehicle
 amphibian_vehicle->moso_navigator;
+tank_mini_carrier_ozoid->ozo_agro_tractor;
+
+
 
 //troop weapons
 
@@ -4187,6 +4329,8 @@ troop_company->assault_rifle_g_iii;
 troop_platoon->eagle_i;
 troop_division->crusher;
 troop_brigade->eagle_ii;
+troop_brigade->eagle_ii_z;
+troop_brigade->eagle_ii_w;
 troop_brigade->eagle_ii_h;
 eagle_ii->eagle_ii_h;
 troop_battalion->light_machine_gun;
@@ -4211,11 +4355,14 @@ laser_15_08->laser_pistol;
 troop_platoon->rapid_flash;
 starlight_x->silvermoon;
 sunspot->white_dwarf;
+troop_division->darkness;
 troop_company->starlight_x;
 troop_corps->sunspot;
 troop_battalion->superblaster;
 troop_large_union->kontinium_transfunkionator;
 troop_large_union->gopper;
+gopper->gopper_jammer_jamozoid;
+gopper->gopper_zoid_x_four_ozoid;
 
 // troup armor
 

@@ -1682,7 +1682,7 @@ var comps = [{
         			"time":2498,
         			"totCost":82102,
         			"titanium":0,
-        			"copper":100,
+        			"copper":1000,
         			"iron":500,
         			"aluminium":34000,
         			"silicon":5934,
@@ -2619,7 +2619,7 @@ var comps = [{
          			"nitrogen":0,
          			"hydrogen":0	
          	      },{
-         	        "name": "Réservoir Maousse",
+         	        "name": "Rï¿½servoir Maousse",
          	        "image": "/img/equipment/large_tank_elite.gif",
          	        "size":[30,30],
          			"fuel": 250000,
