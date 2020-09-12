@@ -54,17 +54,6 @@
 
 --%> 
 
-  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- adaptable -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-7435612721211156"
-     data-ad-slot="1503968627"
-     data-ad-format="auto"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-	
 	
 <%@ include file="include/settings/html.jsp" %>
  
@@ -74,19 +63,6 @@
   <div id="troop-table"></div>
 	
 	
-	<%--
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- adaptable -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-7435612721211156"
-     data-ad-slot="1503968627"
-     data-ad-format="auto"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
- --%>
- 
 
 </br>
 </br>

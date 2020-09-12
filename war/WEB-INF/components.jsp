@@ -54,17 +54,6 @@
 
 --%> 
 
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- adaptable -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-7435612721211156"
-     data-ad-slot="1503968627"
-     data-ad-format="auto"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
 
 <%@ include file="include/settings/html.jsp" %>
  
@@ -83,18 +72,7 @@
   <div id="ion-table"></div>
 <h2><fmt:message key="lasers" bundle="${components}"/></h2>
   <div id="laser-table"></div>
-  
-  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- adaptable -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-7435612721211156"
-     data-ad-slot="1503968627"
-     data-ad-format="auto"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-  
+
 
 <h1><fmt:message key="defence" bundle="${components}"/></h1>
 <h2><fmt:message key="resilience" bundle="${components}"/></h2>
@@ -123,16 +101,6 @@
 <h2><fmt:message key="jammer" bundle="${components}"/></h2>
   <div id="jammer-table"></div>
 
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- adaptable -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-7435612721211156"
-     data-ad-slot="1503968627"
-     data-ad-format="auto"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 
 
 

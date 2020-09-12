@@ -54,17 +54,6 @@
 
 --%> 
 
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- adaptable -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-7435612721211156"
-     data-ad-slot="1503968627"
-     data-ad-format="auto"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
 
 <%@ include file="include/settings/html.jsp" %>
  
@@ -87,19 +76,7 @@
   
   <div id="fireflys-table"></div>
 	
-	
-	
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- adaptable -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-7435612721211156"
-     data-ad-slot="1503968627"
-     data-ad-format="auto"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-	
+
 	
 	
 <h1><fmt:message key="cruisers" bundle="${chassis}"/></h1>
@@ -114,18 +91,7 @@
 <h1><fmt:message key="space-stations" bundle="${chassis}"/></h1>
   
   <div id="space-stations-table"></div>
- 
-  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- adaptable -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-7435612721211156"
-     data-ad-slot="1503968627"
-     data-ad-format="auto"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-	
+
 	
 
 <br><br>

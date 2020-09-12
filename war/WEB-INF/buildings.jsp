@@ -53,17 +53,6 @@
 
 --%> 
 
-  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- adaptable -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-7435612721211156"
-     data-ad-slot="1503968627"
-     data-ad-format="auto"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-	
 
 <%@ include file="include/settings/html.jsp" %>
  
@@ -81,18 +70,7 @@
  
 <h1><fmt:message key="gov" bundle="${buildings}"/></h1>
   <div id="gov-table"></div>
- 
-   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- adaptable -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-7435612721211156"
-     data-ad-slot="1503968627"
-     data-ad-format="auto"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-	
+
 	
 <h1><fmt:message key="barracks" bundle="${buildings}"/></h1>
   <div id="barracks-table"></div>
@@ -114,31 +92,6 @@
 	
 	
 	
-	  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- adaptable -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-7435612721211156"
-     data-ad-slot="1503968627"
-     data-ad-format="auto"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-	
-	
-	<%--
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- adaptable -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-7435612721211156"
-     data-ad-slot="1503968627"
-     data-ad-format="auto"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
- --%>
- 
 
 </br>
 </br>
