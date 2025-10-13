@@ -3,7 +3,7 @@
 
 ![home](image/home.png)
 
-[Ikopit](http://eu3-ikopit.appspot.com/) is a **non official fansite** for the deceased **online video game Empire Universe** (OGame like) published by [Looki](http://www.looki.com/) (now owned by [Gamigo](http://gamigo.com)). If you are looking for a similar game, I suggest you try EVE Online.
+[Ikopit](http://eu3-ikopit.appspot.com/) is a **non official fansite** for the deceased **online video game Empire Universe** (OGame like) published by [Looki](http://www.looki.com/) (now owned by [Gamigo](http://gamigo.com)).
 
 Ikopit features tools to help players within the game. The project is multilingue:
 - English
